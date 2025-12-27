@@ -1,12 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { EventCalendar } from '@/components/EventCalendar';
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <header className="border-b bg-card">
+        <div className="container py-6">
+          <h1 className="text-3xl font-bold tracking-tight">Meadowlands Event Tracker</h1>
+          <p className="text-muted-foreground mt-1">
+            Stay updated with local events and activities
+          </p>
+        </div>
+      </header>
+      <main className="container py-8">
+        <EventCalendar />
+      </main>
     </div>
   );
 };
