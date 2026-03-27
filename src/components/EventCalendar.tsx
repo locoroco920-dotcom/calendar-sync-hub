@@ -3,24 +3,60 @@ import { Calendar } from '@/components/ui/calendar';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Badge } from '@/components/ui/badge';
+import { Checkbox } from '@/components/ui/checkbox';
 import { useCalendarEvents } from '@/hooks/useCalendarEvents';
 import { getEventsForDate } from '@/lib/icsParser';
 import { EventCard } from '@/components/EventCard';
 import { format, isSameDay } from 'date-fns';
-import { CalendarDays, Loader2, Sparkles } from 'lucide-react';
+import { CalendarDays, Loader2, Sparkles, Filter } from 'lucide-react';
 
 export function EventCalendar() {
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date());
   const { events, loading, error } = useCalendarEvents();
+  const [selectedOrgs, setSelectedOrgs] = useState<Set<string>>(new Set());
+  const [initialized, setInitialized] = useState(false);
+
+  // Extract unique organizations
+  const organizations = useMemo(() => {
+    const orgs = new Set<string>();
+    events.forEach((e) => {
+      if (e.organization) orgs.add(e.organization);
+    });
+    return Array.from(orgs).sort();
+  }, [events]);
+
+  // Initialize all orgs as selected once loaded
+  if (!initialized && organizations.length > 0) {
+    setSelectedOrgs(new Set(organizations));
+    setInitialized(true);
+  }
+
+  const toggleOrg = (org: string) => {
+    setSelectedOrgs((prev) => {
+      const next = new Set(prev);
+      if (next.has(org)) {
+        next.delete(org);
+      } else {
+        next.add(org);
+      }
+      return next;
+    });
+  };
+
+  // Filter events by selected orgs
+  const filteredEvents = useMemo(() => {
+    if (selectedOrgs.size === 0) return [];
+    return events.filter((e) => !e.organization || selectedOrgs.has(e.organization));
+  }, [events, selectedOrgs]);
 
   const selectedEvents = useMemo(() => {
     if (!selectedDate) return [];
-    return getEventsForDate(events, selectedDate);
-  }, [events, selectedDate]);
+    return getEventsForDate(filteredEvents, selectedDate);
+  }, [filteredEvents, selectedDate]);
 
   const eventDates = useMemo(() => {
-    return events.map((event) => new Date(event.start));
-  }, [events]);
+    return filteredEvents.map((event) => new Date(event.start));
+  }, [filteredEvents]);
 
   const modifiers = useMemo(() => ({
     hasEvent: (date: Date) => eventDates.some((eventDate) => isSameDay(date, eventDate)),
@@ -57,44 +93,92 @@ export function EventCalendar() {
 
   return (
     <div className="grid gap-6 lg:gap-8 lg:grid-cols-[auto_1fr]">
-      {/* Calendar Card */}
-      <Card className="w-fit card-shadow animate-fade-up">
-        <CardHeader className="pb-3 border-b">
-          <CardTitle className="flex items-center gap-2 text-lg font-heading font-semibold">
-            <CalendarDays className="h-5 w-5 text-primary" />
-            Calendar
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="pt-4">
-          <Calendar
-            mode="single"
-            selected={selectedDate}
-            onSelect={setSelectedDate}
-            modifiers={modifiers}
-            modifiersStyles={modifiersStyles}
-            className="rounded-lg"
-            components={{
-              DayContent: ({ date }) => {
-                const hasEvent = eventDates.some((eventDate) => isSameDay(date, eventDate));
-                return (
-                  <div className="relative w-full h-full flex items-center justify-center">
-                    {date.getDate()}
-                    {hasEvent && (
-                      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 event-dot animate-pulse-glow" />
-                    )}
-                  </div>
-                );
-              },
-            }}
-          />
-          <div className="mt-4 pt-4 border-t flex items-center gap-2">
-            <Sparkles className="h-4 w-4 text-primary" />
-            <Badge variant="secondary" className="font-medium">
-              {events.length} upcoming events
-            </Badge>
-          </div>
-        </CardContent>
-      </Card>
+      {/* Left Column: Calendar + Filter */}
+      <div className="space-y-6">
+        {/* Calendar Card */}
+        <Card className="w-fit card-shadow animate-fade-up">
+          <CardHeader className="pb-3 border-b">
+            <CardTitle className="flex items-center gap-2 text-lg font-heading font-semibold">
+              <CalendarDays className="h-5 w-5 text-primary" />
+              Calendar
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="pt-4">
+            <Calendar
+              mode="single"
+              selected={selectedDate}
+              onSelect={setSelectedDate}
+              modifiers={modifiers}
+              modifiersStyles={modifiersStyles}
+              className="rounded-lg"
+              components={{
+                DayContent: ({ date }) => {
+                  const hasEvent = eventDates.some((eventDate) => isSameDay(date, eventDate));
+                  return (
+                    <div className="relative w-full h-full flex items-center justify-center">
+                      {date.getDate()}
+                      {hasEvent && (
+                        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 event-dot animate-pulse-glow" />
+                      )}
+                    </div>
+                  );
+                },
+              }}
+            />
+            <div className="mt-4 pt-4 border-t flex items-center gap-2">
+              <Sparkles className="h-4 w-4 text-primary" />
+              <Badge variant="secondary" className="font-medium">
+                {filteredEvents.length} upcoming events
+              </Badge>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Filter Card */}
+        {organizations.length > 0 && (
+          <Card className="card-shadow animate-fade-up" style={{ animationDelay: '0.05s' }}>
+            <CardHeader className="pb-3 border-b">
+              <CardTitle className="flex items-center gap-2 text-lg font-heading font-semibold">
+                <Filter className="h-5 w-5 text-primary" />
+                Calendars
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="pt-4">
+              <div className="space-y-3">
+                {organizations.map((org) => (
+                  <label
+                    key={org}
+                    className="flex items-center gap-3 cursor-pointer group"
+                  >
+                    <Checkbox
+                      checked={selectedOrgs.has(org)}
+                      onCheckedChange={() => toggleOrg(org)}
+                    />
+                    <span className="text-sm font-medium group-hover:text-primary transition-colors">
+                      {org}
+                    </span>
+                  </label>
+                ))}
+              </div>
+              <div className="mt-4 pt-3 border-t flex gap-2">
+                <button
+                  onClick={() => setSelectedOrgs(new Set(organizations))}
+                  className="text-xs text-primary hover:underline font-medium"
+                >
+                  Select All
+                </button>
+                <span className="text-muted-foreground text-xs">·</span>
+                <button
+                  onClick={() => setSelectedOrgs(new Set())}
+                  className="text-xs text-primary hover:underline font-medium"
+                >
+                  Clear All
+                </button>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+      </div>
 
       {/* Events List Card */}
       <Card className="card-shadow animate-fade-up" style={{ animationDelay: '0.1s' }}>
@@ -125,8 +209,8 @@ export function EventCalendar() {
                 {selectedEvents
                   .sort((a, b) => a.start.getTime() - b.start.getTime())
                   .map((event, index) => (
-                    <div 
-                      key={event.id} 
+                    <div
+                      key={event.id}
                       className="animate-scale-in"
                       style={{ animationDelay: `${index * 0.05}s` }}
                     >
