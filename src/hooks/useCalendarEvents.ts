@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { CalendarEvent, fetchAndParseICS } from '@/lib/icsParser';
 
-const API_BASE = import.meta.env.VITE_API_URL || '';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://calendar-sync-hub.onrender.com';
 
 export function useCalendarEvents(icsUrl: string = '/events.ics') {
   const [events, setEvents] = useState<CalendarEvent[]>([]);
