@@ -239,7 +239,7 @@ export function EventCalendar() {
           </div>
         </CardHeader>
         <CardContent className="pt-4">
-          <ScrollArea className="h-[500px] pr-4">
+          <ScrollArea className="h-full max-h-[calc(100vh-300px)] pr-4">
             {selectedEvents.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-40 text-muted-foreground">
                 <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
