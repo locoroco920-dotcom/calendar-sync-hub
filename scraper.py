@@ -77,24 +77,29 @@ def parse_time_string(time_str):
     return None
 
 def get_njbia_time(url):
+    """Fetch start and end time from NJBIA detail page. Returns (start_str, end_str) or (None, None)."""
     try:
         html = fetch_page(url)
-        if not html: return None
+        if not html: return None, None
         soup = BeautifulSoup(html, 'html.parser')
-        # <span class='detail__time'> ... <span class="text"> 12:00 pm ...
+        # <span class='detail__time'> ... <span class="text"> 12:00 pm - 1:00 pm ...
         time_span = soup.find('span', class_='detail__time')
         if time_span:
             text_span = time_span.find('span', class_='text')
             if text_span:
                 time_text = text_span.get_text(strip=True)
-                # Extract "12:00 pm" from "12:00 pm - 1:00 pm"
+                # Extract "12:00 pm - 1:00 pm"
+                range_match = re.search(r'(\d{1,2}:\d{2}\s*[ap]m)\s*-\s*(\d{1,2}:\d{2}\s*[ap]m)', time_text, re.IGNORECASE)
+                if range_match:
+                    return range_match.group(1), range_match.group(2)
+                # Single time
                 match = re.search(r'(\d{1,2}:\d{2}\s*[ap]m)', time_text, re.IGNORECASE)
                 if match:
-                    return match.group(1)
-        return None
+                    return match.group(1), None
+        return None, None
     except Exception as e:
         logging.error(f"Error fetching time for {url}: {e}")
-        return None
+        return None, None
 
 def parse_njbia(html, org, url):
     soup = BeautifulSoup(html, 'html.parser')
@@ -125,18 +130,23 @@ def parse_njbia(html, org, url):
             event_type = type_div.get_text(strip=True) if type_div else "See Link"
             
             # Parse Date
+            end_date_obj = None
             try:
                 date_obj = pd.to_datetime(date_str)
                 
                 # Fetch time from detail page
                 if link:
-                    event_time = get_njbia_time(link)
-                    if event_time:
-                        full_date_str = f"{date_obj.strftime('%Y-%m-%d')} {event_time}"
+                    start_time, end_time = get_njbia_time(link)
+                    if start_time:
+                        full_date_str = f"{date_obj.strftime('%Y-%m-%d')} {start_time}"
                         try:
                             date_obj = pd.to_datetime(full_date_str)
                         except:
                             logging.warning(f"Could not parse combined date/time: {full_date_str}")
+                    if end_time:
+                        end_parts = parse_time_string(end_time)
+                        if end_parts:
+                            end_date_obj = date_obj.replace(hour=end_parts[0], minute=end_parts[1])
             except:
                 logging.warning(f"Could not parse date: {date_str}")
                 continue
@@ -144,7 +154,7 @@ def parse_njbia(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
-                "End Date": None,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": event_type,
                 "Link": link,
@@ -421,6 +431,7 @@ def parse_nrbp(html, org, url):
             
             # Fetch detail page for event time
             location = "See Link"
+            end_date_obj = None
             try:
                 detail_html = fetch_page(link)
                 if detail_html:
@@ -431,6 +442,13 @@ def parse_nrbp(html, org, url):
                         time_parts = parse_time_string(t_str)
                         if time_parts:
                             date_obj = date_obj.replace(hour=time_parts[0], minute=time_parts[1])
+                    # End time from JSON: "EndTime":"2:00 PM"
+                    end_match = re.search(r'"EndTime"\s*:\s*"(\d{1,2}:\d{2}\s*(?:Noon|[AP]M))"', detail_html, re.IGNORECASE)
+                    if end_match:
+                        e_str = end_match.group(1).replace('Noon', 'PM')
+                        end_parts = parse_time_string(e_str)
+                        if end_parts:
+                            end_date_obj = date_obj.replace(hour=end_parts[0], minute=end_parts[1])
                     # Try to extract location from JSON data
                     loc_match = re.search(r'"LocationName"\s*:\s*"([^"]+)"', detail_html)
                     if loc_match:
@@ -441,7 +459,7 @@ def parse_nrbp(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
-                "End Date": None,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -485,6 +503,7 @@ def parse_north_jersey_chamber(html, org, url):
                 try:
                     title = item.get('ttl', 'No Title')
                     date_str = item.get('szp', '') # e.g. "Thu Jan 15 2026, 4:00pm EST"
+                    end_str = item.get('ezp', '')   # e.g. "Fri Mar 27 2026, 1:30pm EDT"
                     partial_url = item.get('url', '')
                     location = item.get('adn', 'See Link')
                     
@@ -492,6 +511,7 @@ def parse_north_jersey_chamber(html, org, url):
                     
                     # Date parsing
                     start_date = None
+                    end_date = None
                     if date_str:
                         # Remove timezone if present (EST/EDT)
                         date_str_clean = re.sub(r'\s+[A-Z]{3}$', '', date_str)
@@ -500,12 +520,18 @@ def parse_north_jersey_chamber(html, org, url):
                         except ValueError:
                             logging.warning(f"Failed to parse date: {date_str}")
                             continue
+                    if end_str:
+                        end_str_clean = re.sub(r'\s+[A-Z]{3}$', '', end_str)
+                        try:
+                            end_date = datetime.strptime(end_str_clean, '%a %b %d %Y, %I:%M%p')
+                        except ValueError:
+                            pass
                     
                     if start_date:
                         data = {
                             "Event Name": title,
                             "Date": start_date,
-                            "End Date": None,
+                            "End Date": end_date,
                             "Organization": org,
                             "Location": location,
                             "Link": link,
@@ -1017,11 +1043,12 @@ def parse_growthzone_cards(html, org, url):
             link = link_tag.get('href', url)
 
             # Date from span with content attribute like "2026-02-04T12:00"
-            date_span = card.find('span', attrs={'content': True})
-            if not date_span:
+            # Some cards have two spans: first is start, second is end
+            date_spans = card.find_all('span', attrs={'content': True})
+            if not date_spans:
                 continue
 
-            date_str = date_span['content']
+            date_str = date_spans[0]['content']
             try:
                 date_obj = datetime.strptime(date_str, "%Y-%m-%dT%H:%M")
             except ValueError:
@@ -1031,10 +1058,42 @@ def parse_growthzone_cards(html, org, url):
                     logging.warning(f"Could not parse GrowthZone date: {date_str}")
                     continue
 
+            end_date_obj = None
+            if len(date_spans) >= 2:
+                end_str = date_spans[1]['content']
+                try:
+                    end_date_obj = datetime.strptime(end_str, "%Y-%m-%dT%H:%M")
+                except ValueError:
+                    pass
+
+            # If no end date from card spans, fetch detail page for endDate
+            if end_date_obj is None and link and link.startswith('http'):
+                try:
+                    detail_resp = requests.get(link, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
+                    if detail_resp.status_code == 200:
+                        detail_soup = BeautifulSoup(detail_resp.text, 'html.parser')
+                        # Check meta itemprop=endDate
+                        end_meta = detail_soup.find('meta', attrs={'itemprop': 'endDate'})
+                        if end_meta and end_meta.get('content'):
+                            end_content = end_meta['content']
+                        else:
+                            # Check span itemprop=endDate
+                            end_span = detail_soup.find('span', attrs={'itemprop': 'endDate', 'content': True})
+                            end_content = end_span['content'] if end_span else None
+                        if end_content:
+                            for fmt in ("%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M"):
+                                try:
+                                    end_date_obj = datetime.strptime(end_content, fmt)
+                                    break
+                                except ValueError:
+                                    continue
+                except Exception as e:
+                    logging.debug(f"Could not fetch detail page for {org} end time: {e}")
+
             data = {
                 "Event Name": title,
                 "Date": date_obj,
-                "End Date": None,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": "See Link",
                 "Link": link,
@@ -1119,10 +1178,23 @@ def parse_greater_paterson(html, org, url):
                 except ValueError:
                     continue
 
+                # Fetch detail page for end time
+                end_date_obj = None
+                try:
+                    detail_html = fetch_page(href)
+                    if detail_html:
+                        detail_times = re.findall(r'(\d{1,2}:\d{2}\s*[AP]M)', detail_html, re.IGNORECASE)
+                        if len(detail_times) >= 2:
+                            end_parts = parse_time_string(detail_times[1])
+                            if end_parts:
+                                end_date_obj = date_obj.replace(hour=end_parts[0], minute=end_parts[1])
+                except Exception:
+                    pass
+
                 data = {
                     "Event Name": title,
                     "Date": date_obj,
-                    "End Date": None,
+                    "End Date": end_date_obj,
                     "Organization": org,
                     "Location": "See Link",
                     "Link": href,
