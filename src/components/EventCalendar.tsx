@@ -163,22 +163,24 @@ export function EventCalendar() {
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-4">
-              <div className="space-y-3">
-                {organizations.map((org) => (
-                  <label
-                    key={org}
-                    className="flex items-center gap-3 cursor-pointer group"
-                  >
-                    <Checkbox
-                      checked={selectedOrgs.has(org)}
-                      onCheckedChange={() => toggleOrg(org)}
-                    />
-                    <span className="text-sm font-medium group-hover:text-primary transition-colors">
-                      {org}
-                    </span>
-                  </label>
-                ))}
-              </div>
+              <ScrollArea className="h-[200px] pr-3">
+                <div className="space-y-3">
+                  {organizations.map((org) => (
+                    <label
+                      key={org}
+                      className="flex items-center gap-3 cursor-pointer group"
+                    >
+                      <Checkbox
+                        checked={selectedOrgs.has(org)}
+                        onCheckedChange={() => toggleOrg(org)}
+                      />
+                      <span className="text-sm font-medium group-hover:text-primary transition-colors">
+                        {org}
+                      </span>
+                    </label>
+                  ))}
+                </div>
+              </ScrollArea>
               <div className="mt-4 pt-3 border-t flex gap-2">
                 <button
                   onClick={() => setSelectedOrgs(new Set(organizations))}
