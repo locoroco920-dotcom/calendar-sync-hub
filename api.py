@@ -11,7 +11,11 @@ from create_ics import generate_ics_file
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=[
+    'https://locoroco920-dotcom.github.io',
+    'http://localhost:5173',   # local dev
+    'http://localhost:4173',   # local preview
+])
 
 # Lock to prevent concurrent scraper runs
 _update_lock = threading.Lock()
