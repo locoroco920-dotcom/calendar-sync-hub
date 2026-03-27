@@ -72,6 +72,19 @@ export function EventCalendar() {
     });
   };
 
+  // Add any new dynamic orgs to selectedOrgs
+  React.useEffect(() => {
+    const dynamicOrgs = events.map(e => e.organization).filter(Boolean) as string[];
+    setSelectedOrgs(prev => {
+      const next = new Set(prev);
+      let changed = false;
+      dynamicOrgs.forEach(org => {
+        if (!next.has(org)) { next.add(org); changed = true; }
+      });
+      return changed ? next : prev;
+    });
+  }, [events]);
+
   // Filter events by selected orgs
   const filteredEvents = useMemo(() => {
     if (selectedOrgs.size === 0) return [];
