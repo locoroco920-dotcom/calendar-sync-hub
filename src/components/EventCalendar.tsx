@@ -13,6 +13,7 @@ import { CalendarDays, Loader2, Sparkles, Filter } from 'lucide-react';
 export function EventCalendar() {
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date());
   const { events, loading, error } = useCalendarEvents();
+  const [selectedOrgs, setSelectedOrgs] = useState<Set<string>>(new Set(ALL_ORGANIZATIONS));
   const [initialized, setInitialized] = useState(false);
 
   // All known calendar sources
