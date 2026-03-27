@@ -53,6 +53,29 @@ def fetch_page(url):
         logging.error(f"Failed to fetch {url}: {e}")
         return None
 
+def parse_time_string(time_str):
+    """Parse a time string like '5 p.m.', '9:30 a.m.', 'noon', '12:00 Noon', '8:30 AM' into (hour, minute) or None."""
+    if not time_str:
+        return None
+    time_str = time_str.strip().lower()
+    if time_str in ('noon', '12 noon'):
+        return (12, 0)
+    if time_str == 'midnight':
+        return (0, 0)
+    match = re.search(r'(\d{1,2})(?::(\d{2}))?\s*([ap]\.?m\.?|noon)', time_str)
+    if match:
+        hour = int(match.group(1))
+        minute = int(match.group(2)) if match.group(2) else 0
+        period = match.group(3).replace('.', '').strip()
+        if period == 'noon':
+            return (12, minute)
+        if period == 'pm' and hour != 12:
+            hour += 12
+        elif period == 'am' and hour == 12:
+            hour = 0
+        return (hour, minute)
+    return None
+
 def get_njbia_time(url):
     try:
         html = fetch_page(url)
@@ -173,7 +196,7 @@ def parse_nj_chamber(html, org, url):
             title_div = item.find('div', class_='uevents-title')
             title = title_div.get_text(strip=True) if title_div else "No Title"
             
-            # Extract Location
+            # Extract Location and Time from detailbox
             location = "See Link"
             detail_box = item.find('div', class_='uevents-detailbox')
             if detail_box:
@@ -181,7 +204,11 @@ def parse_nj_chamber(html, org, url):
                     text = div.get_text(strip=True)
                     if text.startswith("Where:"):
                         location = text.replace("Where:", "").strip()
-                        break
+                    elif text.startswith("When:"):
+                        when_text = text.replace("When:", "").strip()
+                        time_parts = parse_time_string(when_text)
+                        if time_parts:
+                            date_obj = date_obj.replace(hour=time_parts[0], minute=time_parts[1])
             
             # Extract Link
             link = url # Default
@@ -355,8 +382,24 @@ def parse_nrbp(html, org, url):
                 logging.warning(f"Could not parse date: {date_str}")
                 continue
             
-            # Location is not in the table, default to generic
+            # Fetch detail page for event time
             location = "See Link"
+            try:
+                detail_html = fetch_page(link)
+                if detail_html:
+                    # Time is in JSON data: "EventTime":"12:00 Noon"
+                    time_match = re.search(r'"EventTime"\s*:\s*"(\d{1,2}:\d{2}\s*(?:Noon|[AP]M))"', detail_html, re.IGNORECASE)
+                    if time_match:
+                        t_str = time_match.group(1).replace('Noon', 'PM')
+                        time_parts = parse_time_string(t_str)
+                        if time_parts:
+                            date_obj = date_obj.replace(hour=time_parts[0], minute=time_parts[1])
+                    # Try to extract location from JSON data
+                    loc_match = re.search(r'"LocationName"\s*:\s*"([^"]+)"', detail_html)
+                    if loc_match:
+                        location = loc_match.group(1)
+            except Exception as e:
+                logging.warning(f"Could not fetch NRBP detail page for time: {e}")
 
             data = {
                 "Event Name": title,
@@ -981,8 +1024,16 @@ def parse_greater_paterson(html, org, url):
                 if not href.startswith('http'):
                     href = f"https://cca.greaterpatersoncc.org/{href}"
 
+                # Extract time from cell text (e.g. "8:30 AM", "6:00 PM")
+                info_text = info.get_text(strip=True)
+                time_match = re.search(r'(\d{1,2}:\d{2}\s*[AP]M)', info_text, re.IGNORECASE)
+
                 try:
                     date_obj = datetime.strptime(f"{month_name} {day_num} {year}", "%B %d %Y")
+                    if time_match:
+                        time_parts = parse_time_string(time_match.group(1))
+                        if time_parts:
+                            date_obj = date_obj.replace(hour=time_parts[0], minute=time_parts[1])
                 except ValueError:
                     continue
 

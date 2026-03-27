@@ -14,14 +14,15 @@ export function EventCalendar() {
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date());
   const { events, loading, error } = useCalendarEvents();
 
-  // All known calendar sources - must match ICS organization names exactly
+  // All known calendar sources (must match Organization names from scraper)
   const ALL_ORGANIZATIONS = useMemo(() => [
     'AACCNJ',
     'BCRCC',
     'Bergen County Chamber',
+    'BNI New Jersey',
     'CCSNJ',
-    'CIANJ',
     'Choose New Jersey',
+    'CIANJ',
     'Fort Lee Regional Chamber',
     'Greater Paterson Chamber',
     'Hudson County Chamber',
@@ -36,14 +37,15 @@ export function EventCalendar() {
     'SHCCNJ',
   ], []);
 
-  // Display-friendly names for abbreviated orgs
+  // Display-friendly names for the filter sidebar
   const ORG_DISPLAY_NAMES: Record<string, string> = useMemo(() => ({
     'AACCNJ': 'African American Chamber of Commerce of NJ',
     'BCRCC': 'Bergen County Regional Chamber of Commerce',
     'Bergen County Chamber': 'Bergen County Chamber of Commerce',
+    'BNI New Jersey': 'BNI New Jersey',
     'CCSNJ': 'Chamber of Commerce Southern NJ',
-    'CIANJ': 'Commerce & Industry Association of NJ',
     'Choose New Jersey': 'Choose New Jersey',
+    'CIANJ': 'Commerce and Industry Association of NJ',
     'Fort Lee Regional Chamber': 'Fort Lee Regional Chamber of Commerce',
     'Greater Paterson Chamber': 'Greater Paterson Chamber of Commerce',
     'Hudson County Chamber': 'Hudson County Chamber of Commerce',
@@ -62,9 +64,10 @@ export function EventCalendar() {
     'AACCNJ',
     'BCRCC',
     'Bergen County Chamber',
+    'BNI New Jersey',
     'CCSNJ',
-    'CIANJ',
     'Choose New Jersey',
+    'CIANJ',
     'Fort Lee Regional Chamber',
     'Greater Paterson Chamber',
     'Hudson County Chamber',
