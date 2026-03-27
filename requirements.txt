@@ -1,10 +1,8 @@
 pandas
-streamlit
 beautifulsoup4
 requests
 openpyxl
-plotly
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
 icalendar
+flask
+flask-cors
+gunicorn
