@@ -14,41 +14,69 @@ export function EventCalendar() {
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date());
   const { events, loading, error } = useCalendarEvents();
 
-  // All known calendar sources
+  // All known calendar sources - must match ICS organization names exactly
   const ALL_ORGANIZATIONS = useMemo(() => [
-    'African American Chamber of Commerce of New Jersey (AACCNJ)',
-    'Bergen County Chamber of Commerce',
+    'AACCNJ',
+    'BCRCC',
+    'Bergen County Chamber',
+    'CCSNJ',
+    'CIANJ',
     'Choose New Jersey',
-    'Commerce and Industry Association of NJ (CIANJ)',
-    'Fort Lee Regional Chamber of Commerce',
-    'Greater Paterson Chamber of Commerce',
-    'Hudson County Chamber of Commerce',
-    'Middlesex County Regional Chamber of Commerce',
-    'Morris County Chamber of Commerce',
-    'New Jersey Business & Industry Association (NJBIA)',
-    'New Jersey Chamber of Commerce',
-    'New Jersey Economic Development Authority (NJEDA)',
-    'Newark Regional Business Partnership (NRBP)',
-    'North Jersey Chamber of Commerce',
-    'Statewide Hispanic Chamber of Commerce of NJ (SHCCNJ)',
+    'Fort Lee Regional Chamber',
+    'Greater Paterson Chamber',
+    'Hudson County Chamber',
+    'MCRCC',
+    'Morris County Chamber',
+    'NJ Chamber',
+    'NJBIA',
+    'NJEDA',
+    'NJSBDC',
+    'NRBP',
+    'North Jersey Chamber',
+    'SHCCNJ',
   ], []);
 
+  // Display-friendly names for abbreviated orgs
+  const ORG_DISPLAY_NAMES: Record<string, string> = useMemo(() => ({
+    'AACCNJ': 'African American Chamber of Commerce of NJ',
+    'BCRCC': 'Bergen County Regional Chamber of Commerce',
+    'Bergen County Chamber': 'Bergen County Chamber of Commerce',
+    'CCSNJ': 'Chamber of Commerce Southern NJ',
+    'CIANJ': 'Commerce & Industry Association of NJ',
+    'Choose New Jersey': 'Choose New Jersey',
+    'Fort Lee Regional Chamber': 'Fort Lee Regional Chamber of Commerce',
+    'Greater Paterson Chamber': 'Greater Paterson Chamber of Commerce',
+    'Hudson County Chamber': 'Hudson County Chamber of Commerce',
+    'MCRCC': 'Middlesex County Regional Chamber of Commerce',
+    'Morris County Chamber': 'Morris County Chamber of Commerce',
+    'NJ Chamber': 'New Jersey Chamber of Commerce',
+    'NJBIA': 'NJ Business & Industry Association',
+    'NJEDA': 'NJ Economic Development Authority',
+    'NJSBDC': 'NJ Small Business Development Centers',
+    'NRBP': 'Newark Regional Business Partnership',
+    'North Jersey Chamber': 'North Jersey Chamber of Commerce',
+    'SHCCNJ': 'Statewide Hispanic Chamber of Commerce of NJ',
+  }), []);
+
   const [selectedOrgs, setSelectedOrgs] = useState<Set<string>>(() => new Set([
-    'African American Chamber of Commerce of New Jersey (AACCNJ)',
-    'Bergen County Chamber of Commerce',
+    'AACCNJ',
+    'BCRCC',
+    'Bergen County Chamber',
+    'CCSNJ',
+    'CIANJ',
     'Choose New Jersey',
-    'Commerce and Industry Association of NJ (CIANJ)',
-    'Fort Lee Regional Chamber of Commerce',
-    'Greater Paterson Chamber of Commerce',
-    'Hudson County Chamber of Commerce',
-    'Middlesex County Regional Chamber of Commerce',
-    'Morris County Chamber of Commerce',
-    'New Jersey Business & Industry Association (NJBIA)',
-    'New Jersey Chamber of Commerce',
-    'New Jersey Economic Development Authority (NJEDA)',
-    'Newark Regional Business Partnership (NRBP)',
-    'North Jersey Chamber of Commerce',
-    'Statewide Hispanic Chamber of Commerce of NJ (SHCCNJ)',
+    'Fort Lee Regional Chamber',
+    'Greater Paterson Chamber',
+    'Hudson County Chamber',
+    'MCRCC',
+    'Morris County Chamber',
+    'NJ Chamber',
+    'NJBIA',
+    'NJEDA',
+    'NJSBDC',
+    'NRBP',
+    'North Jersey Chamber',
+    'SHCCNJ',
   ]));
 
   // Merge hardcoded orgs with any dynamically found ones
@@ -198,7 +226,7 @@ export function EventCalendar() {
                         onCheckedChange={() => toggleOrg(org)}
                       />
                       <span className="text-sm font-medium group-hover:text-primary transition-colors">
-                        {org}
+                        {ORG_DISPLAY_NAMES[org] || org}
                       </span>
                     </label>
                   ))}
