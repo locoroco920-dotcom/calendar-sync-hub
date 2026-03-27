@@ -16,14 +16,33 @@ export function EventCalendar() {
   const [selectedOrgs, setSelectedOrgs] = useState<Set<string>>(new Set());
   const [initialized, setInitialized] = useState(false);
 
-  // Extract unique organizations
+  // All known calendar sources
+  const ALL_ORGANIZATIONS = useMemo(() => [
+    'African American Chamber of Commerce of New Jersey (AACCNJ)',
+    'Bergen County Chamber of Commerce',
+    'Choose New Jersey',
+    'Commerce and Industry Association of NJ (CIANJ)',
+    'Fort Lee Regional Chamber of Commerce',
+    'Greater Paterson Chamber of Commerce',
+    'Hudson County Chamber of Commerce',
+    'Middlesex County Regional Chamber of Commerce',
+    'Morris County Chamber of Commerce',
+    'New Jersey Business & Industry Association (NJBIA)',
+    'New Jersey Chamber of Commerce',
+    'New Jersey Economic Development Authority (NJEDA)',
+    'Newark Regional Business Partnership (NRBP)',
+    'North Jersey Chamber of Commerce',
+    'Statewide Hispanic Chamber of Commerce of NJ (SHCCNJ)',
+  ], []);
+
+  // Merge hardcoded orgs with any dynamically found ones
   const organizations = useMemo(() => {
-    const orgs = new Set<string>();
+    const orgs = new Set<string>(ALL_ORGANIZATIONS);
     events.forEach((e) => {
       if (e.organization) orgs.add(e.organization);
     });
     return Array.from(orgs).sort();
-  }, [events]);
+  }, [events, ALL_ORGANIZATIONS]);
 
   // Initialize all orgs as selected once loaded
   if (!initialized && organizations.length > 0) {
