@@ -225,7 +225,7 @@ export function EventCalendar() {
       </div>
 
       {/* Events List Card */}
-      <Card className="card-shadow animate-fade-up" style={{ animationDelay: '0.1s' }}>
+      <Card className="card-shadow animate-fade-up min-h-0" style={{ animationDelay: '0.1s' }}>
         <CardHeader className="pb-3 border-b">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <CardTitle className="text-lg font-heading font-semibold">
@@ -239,7 +239,7 @@ export function EventCalendar() {
           </div>
         </CardHeader>
         <CardContent className="pt-4">
-          <ScrollArea className="h-[500px] pr-4">
+          <ScrollArea className="h-full max-h-[calc(100vh-300px)] pr-4">
             {selectedEvents.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-40 text-muted-foreground">
                 <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
