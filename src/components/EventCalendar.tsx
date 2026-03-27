@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Calendar } from '@/components/ui/calendar';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -71,6 +71,19 @@ export function EventCalendar() {
       return next;
     });
   };
+
+  // Add any new dynamic orgs to selectedOrgs
+  React.useEffect(() => {
+    const dynamicOrgs = events.map(e => e.organization).filter(Boolean) as string[];
+    setSelectedOrgs(prev => {
+      const next = new Set(prev);
+      let changed = false;
+      dynamicOrgs.forEach(org => {
+        if (!next.has(org)) { next.add(org); changed = true; }
+      });
+      return changed ? next : prev;
+    });
+  }, [events]);
 
   // Filter events by selected orgs
   const filteredEvents = useMemo(() => {
