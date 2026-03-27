@@ -29,7 +29,7 @@ function Calendar({ className, classNames, showOutsideDays = true, ...props }: C
         head_cell: "text-muted-foreground rounded-md flex-1 text-center font-normal text-[0.8rem]",
         row: "flex w-full mt-2 justify-between",
         cell: "h-10 flex-1 text-center text-sm p-0 relative focus-within:relative focus-within:z-20",
-        day: cn(buttonVariants({ variant: "ghost" }), "h-9 w-9 p-0 font-normal rounded-full hover:bg-muted hover:text-foreground aria-selected:opacity-100"),
+        day: cn(buttonVariants({ variant: "ghost" }), "h-10 w-full p-0 font-normal rounded-full hover:bg-muted hover:text-foreground aria-selected:opacity-100"),
         day_range_end: "day-range-end",
         day_selected:
           "bg-primary text-primary-foreground rounded-full hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
