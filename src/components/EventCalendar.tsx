@@ -13,8 +13,6 @@ import { CalendarDays, Loader2, Sparkles, Filter } from 'lucide-react';
 export function EventCalendar() {
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date());
   const { events, loading, error } = useCalendarEvents();
-  const [selectedOrgs, setSelectedOrgs] = useState<Set<string>>(new Set());
-  const [initialized, setInitialized] = useState(false);
 
   // All known calendar sources
   const ALL_ORGANIZATIONS = useMemo(() => [
@@ -35,6 +33,24 @@ export function EventCalendar() {
     'Statewide Hispanic Chamber of Commerce of NJ (SHCCNJ)',
   ], []);
 
+  const [selectedOrgs, setSelectedOrgs] = useState<Set<string>>(() => new Set([
+    'African American Chamber of Commerce of New Jersey (AACCNJ)',
+    'Bergen County Chamber of Commerce',
+    'Choose New Jersey',
+    'Commerce and Industry Association of NJ (CIANJ)',
+    'Fort Lee Regional Chamber of Commerce',
+    'Greater Paterson Chamber of Commerce',
+    'Hudson County Chamber of Commerce',
+    'Middlesex County Regional Chamber of Commerce',
+    'Morris County Chamber of Commerce',
+    'New Jersey Business & Industry Association (NJBIA)',
+    'New Jersey Chamber of Commerce',
+    'New Jersey Economic Development Authority (NJEDA)',
+    'Newark Regional Business Partnership (NRBP)',
+    'North Jersey Chamber of Commerce',
+    'Statewide Hispanic Chamber of Commerce of NJ (SHCCNJ)',
+  ]));
+
   // Merge hardcoded orgs with any dynamically found ones
   const organizations = useMemo(() => {
     const orgs = new Set<string>(ALL_ORGANIZATIONS);
@@ -43,12 +59,6 @@ export function EventCalendar() {
     });
     return Array.from(orgs).sort();
   }, [events, ALL_ORGANIZATIONS]);
-
-  // Initialize all orgs as selected once loaded
-  if (!initialized && organizations.length > 0) {
-    setSelectedOrgs(new Set(organizations));
-    setInitialized(true);
-  }
 
   const toggleOrg = (org: string) => {
     setSelectedOrgs((prev) => {
