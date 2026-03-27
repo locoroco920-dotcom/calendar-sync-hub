@@ -26,7 +26,7 @@ SOURCES = [
     {"org": "SHCCNJ", "url": "https://business.shccnj.org/events"},
     {"org": "Fort Lee Regional Chamber", "url": "https://www.fortleechamber.com/events"},
     {"org": "Greater Paterson Chamber", "url": "https://cca.greaterpatersoncc.org/EvtListingMainSearch.aspx?class=B"},
-    {"org": "Morris County Chamber", "url": "https://web.morrischamber.org/atlas/calendar?oe=true"},
+    {"org": "Morris County Chamber", "url": "https://api-internal.weblinkconnect.com/api/Events?UpcomingEventsOnly=true&PageNumber=0&PageSize=200"},
     {"org": "NJEDA", "url": "https://www.njeda.gov/events/"},
     {"org": "Choose New Jersey", "url": "https://choosenj.com/wp-json/wp/v2/event?per_page=50"},
 ]
@@ -39,7 +39,14 @@ def fetch_page(url):
             'Accept-Language': 'en-US,en;q=0.5',
             'Connection': 'keep-alive',
         }
-        response = requests.get(url, headers=headers, timeout=10)
+        # Special handling for WeblinkConnect API (Morris County Chamber)
+        if 'api-internal.weblinkconnect.com' in url:
+            headers['Accept'] = 'application/json'
+            headers['x-tenant-hostname'] = 'web.morrischamber.org'
+            headers['Origin'] = 'https://web.morrischamber.org'
+            headers['Referer'] = 'https://web.morrischamber.org/atlas/calendar'
+        timeout = 30 if 'api-internal.weblinkconnect.com' in url else 10
+        response = requests.get(url, headers=headers, timeout=timeout)
         response.raise_for_status()
         return response.text
     except Exception as e:
@@ -997,9 +1004,74 @@ def parse_greater_paterson(html, org, url):
     logging.info(f"Found {events_found} events for {org}")
 
 def parse_morris_county(html, org, url):
-    """Parse Morris County Chamber events (Atlas platform - JS rendered)."""
-    # Atlas calendar is fully JavaScript-rendered; static HTML has no event data
-    logging.info(f"Morris County Chamber uses JS-rendered Atlas calendar, 0 events from static HTML")
+    """Parse Morris County Chamber events via WeblinkConnect API."""
+    import json
+
+    events_found = 0
+
+    try:
+        data = json.loads(html)
+    except (json.JSONDecodeError, TypeError):
+        logging.warning(f"Morris County API response is not valid JSON")
+        return
+
+    results = data.get('Result', [])
+    for item in results:
+        try:
+            title = item.get('EventName', '').strip()
+            if not title:
+                continue
+
+            # Parse date from StartDate like "2026-03-27T12:00:00Z"
+            start_date_str = item.get('StartDate', '')
+            if not start_date_str:
+                continue
+
+            try:
+                date_obj = datetime.strptime(start_date_str[:19], "%Y-%m-%dT%H:%M:%S")
+            except ValueError:
+                try:
+                    date_obj = datetime.strptime(start_date_str[:10], "%Y-%m-%d")
+                except ValueError:
+                    logging.warning(f"Could not parse Morris County date: {start_date_str}")
+                    continue
+
+            # Build location from address fields
+            location_parts = []
+            for field in ['Location', 'Address1', 'City', 'State']:
+                val = item.get(field, '')
+                if val and val.strip():
+                    location_parts.append(val.strip())
+            location = ', '.join(location_parts) if location_parts else 'See Link'
+            if len(location) > 100:
+                location = location[:100]
+
+            # Link to event detail page
+            event_id = item.get('EventId', '')
+            special_url = item.get('SpecialDetailsPageURL', '')
+            if special_url:
+                link = special_url
+            elif event_id:
+                link = f"https://web.morrischamber.org/atlas/Events/{event_id}"
+            else:
+                link = url
+
+            event_data = {
+                "Event Name": title,
+                "Date": date_obj,
+                "Organization": org,
+                "Location": location,
+                "Link": link,
+                "Source": "Scraper"
+            }
+            add_event(event_data)
+            events_found += 1
+
+        except Exception as e:
+            logging.error(f"Error parsing Morris County event: {e}")
+            continue
+
+    logging.info(f"Found {events_found} events for {org}")
 
 def parse_njeda(html, org, url):
     """Parse NJEDA events (custom WordPress with div.event cards)."""
