@@ -22,6 +22,13 @@ SOURCES = [
     {"org": "CCSNJ", "url": "https://business.chambersnj.com/eventcalendar"},
     {"org": "NJSBDC", "url": "https://clients.njsbdc.com/events.aspx"},
     {"org": "BNI New Jersey", "url": "https://bninewjersey.com/en-US/events"},
+    {"org": "AACCNJ", "url": "https://www.aaccnj.com/calendar-of-events"},
+    {"org": "SHCCNJ", "url": "https://business.shccnj.org/events"},
+    {"org": "Fort Lee Regional Chamber", "url": "https://www.fortleechamber.com/events"},
+    {"org": "Greater Paterson Chamber", "url": "https://cca.greaterpatersoncc.org/EvtListingMainSearch.aspx?class=B"},
+    {"org": "Morris County Chamber", "url": "https://web.morrischamber.org/atlas/calendar?oe=true"},
+    {"org": "NJEDA", "url": "https://www.njeda.gov/events/"},
+    {"org": "Choose New Jersey", "url": "https://choosenj.com/wp-json/wp/v2/event?per_page=50"},
 ]
 
 def fetch_page(url):
@@ -810,6 +817,311 @@ def parse_bni(html, org, url):
 
     logging.info(f"Found {events_found} events for {org}")
 
+def parse_aaccnj(html, org, url):
+    """Parse AACCNJ events (static HTML with caption-text divs)."""
+    soup = BeautifulSoup(html, 'html.parser')
+    events_found = 0
+
+    caption_divs = soup.find_all('div', class_='caption-text')
+    for div in caption_divs:
+        try:
+            paragraphs = div.find_all('p', class_='rteBlock')
+            if len(paragraphs) < 2:
+                continue
+
+            title = paragraphs[0].get_text(strip=True)
+            date_text = paragraphs[1].get_text(strip=True)
+
+            if not title or not date_text:
+                continue
+
+            # Parse date like "April 16, 2026"
+            try:
+                date_obj = datetime.strptime(date_text, "%B %d, %Y")
+            except ValueError:
+                logging.warning(f"Could not parse AACCNJ date: {date_text}")
+                continue
+
+            # Try to find a link
+            link_tag = div.find('a', href=True)
+            link = link_tag['href'] if link_tag else url
+            if link and not link.startswith('http'):
+                link = f"https://www.aaccnj.com{link}"
+
+            data = {
+                "Event Name": title,
+                "Date": date_obj,
+                "Organization": org,
+                "Location": "See Link",
+                "Link": link,
+                "Source": "Scraper"
+            }
+            add_event(data)
+            events_found += 1
+
+        except Exception as e:
+            logging.error(f"Error parsing AACCNJ event: {e}")
+            continue
+
+    logging.info(f"Found {events_found} events for {org}")
+
+def parse_growthzone_cards(html, org, url):
+    """Shared parser for GrowthZone sites that use card layout with span content datetime
+    (SHCCNJ, Fort Lee Regional Chamber)."""
+    soup = BeautifulSoup(html, 'html.parser')
+    events_found = 0
+
+    cards = soup.find_all('div', class_='gz-events-card')
+    for card in cards:
+        try:
+            # Title from h5.gz-card-title > a
+            title_h5 = card.find('h5', class_='gz-card-title')
+            if not title_h5:
+                continue
+            link_tag = title_h5.find('a')
+            if not link_tag:
+                continue
+
+            title = link_tag.get_text(strip=True)
+            link = link_tag.get('href', url)
+
+            # Date from span with content attribute like "2026-02-04T12:00"
+            date_span = card.find('span', attrs={'content': True})
+            if not date_span:
+                continue
+
+            date_str = date_span['content']
+            try:
+                date_obj = datetime.strptime(date_str, "%Y-%m-%dT%H:%M")
+            except ValueError:
+                try:
+                    date_obj = datetime.strptime(date_str[:10], "%Y-%m-%d")
+                except ValueError:
+                    logging.warning(f"Could not parse GrowthZone date: {date_str}")
+                    continue
+
+            data = {
+                "Event Name": title,
+                "Date": date_obj,
+                "Organization": org,
+                "Location": "See Link",
+                "Link": link,
+                "Source": "Scraper"
+            }
+            add_event(data)
+            events_found += 1
+
+        except Exception as e:
+            logging.error(f"Error parsing {org} event: {e}")
+            continue
+
+    logging.info(f"Found {events_found} events for {org}")
+
+def parse_shccnj(html, org, url):
+    """Parse SHCCNJ events (GrowthZone card layout)."""
+    parse_growthzone_cards(html, org, url)
+
+def parse_fort_lee(html, org, url):
+    """Parse Fort Lee Regional Chamber events (GrowthZone card layout)."""
+    parse_growthzone_cards(html, org, url)
+
+def parse_greater_paterson(html, org, url):
+    """Parse Greater Paterson Chamber events (CC-Assist calendar grid)."""
+    soup = BeautifulSoup(html, 'html.parser')
+    events_found = 0
+
+    # Find the month header text like "March, 2026"
+    month_text = None
+    for span in soup.find_all('span'):
+        text = span.get_text(strip=True)
+        match = re.match(r'^(January|February|March|April|May|June|July|August|September|October|November|December),?\s*(\d{4})$', text)
+        if match:
+            month_text = text
+            break
+
+    if not month_text:
+        logging.warning(f"Could not find month header for {org}")
+        return
+
+    month_match = re.match(r'(\w+),?\s*(\d{4})', month_text)
+    month_name = month_match.group(1)
+    year = int(month_match.group(2))
+
+    # Find day cells that contain events
+    day_divs = soup.find_all('div', class_='ccaDay')
+    for day_div in day_divs:
+        try:
+            # Get day number from span.ccaLabel
+            label = day_div.find('span', class_='ccaLabel')
+            if not label:
+                continue
+            day_num = label.get_text(strip=True)
+            if not day_num.isdigit():
+                continue
+
+            # Find event links within this day
+            event_infos = day_div.find_all('div', class_='ccaEvtInfo')
+            for info in event_infos:
+                name_div = info.find('div', class_='ccaEvtName')
+                if not name_div:
+                    continue
+                link_tag = name_div.find('a', href=True)
+                if not link_tag:
+                    continue
+
+                title = link_tag.get_text(strip=True)
+                href = link_tag['href']
+                if not href.startswith('http'):
+                    href = f"https://cca.greaterpatersoncc.org/{href}"
+
+                try:
+                    date_obj = datetime.strptime(f"{month_name} {day_num} {year}", "%B %d %Y")
+                except ValueError:
+                    continue
+
+                data = {
+                    "Event Name": title,
+                    "Date": date_obj,
+                    "Organization": org,
+                    "Location": "See Link",
+                    "Link": href,
+                    "Source": "Scraper"
+                }
+                add_event(data)
+                events_found += 1
+
+        except Exception as e:
+            logging.error(f"Error parsing Greater Paterson event: {e}")
+            continue
+
+    logging.info(f"Found {events_found} events for {org}")
+
+def parse_morris_county(html, org, url):
+    """Parse Morris County Chamber events (Atlas platform - JS rendered)."""
+    # Atlas calendar is fully JavaScript-rendered; static HTML has no event data
+    logging.info(f"Morris County Chamber uses JS-rendered Atlas calendar, 0 events from static HTML")
+
+def parse_njeda(html, org, url):
+    """Parse NJEDA events (custom WordPress with div.event cards)."""
+    soup = BeautifulSoup(html, 'html.parser')
+    events_found = 0
+
+    event_divs = soup.find_all('div', class_='event')
+    for ev in event_divs:
+        try:
+            h4s = ev.find_all('h4')
+            if len(h4s) < 2:
+                continue
+
+            date_text = h4s[0].get_text(strip=True)
+            title = h4s[1].get_text(strip=True)
+
+            if not title or not date_text:
+                continue
+
+            # Parse "February 25, 2026"
+            try:
+                date_obj = datetime.strptime(date_text, "%B %d, %Y")
+            except ValueError:
+                logging.warning(f"Could not parse NJEDA date: {date_text}")
+                continue
+
+            # Get time from bg-green div
+            time_div = ev.find('div', class_=lambda c: c and 'bg-green-100' in c if c else False)
+            if time_div:
+                time_text = time_div.get_text(strip=True)
+                time_match = re.search(r'(\d{1,2}:\d{2}\s*[ap]m)', time_text, re.IGNORECASE)
+                if time_match:
+                    try:
+                        combined = f"{date_text} {time_match.group(1)}"
+                        date_obj = datetime.strptime(combined, "%B %d, %Y %I:%M %p")
+                    except ValueError:
+                        try:
+                            date_obj = datetime.strptime(combined, "%B %d, %Y %I:%M%p")
+                        except ValueError:
+                            pass
+
+            link_tag = ev.find('a', href=True)
+            link = link_tag['href'] if link_tag else url
+
+            data = {
+                "Event Name": title,
+                "Date": date_obj,
+                "Organization": org,
+                "Location": "See Link",
+                "Link": link,
+                "Source": "Scraper"
+            }
+            add_event(data)
+            events_found += 1
+
+        except Exception as e:
+            logging.error(f"Error parsing NJEDA event: {e}")
+            continue
+
+    logging.info(f"Found {events_found} events for {org}")
+
+def parse_choose_nj(html, org, url):
+    """Parse Choose New Jersey events via WP REST API."""
+    import json
+
+    events_found = 0
+
+    try:
+        data = json.loads(html)
+    except (json.JSONDecodeError, TypeError):
+        logging.warning(f"Choose NJ API response is not valid JSON")
+        return
+
+    for item in data:
+        try:
+            title = item.get('title', {}).get('rendered', '').strip()
+            if not title:
+                continue
+
+            link = item.get('link', url)
+
+            # Try to get event date from excerpt
+            excerpt_html = item.get('excerpt', {}).get('rendered', '')
+            excerpt_text = BeautifulSoup(excerpt_html, 'html.parser').get_text()
+
+            # Look for date patterns like "May 3-6" or "September 22-26" or "June 22 to June 25"
+            date_obj = None
+            date_match = re.search(
+                r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})',
+                excerpt_text
+            )
+            if date_match:
+                month = date_match.group(1)
+                day = date_match.group(2)
+                # Infer year from title or default to upcoming year
+                year_match = re.search(r'(\d{4})', title)
+                year = int(year_match.group(1)) if year_match else datetime.now().year
+                try:
+                    date_obj = datetime.strptime(f"{month} {day} {year}", "%B %d %Y")
+                except ValueError:
+                    continue
+
+            if not date_obj:
+                continue
+
+            data_dict = {
+                "Event Name": title,
+                "Date": date_obj,
+                "Organization": org,
+                "Location": "See Link",
+                "Link": link,
+                "Source": "Scraper"
+            }
+            add_event(data_dict)
+            events_found += 1
+
+        except Exception as e:
+            logging.error(f"Error parsing Choose NJ event: {e}")
+            continue
+
+    logging.info(f"Found {events_found} events for {org}")
+
 def parse_generic(html, org, url):
     """
     A generic parser placeholder. 
@@ -833,6 +1145,13 @@ PARSERS = {
     "CCSNJ": parse_ccsnj,
     "NJSBDC": parse_njsbdc,
     "BNI New Jersey": parse_bni,
+    "AACCNJ": parse_aaccnj,
+    "SHCCNJ": parse_shccnj,
+    "Fort Lee Regional Chamber": parse_fort_lee,
+    "Greater Paterson Chamber": parse_greater_paterson,
+    "Morris County Chamber": parse_morris_county,
+    "NJEDA": parse_njeda,
+    "Choose New Jersey": parse_choose_nj,
 }
 
 def run_scraper():
