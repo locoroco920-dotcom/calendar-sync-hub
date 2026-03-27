@@ -31,14 +31,14 @@ def generate_ics_file(output_file="public/events.ics"):
         try:
             start_dt = datetime.datetime.strptime(start_time_str, "%Y-%m-%d %H:%M:%S")
 
-            # Use actual end time if available, otherwise default to +1 hour
+            # Use actual end time if available, otherwise set end = start (no fake duration)
             if pd.notna(end_time_str) and str(end_time_str).strip():
                 try:
                     end_dt = datetime.datetime.strptime(str(end_time_str), "%Y-%m-%d %H:%M:%S")
                 except ValueError:
-                    end_dt = start_dt + datetime.timedelta(hours=1)
+                    end_dt = start_dt
             else:
-                end_dt = start_dt + datetime.timedelta(hours=1)
+                end_dt = start_dt
             
             event.add('summary', event_name)
             event.add('dtstart', start_dt)
