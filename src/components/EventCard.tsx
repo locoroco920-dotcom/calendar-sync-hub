@@ -35,7 +35,7 @@ export function EventCard({ event }: EventCardProps) {
           <span className="font-medium">
             {event.start.getHours() === 0 && event.start.getMinutes() === 0
               ? 'Time TBD'
-              : format(event.start, 'h:mm a')}
+              : `${format(event.start, 'h:mm a')} – ${format(event.end, 'h:mm a')}`}
           </span>
         </div>
         {event.location && (
