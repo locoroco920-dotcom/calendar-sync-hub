@@ -8,6 +8,7 @@ export interface CalendarEvent {
   start: Date;
   end: Date;
   url?: string;
+  organization?: string;
 }
 
 export async function fetchAndParseICS(url: string): Promise<CalendarEvent[]> {
@@ -26,8 +27,9 @@ export function parseICS(icsData: string): CalendarEvent[] {
     const descriptionValue = vevent.getFirstPropertyValue('description');
     const description = typeof descriptionValue === 'string' ? descriptionValue : '';
     
-    // Extract URL from description if present
+    // Extract URL and organization from description if present
     const urlMatch = description.match(/Link:\s*(https?:\/\/[^\s]+)/);
+    const orgMatch = description.match(/Organization:\s*([^\n]+)/);
     
     return {
       id: event.uid,
@@ -37,6 +39,7 @@ export function parseICS(icsData: string): CalendarEvent[] {
       start: event.startDate.toJSDate(),
       end: event.endDate.toJSDate(),
       url: urlMatch ? urlMatch[1] : undefined,
+      organization: orgMatch ? orgMatch[1].trim() : undefined,
     };
   });
 }
