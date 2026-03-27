@@ -226,7 +226,7 @@ export function EventCalendar() {
                         onCheckedChange={() => toggleOrg(org)}
                       />
                       <span className="text-sm font-medium group-hover:text-primary transition-colors">
-                        {org}
+                        {ORG_DISPLAY_NAMES[org] || org}
                       </span>
                     </label>
                   ))}
