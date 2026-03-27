@@ -225,7 +225,7 @@ export function EventCalendar() {
       </div>
 
       {/* Events List Card */}
-      <Card className="card-shadow animate-fade-up" style={{ animationDelay: '0.1s' }}>
+      <Card className="card-shadow animate-fade-up min-h-0" style={{ animationDelay: '0.1s' }}>
         <CardHeader className="pb-3 border-b">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <CardTitle className="text-lg font-heading font-semibold">
