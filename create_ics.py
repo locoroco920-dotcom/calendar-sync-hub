@@ -23,13 +23,22 @@ def generate_ics_file(output_file="public/events.ics"):
         
         event_name = row['Event Name']
         start_time_str = row['Date']
+        end_time_str = row.get('End Date', None)
         location = row['Location'] if pd.notna(row['Location']) else ""
         link = row['Link'] if pd.notna(row['Link']) else ""
         organization = row['Organization'] if pd.notna(row['Organization']) else ""
         
         try:
             start_dt = datetime.datetime.strptime(start_time_str, "%Y-%m-%d %H:%M:%S")
-            end_dt = start_dt + datetime.timedelta(hours=1)
+
+            # Use actual end time if available, otherwise default to +1 hour
+            if pd.notna(end_time_str) and str(end_time_str).strip():
+                try:
+                    end_dt = datetime.datetime.strptime(str(end_time_str), "%Y-%m-%d %H:%M:%S")
+                except ValueError:
+                    end_dt = start_dt + datetime.timedelta(hours=1)
+            else:
+                end_dt = start_dt + datetime.timedelta(hours=1)
             
             event.add('summary', event_name)
             event.add('dtstart', start_dt)

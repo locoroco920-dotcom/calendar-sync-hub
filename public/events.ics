@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:Show me the Resources! NJEDA Small Business Week Resource Fair
 DTSTART:20250506T090000
 DTEND:20250506T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-06_090000-Show_me_the_Resources!_NJEDA_Small_Business_Week_Res
  ource_Fair@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/show-me
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 SUMMARY:Aspire Rules III EO63 Listening Session
 DTSTART:20250508T100000
 DTEND:20250508T110000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-08_100000-Aspire_Rules_III_EO63_Listening_Session@meadowlands_
  tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/aspire-
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:Show me the Resources! NJEDA Small Business Week Webinar
 DTSTART:20250508T170000
 DTEND:20250508T180000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-08_170000-Show_me_the_Resources!_NJEDA_Small_Business_Week_Web
  inar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/show-me
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:NJEDA Business Banking Products for Nonprofits Webinar
 DTSTART:20250514T100000
 DTEND:20250514T110000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-14_100000-NJEDA_Business_Banking_Products_for_Nonprofits_Webin
  ar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/njeda-b
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:NJ Film Works Grant Program Webinar
 DTSTART:20250515T110000
 DTEND:20250515T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-15_110000-NJ_Film_Works_Grant_Program_Webinar@meadowlands_trac
  ker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/nj-film
@@ -60,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:Clean Tech Seed Grant Program (Round 4) Webinar
 DTSTART:20250520T100000
 DTEND:20250520T110000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-20_100000-Clean_Tech_Seed_Grant_Program_(Round_4)_Webinar@mead
  owlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/clean-t
@@ -72,7 +72,7 @@ SUMMARY:In-Person Information Session: Route 80 Business Assistance Grant
  Program
 DTSTART:20250527T170000
 DTEND:20250527T180000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-27_170000-In-Person_Information_Session_Route_80_Business_Assi
  stance_Grant_Program@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/in-pers
@@ -83,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:Child Care Facilities Improvement Program Grantee Webinar
 DTSTART:20250528T100000
 DTEND:20250528T110000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-28_100000-Child_Care_Facilities_Improvement_Program_Grantee_We
  binar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/child-c
@@ -94,7 +94,7 @@ BEGIN:VEVENT
 SUMMARY:Child Care Facilities Improvement Program Grantee Webinar
 DTSTART:20250529T180000
 DTEND:20250529T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-29_180000-Child_Care_Facilities_Improvement_Program_Grantee_We
  binar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/child-c
@@ -106,7 +106,7 @@ SUMMARY:Info Session: Film and Digital Media Tax Credit Certifications for
   CPA Firms
 DTSTART:20250530T140000
 DTEND:20250530T150000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-05-30_140000-Info_Session_Film_and_Digital_Media_Tax_Credit_Certi
  fications_for_CPA_Firms@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/info-se
@@ -117,7 +117,7 @@ BEGIN:VEVENT
 SUMMARY:NJ Cool Program Update Webinar
 DTSTART:20250609T140000
 DTEND:20250609T150000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-06-09_140000-NJ_Cool_Program_Update_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/nj-cool
  -program-update-webinar/
@@ -127,7 +127,7 @@ BEGIN:VEVENT
 SUMMARY:Clean Energy Office Hours
 DTSTART:20250624T140000
 DTEND:20250624T150000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-06-24_140000-Clean_Energy_Office_Hours@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/clean-e
  nergy-office-hours/
@@ -137,7 +137,7 @@ BEGIN:VEVENT
 SUMMARY:Apprenticeship training centers construction grant program webinar
 DTSTART:20250702T110000
 DTEND:20250702T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-07-02_110000-Apprenticeship_training_centers_construction_grant_p
  rogram_webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/apprent
@@ -148,7 +148,7 @@ BEGIN:VEVENT
 SUMMARY:The Maternal Infant Health Construction Project Webinar
 DTSTART:20250722T140000
 DTEND:20250722T150000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-07-22_140000-The_Maternal_Infant_Health_Construction_Project_Webi
  nar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/the-mat
@@ -159,7 +159,7 @@ BEGIN:VEVENT
 SUMMARY:NJEDA 2025 Tax Credit Auctions Webinar
 DTSTART:20250731T120000
 DTEND:20250731T130000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-07-31_120000-NJEDA_2025_Tax_Credit_Auctions_Webinar@meadowlands_t
  racker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/njeda-2
@@ -170,7 +170,7 @@ BEGIN:VEVENT
 SUMMARY:Commuter and Transit Bus Private Carriers Stakeholdering Webinar
 DTSTART:20250814T150000
 DTEND:20250814T160000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-08-14_150000-Commuter_and_Transit_Bus_Private_Carriers_Stakeholde
  ring_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/commute
@@ -181,7 +181,7 @@ BEGIN:VEVENT
 SUMMARY:Next New Jersey Manufacturing Executive Order 63 Listening Session
 DTSTART:20250818T130000
 DTEND:20250818T140000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-08-18_130000-Next_New_Jersey_Manufacturing_Executive_Order_63_Lis
  tening_Session@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/program
@@ -193,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:Phase 2 Child Care Facilities Improvement Program Grantee Webinar
 DTSTART:20250908T180000
 DTEND:20250908T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-09-08_180000-Phase_2_Child_Care_Facilities_Improvement_Program_Gr
  antee_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/phase-2
@@ -205,7 +205,7 @@ SUMMARY:Programa de Mejora de Instalaciones de Cuidado Infantil para Benef
  iciarios de la Fase 2 - Seminario Web
 DTSTART:20250909T180000
 DTEND:20250909T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-09-09_180000-Programa_de_Mejora_de_Instalaciones_de_Cuidado_Infan
  til_para_Beneficiarios_de_la_Fase_2_-_Seminario_Web@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/program
@@ -218,7 +218,7 @@ SUMMARY:Driving Growth & Good: NJ Tax Credits for Tech Innovation and Food
   Desert Relief Webinar
 DTSTART:20250911T110000
 DTEND:20250911T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-09-11_110000-Driving_Growth_&_Good_NJ_Tax_Credits_for_Tech_Innova
  tion_and_Food_Desert_Relief_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/driving
@@ -230,7 +230,7 @@ BEGIN:VEVENT
 SUMMARY:EV Charger Stakeholder Webinar
 DTSTART:20250930T130000
 DTEND:20250930T140000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-09-30_130000-EV_Charger_Stakeholder_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/ev-char
  ger-stakeholder-webinar/
@@ -240,7 +240,7 @@ BEGIN:VEVENT
 SUMMARY:NJ ZIP 3 & NJ ZEV Financing Purchaser Application Webinar
 DTSTART:20251009T130000
 DTEND:20251009T140000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-10-09_130000-NJ_ZIP_3_&_NJ_ZEV_Financing_Purchaser_Application_We
  binar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/nj-zip-
@@ -251,7 +251,7 @@ BEGIN:VEVENT
 SUMMARY:Small Business Liquor License Grant Informational Webinar
 DTSTART:20251024T100000
 DTEND:20251024T110000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-10-24_100000-Small_Business_Liquor_License_Grant_Informational_We
  binar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/small-b
@@ -262,7 +262,7 @@ BEGIN:VEVENT
 SUMMARY:CPHI Frankfurt 2025
 DTSTART:20251028T000000
 DTEND:20251028T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-10-28_000000-CPHI_Frankfurt_2025@meadowlands_tracker
 DESCRIPTION:Organization: Choose New Jersey\nLink: https://choosenj.com/ev
  ents/cphi-frankfurt-2025/
@@ -272,7 +272,7 @@ BEGIN:VEVENT
 SUMMARY:NJ CBD Grant Webinar
 DTSTART:20251106T143000
 DTEND:20251106T153000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-11-06_143000-NJ_CBD_Grant_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/nj-cbd-
  grant-webinar/
@@ -282,7 +282,7 @@ BEGIN:VEVENT
 SUMMARY:Grow Qualified CPA Firms Webinar
 DTSTART:20251118T110000
 DTEND:20251118T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-11-18_110000-Grow_Qualified_CPA_Firms_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/grow-qu
  alified-cpa-firms-webinar/
@@ -292,7 +292,7 @@ BEGIN:VEVENT
 SUMMARY:Clean Energy Office Hours
 DTSTART:20251124T130000
 DTEND:20251124T140000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2025-11-24_130000-Clean_Energy_Office_Hours@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/clean-e
  nergy-office-hours-2/
@@ -302,7 +302,7 @@ BEGIN:VEVENT
 SUMMARY:RETROFIT NJ Applicant Webinar
 DTSTART:20260108T130000
 DTEND:20260108T140000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-01-08_130000-RETROFIT_NJ_Applicant_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/retrofi
  t-nj-applicant-webinar/
@@ -312,7 +312,7 @@ BEGIN:VEVENT
 SUMMARY:Garden State C-PACE Webinar
 DTSTART:20260128T130000
 DTEND:20260128T140000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-01-28_130000-Garden_State_C-PACE_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/garden-
  state-c-pace-webinar/
@@ -322,7 +322,7 @@ BEGIN:VEVENT
 SUMMARY:Walk to Washington & Congressional Reception
 DTSTART:20260204T000000
 DTEND:20260204T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-02-04_000000-Walk_to_Washington_&_Congressional_Reception@meadowl
  ands_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/even
@@ -333,7 +333,7 @@ BEGIN:VEVENT
 SUMMARY:Food Business Bootcamp
 DTSTART:20260204T120000
 DTEND:20260204T130000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-02-04_120000-Food_Business_Bootcamp@meadowlands_tracker
 DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
  /details/food-business-bootcamp-2549
@@ -344,7 +344,7 @@ SUMMARY:New Jersey Green Workforce Training Grant Challenge Phase 2 Webina
  r
 DTSTART:20260225T103000
 DTEND:20260225T113000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-02-25_103000-New_Jersey_Green_Workforce_Training_Grant_Challenge_
  Phase_2_Webinar@meadowlands_tracker
 DESCRIPTION:Organization: NJEDA\nLink: https://www.njeda.gov/event/new-jer
@@ -355,7 +355,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College Spring 2026 Career Fair
 DTSTART:20260301T113000
 DTEND:20260301T123000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-01_113000-Berkeley_College_Spring_2026_Career_Fair@meadowlands
  _tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -366,7 +366,7 @@ BEGIN:VEVENT
 SUMMARY:14th Annual Berkeley College Women’s History Celebration
 DTSTART:20260302T083000
 DTEND:20260302T093000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-02_083000-14th_Annual_Berkeley_College_Women’s_History_Celeb
  ration@meadowlands_tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -377,7 +377,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College MBA Virtual Open House
 DTSTART:20260302T190000
 DTEND:20260302T200000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-02_190000-Berkeley_College_MBA_Virtual_Open_House@meadowlands_
  tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -388,7 +388,7 @@ BEGIN:VEVENT
 SUMMARY:Books Unite: FREE Performances
 DTSTART:20260305T180000
 DTEND:20260305T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-05_180000-Books_Unite_FREE_Performances@meadowlands_tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
  terpatersoncc.org/EvtListing.aspx?dbid2=NJPAT&evtid=5011195&class=B
@@ -398,7 +398,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College MBA Virtual Open House
 DTSTART:20260312T190000
 DTEND:20260312T200000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-12_190000-Berkeley_College_MBA_Virtual_Open_House@meadowlands_
  tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -409,7 +409,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College Virtual Nursing Seminar
 DTSTART:20260317T183000
 DTEND:20260317T193000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-17_183000-Berkeley_College_Virtual_Nursing_Seminar@meadowlands
  _tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -420,7 +420,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College LPN to BSN Virtual Seminar
 DTSTART:20260318T183000
 DTEND:20260318T193000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-18_183000-Berkeley_College_LPN_to_BSN_Virtual_Seminar@meadowla
  nds_tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -431,7 +431,7 @@ BEGIN:VEVENT
 SUMMARY:Chamber Luncheon
 DTSTART:20260324T121500
 DTEND:20260324T131500
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-24_121500-Chamber_Luncheon@meadowlands_tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
  terpatersoncc.org/EvtListing.aspx?dbid2=NJPAT&evtid=19842&class=B
@@ -441,7 +441,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College Virtual Healthcare Career Seminar
 DTSTART:20260324T183000
 DTEND:20260324T193000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-24_183000-Berkeley_College_Virtual_Healthcare_Career_Seminar@m
  eadowlands_tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -452,7 +452,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College LPN to BSN Virtual Seminar
 DTSTART:20260325T183000
 DTEND:20260325T193000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-25_183000-Berkeley_College_LPN_to_BSN_Virtual_Seminar@meadowla
  nds_tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -463,7 +463,7 @@ BEGIN:VEVENT
 SUMMARY:Decision-Making and Problem-Solving – North
 DTSTART:20260326T083000
 DTEND:20260326T093000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-26_083000-Decision-Making_and_Problem-Solving_–_North@meadow
  lands_tracker
 DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
@@ -474,7 +474,7 @@ BEGIN:VEVENT
 SUMMARY:CUMAC Breakfast - FREE
 DTSTART:20260326T090000
 DTEND:20260326T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-26_090000-CUMAC_Breakfast_-_FREE@meadowlands_tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
  terpatersoncc.org/EvtListing.aspx?dbid2=NJPAT&evtid=57810&class=B
@@ -484,7 +484,7 @@ BEGIN:VEVENT
 SUMMARY:GPCC Networking Breakfast Hosted By CUMAC (FREE)
 DTSTART:20260326T090000
 DTEND:20260326T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-26_090000-GPCC_Networking_Breakfast_Hosted_By_CUMAC_(FREE)@mea
  dowlands_tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -495,7 +495,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College MSN Virtual Open House
 DTSTART:20260326T183000
 DTEND:20260326T193000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-26_183000-Berkeley_College_MSN_Virtual_Open_House@meadowlands_
  tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -506,7 +506,7 @@ BEGIN:VEVENT
 SUMMARY:Time Management and Goal Setting – North
 DTSTART:20260327T083000
 DTEND:20260327T093000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-27_083000-Time_Management_and_Goal_Setting_–_North@meadowlan
  ds_tracker
 DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
@@ -517,7 +517,7 @@ BEGIN:VEVENT
 SUMMARY:New Member Orientation Networking Mixer
 DTSTART:20260327T113000
 DTEND:20260327T123000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-27_113000-New_Member_Orientation_Networking_Mixer@meadowlands_
  tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -528,8 +528,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Whats in your water wellness workshop
 DTSTART:20260327T120000
-DTEND:20260327T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260327T120000
+DTSTAMP:20260326T221103Z
 UID:2026-03-27_120000-Whats_in_your_water_wellness_workshop@meadowlands_tr
  acker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -538,30 +538,30 @@ LOCATION:111 Canfield Avenue\nRandolph\, 111 Canfield Avenue\, Randolph\,
  NJ
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maximize Your Membership
-DTSTART:20260327T160000
-DTEND:20260327T170000
-DTSTAMP:20260326T213926Z
-UID:2026-03-27_160000-Maximize_Your_Membership@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13019
-LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Power Lunch - FULL
 DTSTART:20260327T160000
-DTEND:20260327T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260327T160000
+DTSTAMP:20260326T221103Z
 UID:2026-03-27_160000-Power_Lunch_-_FULL@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13090
 LOCATION:184 Park Avenue\, Florham Park\, NJ
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Maximize Your Membership
+DTSTART:20260327T160000
+DTEND:20260327T160000
+DTSTAMP:20260326T221103Z
+UID:2026-03-27_160000-Maximize_Your_Membership@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13019
+LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:WomenRising Fundraiser Walk
 DTSTART:20260328T090000
-DTEND:20260328T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260328T120000
+DTSTAMP:20260326T221103Z
 UID:2026-03-28_090000-WomenRising_Fundraiser_Walk@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/womenrising-fundraiser-walk-1
@@ -569,21 +569,10 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Annual Women’s Day Celebration
-DTSTART:20260328T120000
-DTEND:20260328T130000
-DTSTAMP:20260326T213926Z
-UID:2026-03-28_120000-Annual_Women’s_Day_Celebration@meadowlands_tracker
-DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
- dsonchamber.org/chambereventcalendar/Details/annual-women-s-day-celebratio
- n-1666466?sourceTypeId=Website
-LOCATION:Hudson County Chamber
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Creative Women Empowerment Panel Discussion
 DTSTART:20260328T120000
-DTEND:20260328T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260328T150000
+DTSTAMP:20260326T221103Z
 UID:2026-03-28_120000-Creative_Women_Empowerment_Panel_Discussion@meadowla
  nds_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -592,10 +581,21 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Annual Women’s Day Celebration
+DTSTART:20260328T120000
+DTEND:20260329T150000
+DTSTAMP:20260326T221103Z
+UID:2026-03-28_120000-Annual_Women’s_Day_Celebration@meadowlands_tracker
+DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
+ dsonchamber.org/chambereventcalendar/Details/annual-women-s-day-celebratio
+ n-1666466?sourceTypeId=Website
+LOCATION:Hudson County Chamber
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Winter Farmers Market
 DTSTART:20260329T160000
-DTEND:20260329T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260329T160000
+DTSTAMP:20260326T221103Z
 UID:2026-03-29_160000-Winter_Farmers_Market@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12939
@@ -607,7 +607,7 @@ SUMMARY:VentureForward: Business Pitch Competition – Orientation Zoom Me
  eting
 DTSTART:20260330T130000
 DTEND:20260330T140000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-30_130000-VentureForward_Business_Pitch_Competition_–_Orient
  ation_Zoom_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -618,7 +618,7 @@ BEGIN:VEVENT
 SUMMARY:Women’s History Month 2026 Networking Event\,
 DTSTART:20260330T130000
 DTEND:20260330T140000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-30_130000-Women’s_History_Month_2026_Networking_Event\,@mead
  owlands_tracker
 DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
@@ -629,7 +629,7 @@ BEGIN:VEVENT
 SUMMARY:ReNew Jersey Business Summit & Expo
 DTSTART:20260331T000000
 DTEND:20260331T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-31_000000-ReNew_Jersey_Business_Summit_&_Expo@meadowlands_trac
  ker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/summ
@@ -639,8 +639,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Passaic County Entrepreneurs MeetUp Series
 DTSTART:20260331T083000
-DTEND:20260331T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260331T103000
+DTSTAMP:20260326T221103Z
 UID:2026-03-31_083000-Passaic_County_Entrepreneurs_MeetUp_Series@meadowlan
  ds_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -651,8 +651,8 @@ BEGIN:VEVENT
 SUMMARY:Building the Future Together: A Women’s History Month Networking
   Event
 DTSTART:20260331T083000
-DTEND:20260331T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260331T110000
+DTSTAMP:20260326T221103Z
 UID:2026-03-31_083000-Building_the_Future_Together_A_Women’s_History_Mon
  th_Networking_Event@meadowlands_tracker
 DESCRIPTION:Organization: CIANJ\nLink: https://members.cianj.org/calendar/
@@ -665,7 +665,7 @@ SUMMARY:Engage and Exchange Luncheon featuring Winifred Smith-Jenkins\, Ad
  vocates for Children of NJ (Members-Only)
 DTSTART:20260331T120000
 DTEND:20260331T130000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-31_120000-Engage_and_Exchange_Luncheon_featuring_Winifred_Smit
  h-Jenkins\,_Advocates_for_Children_of_NJ_(Members-Only)@meadowlands_tracke
  r
@@ -677,8 +677,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ENT and Allergy Associates Ribbon Cutting Ceremony
 DTSTART:20260331T160000
-DTEND:20260331T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260331T160000
+DTSTAMP:20260326T221103Z
 UID:2026-03-31_160000-ENT_and_Allergy_Associates_Ribbon_Cutting_Ceremony@m
  eadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -689,7 +689,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College Virtual Nursing Seminar
 DTSTART:20260331T183000
 DTEND:20260331T193000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-03-31_183000-Berkeley_College_Virtual_Nursing_Seminar@meadowlands
  _tracker
 DESCRIPTION:Organization: Greater Paterson Chamber\nLink: https://cca.grea
@@ -699,8 +699,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sip & Thrift - St Mary Advocates Thrift Store Hoboken
 DTSTART:20260331T190000
-DTEND:20260331T200000
-DTSTAMP:20260326T213926Z
+DTEND:20260331T210000
+DTSTAMP:20260326T221103Z
 UID:2026-03-31_190000-Sip_&_Thrift_-_St_Mary_Advocates_Thrift_Store_Hoboke
  n@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -712,7 +712,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College Spring 2026 Career Fair
 DTSTART:20260401T113000
 DTEND:20260401T123000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-01_113000-Berkeley_College_Spring_2026_Career_Fair@meadowlands
  _tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -723,8 +723,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Spring Career Fair with Berkeley College
 DTSTART:20260401T113000
-DTEND:20260401T123000
-DTSTAMP:20260326T213926Z
+DTEND:20260401T133000
+DTSTAMP:20260326T221103Z
 UID:2026-04-01_113000-Spring_Career_Fair_with_Berkeley_College@meadowlands
  _tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -735,8 +735,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Berkeley College Spring 2026 Career Fair
 DTSTART:20260401T120000
-DTEND:20260401T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260401T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-01_120000-Berkeley_College_Spring_2026_Career_Fair@meadowlands
  _tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -747,8 +747,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Small Business Guide to Intellectual Property Webinar
 DTSTART:20260401T150000
-DTEND:20260401T160000
-DTSTAMP:20260326T213926Z
+DTEND:20260401T170000
+DTSTAMP:20260326T221103Z
 UID:2026-04-01_150000-Small_Business_Guide_to_Intellectual_Property_Webina
  r@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -758,8 +758,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Passover Begins at Sunset
 DTSTART:20260401T160000
-DTEND:20260401T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260401T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-01_160000-Passover_Begins_at_Sunset@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12973
@@ -769,7 +769,7 @@ BEGIN:VEVENT
 SUMMARY:Achieve Financial Freedom by Creating an Effective Budget
 DTSTART:20260401T180000
 DTEND:20260401T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-01_180000-Achieve_Financial_Freedom_by_Creating_an_Effective_B
  udget@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -780,7 +780,7 @@ BEGIN:VEVENT
 SUMMARY:Chart Your Course: Essential Business Planning at Every Stage
 DTSTART:20260402T110000
 DTEND:20260402T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-02_110000-Chart_Your_Course_Essential_Business_Planning_at_Eve
  ry_Stage@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -790,8 +790,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Berkeley College MBA Virtual Open House
 DTSTART:20260402T120000
-DTEND:20260402T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260402T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-02_120000-Berkeley_College_MBA_Virtual_Open_House@meadowlands_
  tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -802,7 +802,7 @@ BEGIN:VEVENT
 SUMMARY:Supervisory Skills Training in English – Virtual
 DTSTART:20260402T123000
 DTEND:20260402T133000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-02_123000-Supervisory_Skills_Training_in_English_–_Virtual@m
  eadowlands_tracker
 DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
@@ -812,8 +812,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Development Forum
 DTSTART:20260402T160000
-DTEND:20260402T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260402T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-02_160000-Business_Development_Forum@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13015
@@ -823,7 +823,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College MBA Virtual Open House
 DTSTART:20260402T190000
 DTEND:20260402T200000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-02_190000-Berkeley_College_MBA_Virtual_Open_House@meadowlands_
  tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -834,8 +834,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Masterclass PART 3: Digital Marketing & Social Media with AI
 DTSTART:20260403T100000
-DTEND:20260403T110000
-DTSTAMP:20260326T213926Z
+DTEND:20260403T130000
+DTSTAMP:20260326T221103Z
 UID:2026-04-03_100000-AI_Masterclass_PART_3_Digital_Marketing_&_Social_Med
  ia_with_AI@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -845,8 +845,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Good Friday CHAMBER CLOSED
 DTSTART:20260403T160000
-DTEND:20260403T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260403T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-03_160000-Good_Friday_CHAMBER_CLOSED@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12974
@@ -855,8 +855,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrepreneur Certificate Program - Cohort #2
 DTSTART:20260404T090000
-DTEND:20260404T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260404T140000
+DTSTAMP:20260326T221103Z
 UID:2026-04-04_090000-Entrepreneur_Certificate_Program_-_Cohort_#2@meadowl
  ands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -866,18 +866,28 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Start-Up
 DTSTART:20260404T090000
-DTEND:20260404T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260404T153000
+DTSTAMP:20260326T221103Z
 UID:2026-04-04_090000-Business_Start-Up@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
  p.aspx?ekey=22460007
 LOCATION:OnlineFacilitated by NJSBDC at Brookdale Community College
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Easter
+DTSTART:20260405T160000
+DTEND:20260405T160000
+DTSTAMP:20260326T221103Z
+UID:2026-04-05_160000-Easter@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/12975
+LOCATION:See Link
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Winter Farmers Market
 DTSTART:20260405T160000
-DTEND:20260405T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260405T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-05_160000-Winter_Farmers_Market@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12940
@@ -885,20 +895,10 @@ LOCATION:Madison Ave./Rt. 124 to Convent Rd. The market is located in the
  parking lot of the Convent train st
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Easter
-DTSTART:20260405T160000
-DTEND:20260405T170000
-DTSTAMP:20260326T213926Z
-UID:2026-04-05_160000-Easter@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/12975
-LOCATION:See Link
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Berkeley College Paralegal Certificate Virtual Information Session
 DTSTART:20260406T120000
-DTEND:20260406T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260406T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-06_120000-Berkeley_College_Paralegal_Certificate_Virtual_Infor
  mation_Session@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -909,7 +909,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College Paralegal Certificate Virtual Information Session
 DTSTART:20260406T180000
 DTEND:20260406T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-06_180000-Berkeley_College_Paralegal_Certificate_Virtual_Infor
  mation_Session@meadowlands_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -920,8 +920,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NJEDA Small Business E-Commerce Support
 DTSTART:20260407T080000
-DTEND:20260407T090000
-DTSTAMP:20260326T213926Z
+DTEND:20260407T100000
+DTSTAMP:20260326T221103Z
 UID:2026-04-07_080000-NJEDA_Small_Business_E-Commerce_Support@meadowlands_
  tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -933,7 +933,7 @@ BEGIN:VEVENT
 SUMMARY:SCHOOL OF BUSINESS & INFORMATION SCIENCES ANNUAL CAREER DAY
 DTSTART:20260407T120000
 DTEND:20260407T130000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-07_120000-SCHOOL_OF_BUSINESS_&_INFORMATION_SCIENCES_ANNUAL_CAR
  EER_DAY@meadowlands_tracker
 DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
@@ -943,8 +943,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Take Control of the Sales Process
 DTSTART:20260407T160000
-DTEND:20260407T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260407T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-07_160000-Take_Control_of_the_Sales_Process@meadowlands_tracke
  r
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://info.tailwi
@@ -954,8 +954,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Certifications for Small Business Owners-Government Contracting
 DTSTART:20260408T090000
-DTEND:20260408T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260408T110000
+DTSTAMP:20260326T221103Z
 UID:2026-04-08_090000-Certifications_for_Small_Business_Owners-Government_
  Contracting@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -966,8 +966,8 @@ BEGIN:VEVENT
 SUMMARY:Retail Business Masterclass PART 3: Visual Merchandising\; Sales &
   Customer Service &\; Retail KIPs
 DTSTART:20260408T100000
-DTEND:20260408T110000
-DTSTAMP:20260326T213926Z
+DTEND:20260408T130000
+DTSTAMP:20260326T221103Z
 UID:2026-04-08_100000-Retail_Business_Masterclass_PART_3_Visual_Merchandis
  ing\;_Sales_&_Customer_Service_&\;_Retail_KIPs@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -977,8 +977,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Learn Before Lunch
 DTSTART:20260408T110000
-DTEND:20260408T120000
-DTSTAMP:20260326T213926Z
+DTEND:20260408T113000
+DTSTAMP:20260326T221103Z
 UID:2026-04-08_110000-Learn_Before_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1697
  52
@@ -987,8 +987,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:April General Membership Lunch
 DTSTART:20260408T113000
-DTEND:20260408T123000
-DTSTAMP:20260326T213926Z
+DTEND:20260408T133000
+DTSTAMP:20260326T221103Z
 UID:2026-04-08_113000-April_General_Membership_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1697
  53
@@ -998,8 +998,8 @@ BEGIN:VEVENT
 SUMMARY:Meet the Legislative Leaders feat. Assembly Speaker Craig J. Cough
  lin
 DTSTART:20260408T113000
-DTEND:20260408T123000
-DTSTAMP:20260326T213926Z
+DTEND:20260408T133000
+DTSTAMP:20260326T221103Z
 UID:2026-04-08_113000-Meet_the_Legislative_Leaders_feat._Assembly_Speaker_
  Craig_J._Coughlin@meadowlands_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
@@ -1010,8 +1010,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2026 Women in Golf Tee-Off
 DTSTART:20260408T160000
-DTEND:20260408T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260408T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-08_160000-2026_Women_in_Golf_Tee-Off@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13140
@@ -1020,8 +1020,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Health & Wellness Forum - IN PERSON
 DTSTART:20260408T160000
-DTEND:20260408T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260408T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-08_160000-Health_&_Wellness_Forum_-_IN_PERSON@meadowlands_trac
  ker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1032,7 +1032,7 @@ BEGIN:VEVENT
 SUMMARY:Explore Business Financial Services to Grow Your Business
 DTSTART:20260408T180000
 DTEND:20260408T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-08_180000-Explore_Business_Financial_Services_to_Grow_Your_Bus
  iness@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -1043,8 +1043,8 @@ BEGIN:VEVENT
 SUMMARY:Certifications for Small Business Owners:  What certifications to 
  get to make you more competit
 DTSTART:20260408T180000
-DTEND:20260408T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260408T200000
+DTSTAMP:20260326T221103Z
 UID:2026-04-08_180000-Certifications_for_Small_Business_Owners__What_certi
  fications_to_get_to_make_you_more_competit@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -1054,8 +1054,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network Connection Series: Cumberland County
 DTSTART:20260409T083000
-DTEND:20260409T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260409T100000
+DTSTAMP:20260326T221103Z
 UID:2026-04-09_083000-Network_Connection_Series_Cumberland_County@meadowla
  nds_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
@@ -1066,8 +1066,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Public Policy Roundtable with Senator Troy Singleton
 DTSTART:20260409T094500
-DTEND:20260409T104500
-DTSTAMP:20260326T213926Z
+DTEND:20260409T110000
+DTSTAMP:20260326T221103Z
 UID:2026-04-09_094500-Public_Policy_Roundtable_with_Senator_Troy_Singleton
  @meadowlands_tracker
 DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1764
@@ -1078,7 +1078,7 @@ BEGIN:VEVENT
 SUMMARY:Grand Opening & Ribbon Cutting (4/9/26)
 DTSTART:20260409T110000
 DTEND:20260409T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-09_110000-Grand_Opening_&_Ribbon_Cutting_(4/9/26)@meadowlands_
  tracker
 DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
@@ -1088,8 +1088,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Women’s Networking Event
 DTSTART:20260409T120000
-DTEND:20260409T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260409T140000
+DTSTAMP:20260326T221103Z
 UID:2026-04-09_120000-Women’s_Networking_Event@meadowlands_tracker
 DESCRIPTION:Organization: Bergen County Chamber\nLink: https://bergencount
  ychamber.com/event/womens-networking-event-3/
@@ -1098,8 +1098,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20260409T120000
-DTEND:20260409T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260409T131500
+DTSTAMP:20260326T221103Z
 UID:2026-04-09_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -1109,8 +1109,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Talk Tax with the IRS
 DTSTART:20260409T150000
-DTEND:20260409T160000
-DTSTAMP:20260326T213926Z
+DTEND:20260409T170000
+DTSTAMP:20260326T221103Z
 UID:2026-04-09_150000-Talk_Tax_with_the_IRS@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
  p.aspx?ekey=10460024
@@ -1119,8 +1119,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at Long Valley Pub and Brewery
 DTSTART:20260409T160000
-DTEND:20260409T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260409T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-09_160000-Network_After_Work_at_Long_Valley_Pub_and_Brewery@me
  adowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1130,8 +1130,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mastering the Mix – Sharpen Your Skills\, Then Work the Room
 DTSTART:20260409T173000
-DTEND:20260409T183000
-DTSTAMP:20260326T213926Z
+DTEND:20260409T200000
+DTSTAMP:20260326T221103Z
 UID:2026-04-09_173000-Mastering_the_Mix_–_Sharpen_Your_Skills\,_Then_Wor
  k_the_Room@meadowlands_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://my.njchamber.com/Event
@@ -1143,7 +1143,7 @@ SUMMARY:LIVE SHOPPING - Global Solutions te ofrece un 20% de descuento en
  tu poliza
 DTSTART:20260409T190000
 DTEND:20260409T200000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-09_190000-LIVE_SHOPPING_-_Global_Solutions_te_ofrece_un_20%_de
  _descuento_en_tu_poliza@meadowlands_tracker
 DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
@@ -1152,11 +1152,23 @@ DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Berkeley College Medical Billing Training Program Virtual Info Ses
+ sion
+DTSTART:20260410T120000
+DTEND:20260410T120000
+DTSTAMP:20260326T221103Z
+UID:2026-04-10_120000-Berkeley_College_Medical_Billing_Training_Program_Vi
+ rtual_Info_Session@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13160
+LOCATION:Virtual
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Berkeley College Medical Billing Training Program Virtual Informat
  ion Session
 DTSTART:20260410T120000
 DTEND:20260410T130000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-10_120000-Berkeley_College_Medical_Billing_Training_Program_Vi
  rtual_Information_Session@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -1166,22 +1178,10 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Berkeley College Medical Billing Training Program Virtual Info Ses
- sion
-DTSTART:20260410T120000
-DTEND:20260410T130000
-DTSTAMP:20260326T213926Z
-UID:2026-04-10_120000-Berkeley_College_Medical_Billing_Training_Program_Vi
- rtual_Info_Session@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13160
-LOCATION:Virtual
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Midnight Market
 DTSTART:20260410T180000
-DTEND:20260410T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260411T235900
+DTSTAMP:20260326T221103Z
 UID:2026-04-10_180000-Midnight_Market@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/midnight-market-1668127?sourc
@@ -1191,8 +1191,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:First Step to Entrepreneurship Q&A
 DTSTART:20260411T090000
-DTEND:20260411T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260411T110000
+DTSTAMP:20260326T221103Z
 UID:2026-04-11_090000-First_Step_to_Entrepreneurship_Q&A@meadowlands_track
  er
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -1203,7 +1203,7 @@ BEGIN:VEVENT
 SUMMARY:LifeTyme Financial Lunch & Learn
 DTSTART:20260411T120000
 DTEND:20260411T130000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-11_120000-LifeTyme_Financial_Lunch_&_Learn@meadowlands_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
  hamber.org/index.php/events/events-calendar/#!event/2026/4/11/lifetyme-fin
@@ -1213,8 +1213,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Winter Farmers Market
 DTSTART:20260412T160000
-DTEND:20260412T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260412T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-12_160000-Winter_Farmers_Market@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12941
@@ -1225,7 +1225,7 @@ BEGIN:VEVENT
 SUMMARY:International Conference on Public Health and Health Care System
 DTSTART:20260413T093000
 DTEND:20260413T103000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-13_093000-International_Conference_on_Public_Health_and_Health
  _Care_System@meadowlands_tracker
 DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
@@ -1236,8 +1236,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Regional Economic Perspective: Camden County
 DTSTART:20260414T080000
-DTEND:20260414T090000
-DTSTAMP:20260326T213926Z
+DTEND:20260414T103000
+DTSTAMP:20260326T221103Z
 UID:2026-04-14_080000-Regional_Economic_Perspective_Camden_County@meadowla
  nds_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
@@ -1250,7 +1250,7 @@ SUMMARY:Joint Education & Workforce Development & Employment & Labor Polic
  y Committee Meeting – April 14
 DTSTART:20260414T090000
 DTEND:20260414T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-14_090000-Joint_Education_&_Workforce_Development_&_Employment
  _&_Labor_Policy_Committee_Meeting_–_April_14@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/joint-educ
@@ -1262,7 +1262,7 @@ BEGIN:VEVENT
 SUMMARY:From Hype to Impact: Leveraging AI in Your Business
 DTSTART:20260414T120000
 DTEND:20260414T130000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-14_120000-From_Hype_to_Impact_Leveraging_AI_in_Your_Business@m
  eadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/leveraging
@@ -1273,7 +1273,7 @@ BEGIN:VEVENT
 SUMMARY:Careers in Education Job Fair (Kean Ocean- Gateway Building)
 DTSTART:20260414T150000
 DTEND:20260414T160000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-14_150000-Careers_in_Education_Job_Fair_(Kean_Ocean-_Gateway_B
  uilding)@meadowlands_tracker
 DESCRIPTION:Organization: SHCCNJ\nLink: https://business.shccnj.org/events
@@ -1285,7 +1285,7 @@ SUMMARY:Four Costly Gaps in Everyday Agriculture Operations and How to Clo
  se Them
 DTSTART:20260414T160000
 DTEND:20260414T170000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-14_160000-Four_Costly_Gaps_in_Everyday_Agriculture_Operations_
  and_How_to_Close_Them@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -1295,8 +1295,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrepreneur Round Table (Virtual)
 DTSTART:20260414T160000
-DTEND:20260414T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260414T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-14_160000-Entrepreneur_Round_Table_(Virtual)@meadowlands_track
  er
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1306,8 +1306,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mercer County Connect & Grow
 DTSTART:20260414T170000
-DTEND:20260414T180000
-DTSTAMP:20260326T213926Z
+DTEND:20260414T183000
+DTSTAMP:20260326T221103Z
 UID:2026-04-14_170000-Mercer_County_Connect_&_Grow@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
  p.aspx?ekey=21460004
@@ -1317,7 +1317,7 @@ BEGIN:VEVENT
 SUMMARY:2026 Partners and Leaders Dinner
 DTSTART:20260414T180000
 DTEND:20260414T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-14_180000-2026_Partners_and_Leaders_Dinner@meadowlands_tracker
 DESCRIPTION:Organization: NRBP\nLink: https://web.newarkrbp.org/events/202
  6-Partners-and-Leaders-Dinner-5849/details
@@ -1326,22 +1326,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Energy Insights Committee
 DTSTART:20260415T083000
-DTEND:20260415T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260415T103000
+DTSTAMP:20260326T221103Z
 UID:2026-04-15_083000-Energy_Insights_Committee@meadowlands_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
  ntcalendar/Details/energy-insights-committee-1652243?sourceTypeId=Website
-LOCATION:See Link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Monthly Morning Networking (4/15/26)
-DTSTART:20260415T090000
-DTEND:20260415T100000
-DTSTAMP:20260326T213926Z
-UID:2026-04-15_090000-Monthly_Morning_Networking_(4/15/26)@meadowlands_tra
- cker
-DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
- tleechamber.com/events/details/monthly-morning-networking-4-15-26-1317
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
@@ -1349,7 +1338,7 @@ SUMMARY:The Human Side of Business – Managing Mental Health\, Burnout\,
  and Productivity
 DTSTART:20260415T090000
 DTEND:20260415T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-15_090000-The_Human_Side_of_Business_–_Managing_Mental_Healt
  h\,_Burnout\,_and_Productivity@meadowlands_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://us02web.zoom.us/webina
@@ -1357,10 +1346,21 @@ DESCRIPTION:Organization: NJ Chamber\nLink: https://us02web.zoom.us/webina
 LOCATION:Virtual Event
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Monthly Morning Networking (4/15/26)
+DTSTART:20260415T090000
+DTEND:20260415T100000
+DTSTAMP:20260326T221103Z
+UID:2026-04-15_090000-Monthly_Morning_Networking_(4/15/26)@meadowlands_tra
+ cker
+DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
+ tleechamber.com/events/details/monthly-morning-networking-4-15-26-1317
+LOCATION:See Link
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Berkeley College Virtual Open House and Transfer Event
 DTSTART:20260415T120000
-DTEND:20260415T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260415T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-15_120000-Berkeley_College_Virtual_Open_House_and_Transfer_Eve
  nt@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1368,10 +1368,22 @@ DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:North Jersey Hospitality & Restaurant Job Fair | Fairfield NJ | Hi
+ ring Now
+DTSTART:20260415T120000
+DTEND:20260415T120000
+DTSTAMP:20260326T221103Z
+UID:2026-04-15_120000-North_Jersey_Hospitality_&_Restaurant_Job_Fair_|_Fai
+ rfield_NJ_|_Hiring_Now@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13131
+LOCATION:27 Horseneck Road\, Fairfield\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:North Jersey Hospitality & Restaurant Job Fair | Fairfield NJ
 DTSTART:20260415T120000
 DTEND:20260415T130000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-15_120000-North_Jersey_Hospitality_&_Restaurant_Job_Fair_|_Fai
  rfield_NJ@meadowlands_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -1380,22 +1392,10 @@ DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
 LOCATION:Agency Network
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:North Jersey Hospitality & Restaurant Job Fair | Fairfield NJ | Hi
- ring Now
-DTSTART:20260415T120000
-DTEND:20260415T130000
-DTSTAMP:20260326T213926Z
-UID:2026-04-15_120000-North_Jersey_Hospitality_&_Restaurant_Job_Fair_|_Fai
- rfield_NJ_|_Hiring_Now@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13131
-LOCATION:27 Horseneck Road\, Fairfield\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Nonprofit Conference & Awards
 DTSTART:20260415T160000
-DTEND:20260415T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260415T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-15_160000-Nonprofit_Conference_&_Awards@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12908
@@ -1405,7 +1405,7 @@ BEGIN:VEVENT
 SUMMARY:Berkeley College Virtual Open House and Transfer Event
 DTSTART:20260415T183000
 DTEND:20260415T193000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-15_183000-Berkeley_College_Virtual_Open_House_and_Transfer_Eve
  nt@meadowlands_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -1417,7 +1417,7 @@ BEGIN:VEVENT
 SUMMARY:State of Black NJ
 DTSTART:20260416T000000
 DTEND:20260416T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-16_000000-State_of_Black_NJ@meadowlands_tracker
 DESCRIPTION:Organization: AACCNJ\nLink: https://www.aaccnj.com/calendar-of
  -events
@@ -1427,7 +1427,7 @@ BEGIN:VEVENT
 SUMMARY:Voice of Business Committee Meeting
 DTSTART:20260416T083000
 DTEND:20260416T093000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-16_083000-Voice_of_Business_Committee_Meeting@meadowlands_trac
  ker
 DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1562
@@ -1437,8 +1437,8 @@ BEGIN:VEVENT
 SUMMARY:Companies That Care 2026: Celebrate Acts of Service & Giving Back 
  to the Community
 DTSTART:20260416T083000
-DTEND:20260416T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260416T110000
+DTSTAMP:20260326T221103Z
 UID:2026-04-16_083000-Companies_That_Care_2026_Celebrate_Acts_of_Service_&
  _Giving_Back_to_the_Community@meadowlands_tracker
 DESCRIPTION:Organization: CIANJ\nLink: https://members.cianj.org/calendar/
@@ -1449,18 +1449,28 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2026 Spring Gala
 DTSTART:20260416T120000
-DTEND:20260416T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260416T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-16_120000-2026_Spring_Gala@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13111
 LOCATION:The Grove\, Cedar Grove\, NJ\, 691 Pompton Ave\, Cedar Grove\, NJ
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Women in Business Forum
+DTSTART:20260416T160000
+DTEND:20260416T160000
+DTSTAMP:20260326T221103Z
+UID:2026-04-16_160000-Women_in_Business_Forum@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13006
+LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:MCEDC Industry Roundtable - Professional Services
 DTSTART:20260416T160000
-DTEND:20260416T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260416T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-16_160000-MCEDC_Industry_Roundtable_-_Professional_Services@me
  adowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1468,20 +1478,10 @@ DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
 LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Women in Business Forum
-DTSTART:20260416T160000
-DTEND:20260416T170000
-DTSTAMP:20260326T213926Z
-UID:2026-04-16_160000-Women_in_Business_Forum@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13006
-LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Spring into Networking: Evening of Whiskey\, Cigars & Connections
 DTSTART:20260416T173000
-DTEND:20260416T183000
-DTSTAMP:20260326T213926Z
+DTEND:20260416T200000
+DTSTAMP:20260326T221103Z
 UID:2026-04-16_173000-Spring_into_Networking_Evening_of_Whiskey\,_Cigars_&
  _Connections@meadowlands_tracker
 DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1531
@@ -1492,8 +1492,8 @@ BEGIN:VEVENT
 SUMMARY:Jersey City Medical Center’s 1st Annual Sneaker Gala in Partners
  hip with The Sneaker Room Foundation
 DTSTART:20260416T180000
-DTEND:20260416T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260416T220000
+DTSTAMP:20260326T221103Z
 UID:2026-04-16_180000-Jersey_City_Medical_Center’s_1st_Annual_Sneaker_Ga
  la_in_Partnership_with_The_Sneaker_Room_Foundation@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -1505,8 +1505,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MST presents The Mountaintop
 DTSTART:20260416T190000
-DTEND:20260416T200000
-DTSTAMP:20260326T213926Z
+DTEND:20260503T150000
+DTSTAMP:20260326T221103Z
 UID:2026-04-16_190000-MST_presents_The_Mountaintop@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/mst-presents-the-mountaintop-
@@ -1516,8 +1516,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jersey City Marathon Weekend 2026
 DTSTART:20260417T000000
-DTEND:20260417T010000
-DTSTAMP:20260326T213926Z
+DTEND:20260419T000000
+DTSTAMP:20260326T221103Z
 UID:2026-04-17_000000-Jersey_City_Marathon_Weekend_2026@meadowlands_tracke
  r
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -1529,7 +1529,7 @@ BEGIN:VEVENT
 SUMMARY:The Breakfast Club - Virtual
 DTSTART:20260417T080000
 DTEND:20260417T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-17_080000-The_Breakfast_Club_-_Virtual@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-virtual-12
@@ -1537,10 +1537,21 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Government Affairs Policy Committee Mtg. – April 17
+DTSTART:20260417T090000
+DTEND:20260417T100000
+DTSTAMP:20260326T221103Z
+UID:2026-04-17_090000-Government_Affairs_Policy_Committee_Mtg._–_April_1
+ 7@meadowlands_tracker
+DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/government
+ -affairs-policy-committee-meeting-2/
+LOCATION:Policy Committee Meeting
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Skilled Hands\, Strong Communities
 DTSTART:20260417T090000
 DTEND:20260417T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-17_090000-Skilled_Hands\,_Strong_Communities@meadowlands_track
  er
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -1549,22 +1560,11 @@ DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
 LOCATION:Passaic County Community College\, The Paterson Room
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Government Affairs Policy Committee Mtg. – April 17
-DTSTART:20260417T090000
-DTEND:20260417T100000
-DTSTAMP:20260326T213926Z
-UID:2026-04-17_090000-Government_Affairs_Policy_Committee_Mtg._–_April_1
- 7@meadowlands_tracker
-DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/government
- -affairs-policy-committee-meeting-2/
-LOCATION:Policy Committee Meeting
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Lions\, Tigers & Clowns Oh My!<br>Work Life Balance Webinar<br>(FR
  EE) Webinar!
 DTSTART:20260417T110000
 DTEND:20260417T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-17_110000-Lions\,_Tigers_&_Clowns_Oh_My!<br>Work_Life_Balance_
  Webinar<br>(FREE)_Webinar!@meadowlands_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -1575,8 +1575,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Connections Presented by Delta Dental
 DTSTART:20260417T160000
-DTEND:20260417T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260417T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-17_160000-Business_Connections_Presented_by_Delta_Dental@meado
  wlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1586,8 +1586,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:13th Annual Principal for a Day (PFAD)
 DTSTART:20260417T170000
-DTEND:20260417T180000
-DTSTAMP:20260326T213926Z
+DTEND:20260417T200000
+DTSTAMP:20260326T221103Z
 UID:2026-04-17_170000-13th_Annual_Principal_for_a_Day_(PFAD)@meadowlands_t
  racker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -1598,8 +1598,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Park Alliance Spring Forward 5-10K
 DTSTART:20260419T120000
-DTEND:20260419T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260419T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-19_120000-Park_Alliance_Spring_Forward_5-10K@meadowlands_track
  er
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1610,8 +1610,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Winter Farmers Market
 DTSTART:20260419T160000
-DTEND:20260419T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260419T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-19_160000-Winter_Farmers_Market@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12942
@@ -1621,8 +1621,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Breakfast with State Treasurer Aaron Binder
 DTSTART:20260421T080000
-DTEND:20260421T090000
-DTSTAMP:20260326T213926Z
+DTEND:20260421T100000
+DTSTAMP:20260326T221103Z
 UID:2026-04-21_080000-Breakfast_with_State_Treasurer_Aaron_Binder@meadowla
  nds_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://my.njchamber.com/Event
@@ -1632,8 +1632,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CCSNJ University
 DTSTART:20260421T083000
-DTEND:20260421T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260421T103000
+DTSTAMP:20260326T221103Z
 UID:2026-04-21_083000-CCSNJ_University@meadowlands_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
  ntcalendar/Details/ccsnj-university-1685873?sourceTypeId=Website
@@ -1643,7 +1643,7 @@ BEGIN:VEVENT
 SUMMARY:High-Impact Coaching and Team Leadership for Managers
 DTSTART:20260421T090000
 DTEND:20260421T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-21_090000-High-Impact_Coaching_and_Team_Leadership_for_Manager
  s@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/high-impac
@@ -1654,8 +1654,8 @@ BEGIN:VEVENT
 SUMMARY:UCEDC Digital Marketing Workshops Series Pt. 1: Get Your Local Bus
  iness on Google Search & Maps
 DTSTART:20260421T103000
-DTEND:20260421T113000
-DTSTAMP:20260326T213926Z
+DTEND:20260421T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-21_103000-UCEDC_Digital_Marketing_Workshops_Series_Pt._1_Get_Y
  our_Local_Business_on_Google_Search_&_Maps@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -1668,7 +1668,7 @@ BEGIN:VEVENT
 SUMMARY:Mineral Tools for Growth
 DTSTART:20260421T130000
 DTEND:20260421T140000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-21_130000-Mineral_Tools_for_Growth@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/mineral-to
  ols-for-growth/
@@ -1677,8 +1677,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson County Community College (HCCC) Alumni Job Fair
 DTSTART:20260421T160000
-DTEND:20260421T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260421T193000
+DTSTAMP:20260326T221103Z
 UID:2026-04-21_160000-Hudson_County_Community_College_(HCCC)_Alumni_Job_Fa
  ir@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -1687,21 +1687,10 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Hudson Chamber Happy Hour
-DTSTART:20260421T173000
-DTEND:20260421T183000
-DTSTAMP:20260326T213926Z
-UID:2026-04-21_173000-Hudson_Chamber_Happy_Hour@meadowlands_tracker
-DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
- dsonchamber.org/chambereventcalendar/Details/hudson-chamber-happy-hour-169
- 0358?sourceTypeId=Website
-LOCATION:Hudson County Chamber
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Owners & Executives Network Roundtable
 DTSTART:20260421T173000
-DTEND:20260421T183000
-DTSTAMP:20260326T213926Z
+DTEND:20260421T200000
+DTSTAMP:20260326T221103Z
 UID:2026-04-21_173000-Owners_&_Executives_Network_Roundtable@meadowlands_t
  racker
 DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1754
@@ -1709,10 +1698,21 @@ DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1754
 LOCATION:Caffe Aldo Lamberti
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hudson Chamber Happy Hour
+DTSTART:20260421T173000
+DTEND:20260421T193000
+DTSTAMP:20260326T221103Z
+UID:2026-04-21_173000-Hudson_Chamber_Happy_Hour@meadowlands_tracker
+DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
+ dsonchamber.org/chambereventcalendar/Details/hudson-chamber-happy-hour-169
+ 0358?sourceTypeId=Website
+LOCATION:Hudson County Chamber
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Networking Event – Five Dimes Brewery – April 21st
 DTSTART:20260421T180000
-DTEND:20260421T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260421T200000
+DTSTAMP:20260326T221103Z
 UID:2026-04-21_180000-Networking_Event_–_Five_Dimes_Brewery_–_April_21
  st@meadowlands_tracker
 DESCRIPTION:Organization: Bergen County Chamber\nLink: https://bergencount
@@ -1724,7 +1724,7 @@ SUMMARY:How to Host a Successful Golf Outing<br>Educational Seminar at Cry
  stal Springs Resort<br>Non-Profit Only Event
 DTSTART:20260422T083000
 DTEND:20260422T093000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-22_083000-How_to_Host_a_Successful_Golf_Outing<br>Educational_
  Seminar_at_Crystal_Springs_Resort<br>Non-Profit_Only_Event@meadowlands_tra
  cker
@@ -1737,8 +1737,8 @@ BEGIN:VEVENT
 SUMMARY:CIANJ’s Earth Day Event – Community Clean-Up & Team Building E
  xercise
 DTSTART:20260422T083000
-DTEND:20260422T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260422T113000
+DTSTAMP:20260326T221103Z
 UID:2026-04-22_083000-CIANJ’s_Earth_Day_Event_–_Community_Clean-Up_&_T
  eam_Building_Exercise@meadowlands_tracker
 DESCRIPTION:Organization: CIANJ\nLink: https://members.cianj.org/calendar/
@@ -1750,7 +1750,7 @@ BEGIN:VEVENT
 SUMMARY:New Governor\, New Priorities: What’s Ahead in 2026?
 DTSTART:20260422T090000
 DTEND:20260422T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-22_090000-New_Governor\,_New_Priorities_What’s_Ahead_in_2026
  ?@meadowlands_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://us02web.zoom.us/webina
@@ -1758,40 +1758,30 @@ DESCRIPTION:Organization: NJ Chamber\nLink: https://us02web.zoom.us/webina
 LOCATION:Zoom
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Earth Day
-DTSTART:20260422T160000
-DTEND:20260422T170000
-DTSTAMP:20260326T213926Z
-UID:2026-04-22_160000-Earth_Day@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/12976
-LOCATION:See Link
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Curtain Call & Connect
-DTSTART:20260422T160000
-DTEND:20260422T170000
-DTSTAMP:20260326T213926Z
-UID:2026-04-22_160000-Curtain_Call_&_Connect@meadowlands_tracker
-DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/curtain
- -call-connect/
-LOCATION:State Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:You’ve Been Hacked. Now What?
 DTSTART:20260422T160000
-DTEND:20260422T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260422T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-22_160000-You’ve_Been_Hacked._Now_What?@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13144
 LOCATION:1140 Parsippany Boulevard\, Parsippany\, NJ
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Curtain Call & Connect
+DTSTART:20260422T160000
+DTEND:20260422T180000
+DTSTAMP:20260326T221103Z
+UID:2026-04-22_160000-Curtain_Call_&_Connect@meadowlands_tracker
+DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/curtain
+ -call-connect/
+LOCATION:State Theatre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Grand Opening: Hackensack Meridian Signature Executive Health
 DTSTART:20260422T160000
 DTEND:20260422T170000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-22_160000-Grand_Opening_Hackensack_Meridian_Signature_Executiv
  e_Health@meadowlands_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -1800,10 +1790,30 @@ DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Earth Day
+DTSTART:20260422T160000
+DTEND:20260422T160000
+DTSTAMP:20260326T221103Z
+UID:2026-04-22_160000-Earth_Day@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/12976
+LOCATION:See Link
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Member Connect
+DTSTART:20260423T083000
+DTEND:20260423T100000
+DTSTAMP:20260326T221103Z
+UID:2026-04-23_083000-Morning_Member_Connect@meadowlands_tracker
+DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1715
+ 26
+LOCATION:Community House of Moorestown
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:80th Annual Bernie Cohn Golf Classic
 DTSTART:20260423T083000
-DTEND:20260423T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260423T150000
+DTSTAMP:20260326T221103Z
 UID:2026-04-23_083000-80th_Annual_Bernie_Cohn_Golf_Classic@meadowlands_tra
  cker
 DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/80th-an
@@ -1811,20 +1821,10 @@ DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/80th-an
 LOCATION:Forsgate Country Club
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Morning Member Connect
-DTSTART:20260423T083000
-DTEND:20260423T093000
-DTSTAMP:20260326T213926Z
-UID:2026-04-23_083000-Morning_Member_Connect@meadowlands_tracker
-DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1715
- 26
-LOCATION:Community House of Moorestown
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Network Connection Series: Burlington County
 DTSTART:20260423T083000
-DTEND:20260423T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260423T100000
+DTSTAMP:20260326T221103Z
 UID:2026-04-23_083000-Network_Connection_Series_Burlington_County@meadowla
  nds_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
@@ -1836,7 +1836,7 @@ BEGIN:VEVENT
 SUMMARY:Women's Networking (4/23/26)
 DTSTART:20260423T093000
 DTEND:20260423T103000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-23_093000-Women's_Networking_(4/23/26)@meadowlands_tracker
 DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
  tleechamber.com/events/details/women-s-networking-4-23-26-1322
@@ -1846,7 +1846,7 @@ BEGIN:VEVENT
 SUMMARY:Connect\, Learn & Grow at MetLife Stadium
 DTSTART:20260423T100000
 DTEND:20260423T110000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-23_100000-Connect\,_Learn_&_Grow_at_MetLife_Stadium@meadowland
  s_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/connect-le
@@ -1856,8 +1856,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:200 Club of Morris County Valor & Meritorious Awards
 DTSTART:20260423T120000
-DTEND:20260423T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260423T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-23_120000-200_Club_of_Morris_County_Valor_&_Meritorious_Awards
  @meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1868,8 +1868,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NJRBA : Capital Stack & Cash Flow Webinar
 DTSTART:20260423T120000
-DTEND:20260423T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260423T133000
+DTSTAMP:20260326T221103Z
 UID:2026-04-23_120000-NJRBA__Capital_Stack_&_Cash_Flow_Webinar@meadowlands
  _tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -1877,21 +1877,10 @@ DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
 LOCATION:OnlineFacilitated by NJSBDC at William Paterson University
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Business Strategy Forum (Virtual)
-DTSTART:20260423T160000
-DTEND:20260423T170000
-DTSTAMP:20260326T213926Z
-UID:2026-04-23_160000-Business_Strategy_Forum_(Virtual)@meadowlands_tracke
- r
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13030
-LOCATION:See Link
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Impact of Big Beautiful Bill (Hybrid)
 DTSTART:20260423T160000
-DTEND:20260423T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260423T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-23_160000-Impact_of_Big_Beautiful_Bill_(Hybrid)@meadowlands_tr
  acker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1901,18 +1890,29 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maximize Your Membership
 DTSTART:20260423T160000
-DTEND:20260423T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260423T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-23_160000-Maximize_Your_Membership@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13020
 LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Business Strategy Forum (Virtual)
+DTSTART:20260423T160000
+DTEND:20260423T160000
+DTSTAMP:20260326T221103Z
+UID:2026-04-23_160000-Business_Strategy_Forum_(Virtual)@meadowlands_tracke
+ r
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13030
+LOCATION:See Link
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Breakfast & Black Belts: A Cyber Self-Defense Class
 DTSTART:20260424T080000
 DTEND:20260424T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-24_080000-Breakfast_&_Black_Belts_A_Cyber_Self-Defense_Class@m
  eadowlands_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -1924,7 +1924,7 @@ BEGIN:VEVENT
 SUMMARY:2026 Update! ABC&#8217\;s of Medicare
 DTSTART:20260424T110000
 DTEND:20260424T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-24_110000-2026_Update!_ABC&#8217\;s_of_Medicare@meadowlands_tr
  acker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -1935,8 +1935,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Brighter Futures: An Evening of Impact
 DTSTART:20260424T120000
-DTEND:20260424T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260424T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-24_120000-Brighter_Futures_An_Evening_of_Impact@meadowlands_tr
  acker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -1947,8 +1947,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Power Lunch
 DTSTART:20260424T160000
-DTEND:20260424T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260424T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-24_160000-Power_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13091
@@ -1957,8 +1957,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Business Plan
 DTSTART:20260425T090000
-DTEND:20260425T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260425T123000
+DTSTAMP:20260326T221103Z
 UID:2026-04-25_090000-A_Business_Plan@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
  p.aspx?ekey=22460011
@@ -1968,8 +1968,8 @@ BEGIN:VEVENT
 SUMMARY:Dive Into Inclusion: DreamWorks Water Park at American Dream for W
  hole Spectrum Autism Families
 DTSTART:20260426T083000
-DTEND:20260426T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260426T110000
+DTSTAMP:20260326T221103Z
 UID:2026-04-26_083000-Dive_Into_Inclusion_DreamWorks_Water_Park_at_America
  n_Dream_for_Whole_Spectrum_Autism_Families@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -1981,8 +1981,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Winter Farmers Market
 DTSTART:20260426T160000
-DTEND:20260426T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260426T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-26_160000-Winter_Farmers_Market@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12943
@@ -1990,10 +1990,20 @@ LOCATION:Madison Ave./Rt. 124 to Convent Rd. The market is located in the
  parking lot of the Convent train st
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Women in Golf Spring Clinic
+DTSTART:20260427T160000
+DTEND:20260427T160000
+DTSTAMP:20260326T221103Z
+UID:2026-04-27_160000-Women_in_Golf_Spring_Clinic@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13141
+LOCATION:600 Eagle Rock Avenue\, Roseland\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Thrive Morris Gives Volunteer Opportunity
 DTSTART:20260427T160000
-DTEND:20260427T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260427T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-27_160000-Thrive_Morris_Gives_Volunteer_Opportunity@meadowland
  s_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -2001,20 +2011,10 @@ DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
 LOCATION:568 Tempe Wick Road\, Morristown
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Women in Golf Spring Clinic
-DTSTART:20260427T160000
-DTEND:20260427T170000
-DTSTAMP:20260326T213926Z
-UID:2026-04-27_160000-Women_in_Golf_Spring_Clinic@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13141
-LOCATION:600 Eagle Rock Avenue\, Roseland\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Voice of Business Awards Reception & Ceremony
 DTSTART:20260427T173000
-DTEND:20260427T183000
-DTSTAMP:20260326T213926Z
+DTEND:20260427T203000
+DTSTAMP:20260326T221103Z
 UID:2026-04-27_173000-Voice_of_Business_Awards_Reception_&_Ceremony@meadow
  lands_tracker
 DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1718
@@ -2024,8 +2024,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Transportation and Infrastructure Committee
 DTSTART:20260428T083000
-DTEND:20260428T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260428T103000
+DTSTAMP:20260326T221103Z
 UID:2026-04-28_083000-Transportation_and_Infrastructure_Committee@meadowla
  nds_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
@@ -2037,7 +2037,7 @@ BEGIN:VEVENT
 SUMMARY:Networking Breakfast: Meet our New Members (4/28/26)
 DTSTART:20260428T083000
 DTEND:20260428T093000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-28_083000-Networking_Breakfast_Meet_our_New_Members_(4/28/26)@
  meadowlands_tracker
 DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
@@ -2049,7 +2049,7 @@ BEGIN:VEVENT
 SUMMARY:Taxation & Economic Development Policy Committee Mtg. – April 28
 DTSTART:20260428T090000
 DTEND:20260428T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-28_090000-Taxation_&_Economic_Development_Policy_Committee_Mtg
  ._–_April_28@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/taxation-e
@@ -2060,8 +2060,8 @@ BEGIN:VEVENT
 SUMMARY:UCEDC Digital Marketing Workshops Series Pt. 2: Reach More Custome
  rs Online with Google
 DTSTART:20260428T103000
-DTEND:20260428T113000
-DTSTAMP:20260326T213926Z
+DTEND:20260428T120000
+DTSTAMP:20260326T221103Z
 UID:2026-04-28_103000-UCEDC_Digital_Marketing_Workshops_Series_Pt._2_Reach
  _More_Customers_Online_with_Google@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -2071,51 +2071,51 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nonprofit Round Table (Virtual)
-DTSTART:20260428T160000
-DTEND:20260428T170000
-DTSTAMP:20260326T213926Z
-UID:2026-04-28_160000-Nonprofit_Round_Table_(Virtual)@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13044
-LOCATION:325 Columbia Turnpike - Suite 101\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Future Members Meet Up
 DTSTART:20260428T160000
-DTEND:20260428T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260428T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-28_160000-Future_Members_Meet_Up@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13025
 LOCATION:325 Columbia Turnpike - Suite 101\, Florham Park\, NJ
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Hermes Expo
-DTSTART:20260429T080000
-DTEND:20260429T090000
-DTSTAMP:20260326T213926Z
-UID:2026-04-29_080000-Hermes_Expo@meadowlands_tracker
-DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/hermes-
- expo/
-LOCATION:Grand Marquis
+SUMMARY:Nonprofit Round Table (Virtual)
+DTSTART:20260428T160000
+DTEND:20260428T160000
+DTSTAMP:20260326T221103Z
+UID:2026-04-28_160000-Nonprofit_Round_Table_(Virtual)@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13044
+LOCATION:325 Columbia Turnpike - Suite 101\, Florham Park\, NJ
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Workforce Summit
 DTSTART:20260429T080000
 DTEND:20260429T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-29_080000-Workforce_Summit@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/workforce-
  summit/
 LOCATION:In-Person
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hermes Expo
+DTSTART:20260429T080000
+DTEND:20260429T170000
+DTSTAMP:20260326T221103Z
+UID:2026-04-29_080000-Hermes_Expo@meadowlands_tracker
+DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/hermes-
+ expo/
+LOCATION:Grand Marquis
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CIANJ & The Garden State Initiative Present...New Jersey’s Econo
  mic Outlook: Tariffs\, Energy\, and Global Pressures
 DTSTART:20260429T083000
-DTEND:20260429T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260429T103000
+DTSTAMP:20260326T221103Z
 UID:2026-04-29_083000-CIANJ_&_The_Garden_State_Initiative_Present...New_Je
  rsey’s_Economic_Outlook_Tariffs\,_Energy\,_and_Global_Pressures@meadowla
  nds_tracker
@@ -2127,8 +2127,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NJThrivesVEE Virtual Business Speed Networking
 DTSTART:20260429T090000
-DTEND:20260429T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260429T110000
+DTSTAMP:20260326T221103Z
 UID:2026-04-29_090000-NJThrivesVEE_Virtual_Business_Speed_Networking@meado
  wlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2138,8 +2138,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at The Olde Mill Inn & Grain House
 DTSTART:20260429T160000
-DTEND:20260429T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260429T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-29_160000-Network_After_Work_at_The_Olde_Mill_Inn_&_Grain_Hous
  e@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -2149,8 +2149,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nonprofit Affordability Conference
 DTSTART:20260430T090000
-DTEND:20260430T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260430T113000
+DTSTAMP:20260326T221103Z
 UID:2026-04-30_090000-Nonprofit_Affordability_Conference@meadowlands_track
  er
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -2163,7 +2163,7 @@ SUMMARY:NRBP Engage & Exchange: CEO Updates & Members-Only Forum featuring
   The Enterprise Center
 DTSTART:20260430T100000
 DTEND:20260430T110000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-04-30_100000-NRBP_Engage_&_Exchange_CEO_Updates_&_Members-Only_Fo
  rum_featuring_The_Enterprise_Center@meadowlands_tracker
 DESCRIPTION:Organization: NRBP\nLink: https://web.newarkrbp.org/events/NRB
@@ -2174,8 +2174,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:51st Annual Spring Golf Classic
 DTSTART:20260430T110000
-DTEND:20260430T120000
-DTSTAMP:20260326T213926Z
+DTEND:20260430T190000
+DTSTAMP:20260326T221103Z
 UID:2026-04-30_110000-51st_Annual_Spring_Golf_Classic@meadowlands_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
  ntcalendar/Details/51st-annual-spring-golf-classic-1646249?sourceTypeId=We
@@ -2185,8 +2185,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MCEDC Networking Breakfast
 DTSTART:20260430T160000
-DTEND:20260430T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260430T160000
+DTSTAMP:20260326T221103Z
 UID:2026-04-30_160000-MCEDC_Networking_Breakfast@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13074
@@ -2195,8 +2195,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Masterclass PART 1:Introduction to AI & Tools 4 Productivity
 DTSTART:20260501T100000
-DTEND:20260501T110000
-DTSTAMP:20260326T213926Z
+DTEND:20260501T130000
+DTSTAMP:20260326T221103Z
 UID:2026-05-01_100000-AI_Masterclass_PART_1Introduction_to_AI_&_Tools_4_Pr
  oductivity@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2206,8 +2206,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Financing A Small Business
 DTSTART:20260502T090000
-DTEND:20260502T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260502T120000
+DTSTAMP:20260326T221103Z
 UID:2026-05-02_090000-Financing_A_Small_Business@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
  p.aspx?ekey=22460015
@@ -2216,8 +2216,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Miriam's Heart & Somerset Patriots Baseball - Family Fun Night
 DTSTART:20260502T120000
-DTEND:20260502T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260502T120000
+DTSTAMP:20260326T221103Z
 UID:2026-05-02_120000-Miriam's_Heart_&_Somerset_Patriots_Baseball_-_Family
  _Fun_Night@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -2227,8 +2227,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:nourish.NJ 2026 5K Race
 DTSTART:20260503T120000
-DTEND:20260503T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260503T120000
+DTSTAMP:20260326T221103Z
 UID:2026-05-03_120000-nourish.NJ_2026_5K_Race@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13153
@@ -2238,8 +2238,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:nourish.NJ 2025 Hunger Walk
 DTSTART:20260503T120000
-DTEND:20260503T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260503T120000
+DTSTAMP:20260326T221103Z
 UID:2026-05-03_120000-nourish.NJ_2025_Hunger_Walk@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13152
@@ -2250,8 +2250,8 @@ BEGIN:VEVENT
 SUMMARY:New Jersey Restaurant & Hospitality Association: ServSafe Food Saf
  ety Manager Course/Exam
 DTSTART:20260504T120000
-DTEND:20260504T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260504T120000
+DTSTAMP:20260326T221103Z
 UID:2026-05-04_120000-New_Jersey_Restaurant_&_Hospitality_Association_Serv
  Safe_Food_Safety_Manager_Course/Exam@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -2261,8 +2261,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Small Business Week Networking Breakfast
 DTSTART:20260505T083000
-DTEND:20260505T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260505T100000
+DTSTAMP:20260326T221103Z
 UID:2026-05-05_083000-Small_Business_Week_Networking_Breakfast@meadowlands
  _tracker
 DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1736
@@ -2273,8 +2273,8 @@ BEGIN:VEVENT
 SUMMARY:MCEDC Small Business Week Webinar: Making The Most of Artificial I
  ntelligence
 DTSTART:20260505T160000
-DTEND:20260505T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260505T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-05_160000-MCEDC_Small_Business_Week_Webinar_Making_The_Most_of
  _Artificial_Intelligence@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -2285,8 +2285,8 @@ BEGIN:VEVENT
 SUMMARY:Mission Ready Entrepreneurship (MRE) Academy: Business Planning "P
  lanning for Lanuch"
 DTSTART:20260505T180000
-DTEND:20260505T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260505T200000
+DTSTAMP:20260326T221103Z
 UID:2026-05-05_180000-Mission_Ready_Entrepreneurship_(MRE)_Academy_Busines
  s_Planning_"Planning_for_Lanuch"@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2297,7 +2297,7 @@ BEGIN:VEVENT
 SUMMARY:NJBIA’s MDM Series: DEP & BPU
 DTSTART:20260506T080000
 DTEND:20260506T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-06_080000-NJBIA’s_MDM_Series_DEP_&_BPU@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/njbias-mdm
  -series-dep-bpu/
@@ -2307,7 +2307,7 @@ BEGIN:VEVENT
 SUMMARY:Wayne Dental Arts Grand Opening & Ribbon Cutting Ceremony
 DTSTART:20260506T150000
 DTEND:20260506T160000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-06_150000-Wayne_Dental_Arts_Grand_Opening_&_Ribbon_Cutting_Cer
  emony@meadowlands_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -2316,22 +2316,10 @@ DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
 LOCATION:Wayne Dental Arts
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mission Ready Entrepreneurship (MRE) Academy: In Business "Growth 
- Strategies"
-DTSTART:20260506T180000
-DTEND:20260506T190000
-DTSTAMP:20260326T213926Z
-UID:2026-05-06_180000-Mission_Ready_Entrepreneurship_(MRE)_Academy_In_Busi
- ness_"Growth_Strategies"@meadowlands_tracker
-DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
- p.aspx?ekey=12460003
-LOCATION:OnlineFacilitated by NJSBDC at Fairleigh Dickinson University
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Seis de Mayo Multi-Chamber Networking (5/6/26)
 DTSTART:20260506T180000
 DTEND:20260506T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-06_180000-Seis_de_Mayo_Multi-Chamber_Networking_(5/6/26)@meado
  wlands_tracker
 DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
@@ -2340,10 +2328,22 @@ DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mission Ready Entrepreneurship (MRE) Academy: In Business "Growth 
+ Strategies"
+DTSTART:20260506T180000
+DTEND:20260506T200000
+DTSTAMP:20260326T221103Z
+UID:2026-05-06_180000-Mission_Ready_Entrepreneurship_(MRE)_Academy_In_Busi
+ ness_"Growth_Strategies"@meadowlands_tracker
+DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
+ p.aspx?ekey=12460003
+LOCATION:OnlineFacilitated by NJSBDC at Fairleigh Dickinson University
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Network Connection Series: Salem County
 DTSTART:20260507T083000
-DTEND:20260507T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260507T100000
+DTSTAMP:20260326T221103Z
 UID:2026-05-07_083000-Network_Connection_Series_Salem_County@meadowlands_t
  racker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
@@ -2352,21 +2352,10 @@ DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Performance-Driven Leadership Development
-DTSTART:20260507T090000
-DTEND:20260507T100000
-DTSTAMP:20260326T213926Z
-UID:2026-05-07_090000-Performance-Driven_Leadership_Development@meadowland
- s_tracker
-DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/performanc
- e-driven-leadership-development/
-LOCATION:Leadership Series
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Monthly Morning Networking (5/7/26)
 DTSTART:20260507T090000
 DTEND:20260507T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-07_090000-Monthly_Morning_Networking_(5/7/26)@meadowlands_trac
  ker
 DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
@@ -2374,10 +2363,21 @@ DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Performance-Driven Leadership Development
+DTSTART:20260507T090000
+DTEND:20260507T100000
+DTSTAMP:20260326T221103Z
+UID:2026-05-07_090000-Performance-Driven_Leadership_Development@meadowland
+ s_tracker
+DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/performanc
+ e-driven-leadership-development/
+LOCATION:Leadership Series
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Exploring Business Ownership Through Franchising Webinar
 DTSTART:20260507T123000
-DTEND:20260507T133000
-DTSTAMP:20260326T213926Z
+DTEND:20260507T143000
+DTSTAMP:20260326T221103Z
 UID:2026-05-07_123000-Exploring_Business_Ownership_Through_Franchising_Web
  inar@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2387,8 +2387,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Microloans & Alternative Lending Option Webinar
 DTSTART:20260507T150000
-DTEND:20260507T160000
-DTSTAMP:20260326T213926Z
+DTEND:20260507T170000
+DTSTAMP:20260326T221103Z
 UID:2026-05-07_150000-Microloans_&_Alternative_Lending_Option_Webinar@mead
  owlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2398,8 +2398,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Development Forum
 DTSTART:20260507T160000
-DTEND:20260507T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260507T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-07_160000-Business_Development_Forum@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13016
@@ -2408,8 +2408,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boys and Girls Club Career Explorers Dinner
 DTSTART:20260507T173000
-DTEND:20260507T183000
-DTSTAMP:20260326T213926Z
+DTEND:20260507T200000
+DTSTAMP:20260326T221103Z
 UID:2026-05-07_173000-Boys_and_Girls_Club_Career_Explorers_Dinner@meadowla
  nds_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -2420,8 +2420,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Women in Business Table Talk
 DTSTART:20260508T160000
-DTEND:20260508T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260508T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-08_160000-Women_in_Business_Table_Talk@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12909
@@ -2430,8 +2430,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Recordkeeping for Small Business
 DTSTART:20260509T090000
-DTEND:20260509T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260509T153000
+DTSTAMP:20260326T221103Z
 UID:2026-05-09_090000-Recordkeeping_for_Small_Business@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
  p.aspx?ekey=22460003
@@ -2441,7 +2441,7 @@ BEGIN:VEVENT
 SUMMARY:MarbleJam Kids 19th Annual Anniversary Gala
 DTSTART:20260509T183000
 DTEND:20260509T193000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-09_183000-MarbleJam_Kids_19th_Annual_Anniversary_Gala@meadowla
  nds_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -2453,7 +2453,7 @@ BEGIN:VEVENT
 SUMMARY:Transportation Awards Breakfast
 DTSTART:20260511T083000
 DTEND:20260511T093000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-11_083000-Transportation_Awards_Breakfast@meadowlands_tracker
 DESCRIPTION:Organization: NRBP\nLink: https://web.newarkrbp.org/events/Tra
  nsportation-Awards-Breakfast-5856/details
@@ -2462,8 +2462,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2026 BCRCC Golf Invitational
 DTSTART:20260511T110000
-DTEND:20260511T120000
-DTSTAMP:20260326T213926Z
+DTEND:20260511T190000
+DTSTAMP:20260326T221103Z
 UID:2026-05-11_110000-2026_BCRCC_Golf_Invitational@meadowlands_tracker
 DESCRIPTION:Organization: BCRCC\nLink: https://bcrcc.glueup.com/event/1697
  46
@@ -2472,8 +2472,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LinkedIn: Connect and Engage for Growth
 DTSTART:20260512T123000
-DTEND:20260512T133000
-DTSTAMP:20260326T213926Z
+DTEND:20260512T143000
+DTSTAMP:20260326T221103Z
 UID:2026-05-12_123000-LinkedIn_Connect_and_Engage_for_Growth@meadowlands_t
  racker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2483,8 +2483,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Social Media Principles for Business: Facebook/Instagram
 DTSTART:20260512T150000
-DTEND:20260512T160000
-DTSTAMP:20260326T213926Z
+DTEND:20260512T170000
+DTSTAMP:20260326T221103Z
 UID:2026-05-12_150000-Social_Media_Principles_for_Business_Facebook/Instag
  ram@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2494,8 +2494,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrepreneur Round Table (Hybrid)
 DTSTART:20260512T160000
-DTEND:20260512T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260512T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-12_160000-Entrepreneur_Round_Table_(Hybrid)@meadowlands_tracke
  r
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -2506,7 +2506,7 @@ BEGIN:VEVENT
 SUMMARY:Current Government Contracting Opportunities in NJ
 DTSTART:20260512T160000
 DTEND:20260512T170000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-12_160000-Current_Government_Contracting_Opportunities_in_NJ@m
  eadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2516,8 +2516,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Networking Event at El Asadero Mexican Grill
 DTSTART:20260512T180000
-DTEND:20260512T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260512T200000
+DTSTAMP:20260326T221103Z
 UID:2026-05-12_180000-Networking_Event_at_El_Asadero_Mexican_Grill@meadowl
  ands_tracker
 DESCRIPTION:Organization: Bergen County Chamber\nLink: https://bergencount
@@ -2528,7 +2528,7 @@ BEGIN:VEVENT
 SUMMARY:NJBIA’s MDM Series – State Treasurer
 DTSTART:20260513T080000
 DTEND:20260513T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-13_080000-NJBIA’s_MDM_Series_–_State_Treasurer@meadowlands
  _tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/njbias-mdm
@@ -2540,7 +2540,7 @@ SUMMARY:Building Reliable Rural Workforces in Seasonal and Resource-Constr
  ained Environments
 DTSTART:20260513T150000
 DTEND:20260513T160000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-13_150000-Building_Reliable_Rural_Workforces_in_Seasonal_and_R
  esource-Constrained_Environments@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2548,30 +2548,30 @@ DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
 LOCATION:OnlineFacilitated by NJSBDC at Rutgers - Camden
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Health & Wellness Forum
-DTSTART:20260513T160000
-DTEND:20260513T170000
-DTSTAMP:20260326T213926Z
-UID:2026-05-13_160000-Health_&_Wellness_Forum@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13012
-LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Senior Living Series
 DTSTART:20260513T160000
-DTEND:20260513T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260513T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-13_160000-Senior_Living_Series@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12957
 LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Health & Wellness Forum
+DTSTART:20260513T160000
+DTEND:20260513T160000
+DTSTAMP:20260326T221103Z
+UID:2026-05-13_160000-Health_&_Wellness_Forum@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13012
+LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Women's Networking and Small Business Discussion
 DTSTART:20260513T180000
 DTEND:20260513T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-13_180000-Women's_Networking_and_Small_Business_Discussion@mea
  dowlands_tracker
 DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
@@ -2583,7 +2583,7 @@ BEGIN:VEVENT
 SUMMARY:Women Who Empower Awards
 DTSTART:20260514T000000
 DTEND:20260514T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-14_000000-Women_Who_Empower_Awards@meadowlands_tracker
 DESCRIPTION:Organization: AACCNJ\nLink: https://www.aaccnj.com/calendar-of
  -events
@@ -2592,8 +2592,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Member Networking Breakfast
 DTSTART:20260514T090000
-DTEND:20260514T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260514T103000
+DTSTAMP:20260326T221103Z
 UID:2026-05-14_090000-Member_Networking_Breakfast@meadowlands_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/comp
  onent/content/category/34-events
@@ -2602,8 +2602,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20260514T120000
-DTEND:20260514T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260514T131500
+DTSTAMP:20260326T221103Z
 UID:2026-05-14_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -2611,20 +2611,10 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Save the Date! HR Boot Camp
-DTSTART:20260515T080000
-DTEND:20260515T090000
-DTSTAMP:20260326T213926Z
-UID:2026-05-15_080000-Save_the_Date!_HR_Boot_Camp@meadowlands_tracker
-DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
- ntcalendar/Details/save-the-date-hr-boot-camp-1674824?sourceTypeId=Website
-LOCATION:See Link
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Breakfast Club - Live!
 DTSTART:20260515T080000
-DTEND:20260515T090000
-DTSTAMP:20260326T213926Z
+DTEND:20260515T093000
+DTSTAMP:20260326T221103Z
 UID:2026-05-15_080000-The_Breakfast_Club_-_Live!@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-live-12798
@@ -2632,10 +2622,20 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Save the Date! HR Boot Camp
+DTSTART:20260515T080000
+DTEND:20260515T120000
+DTSTAMP:20260326T221103Z
+UID:2026-05-15_080000-Save_the_Date!_HR_Boot_Camp@meadowlands_tracker
+DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
+ ntcalendar/Details/save-the-date-hr-boot-camp-1674824?sourceTypeId=Website
+LOCATION:See Link
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Energy & Environment Policy Committee Meeting – May 15
 DTSTART:20260515T090000
 DTEND:20260515T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-15_090000-Energy_&_Environment_Policy_Committee_Meeting_–_Ma
  y_15@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/energy-env
@@ -2645,8 +2645,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Connections Presented by Delta Dental
 DTSTART:20260515T160000
-DTEND:20260515T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260515T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-15_160000-Business_Connections_Presented_by_Delta_Dental@meado
  wlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -2657,7 +2657,7 @@ BEGIN:VEVENT
 SUMMARY:NJ Chamber Challenge Cup Golf Outing
 DTSTART:20260518T000000
 DTEND:20260518T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-18_000000-NJ_Chamber_Challenge_Cup_Golf_Outing@meadowlands_tra
  cker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/even
@@ -2667,18 +2667,28 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CIANJ's 58th Annual Golf Outing
 DTSTART:20260518T100000
-DTEND:20260518T110000
-DTSTAMP:20260326T213926Z
+DTEND:20260518T190000
+DTSTAMP:20260326T221103Z
 UID:2026-05-18_100000-CIANJ's_58th_Annual_Golf_Outing@meadowlands_tracker
 DESCRIPTION:Organization: CIANJ\nLink: https://members.cianj.org/calendar/
  Details/cianj-s-58th-annual-golf-outing-1651049?sourceTypeId=Website
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CCSNJ Day of Service
+DTSTART:20260519T090000
+DTEND:20260519T150000
+DTSTAMP:20260326T221103Z
+UID:2026-05-19_090000-CCSNJ_Day_of_Service@meadowlands_tracker
+DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
+ ntcalendar/Details/ccsnj-day-of-service-1673465?sourceTypeId=Website
+LOCATION:See Link
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Data-Driven Decision-Making for Leaders
 DTSTART:20260519T090000
 DTEND:20260519T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-19_090000-Data-Driven_Decision-Making_for_Leaders@meadowlands_
  tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/data-drive
@@ -2689,8 +2699,8 @@ BEGIN:VEVENT
 SUMMARY:Available Grants for Small Businesses: Understand types of grants\
  , eligibility\, and how to prepare
 DTSTART:20260519T090000
-DTEND:20260519T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260519T110000
+DTSTAMP:20260326T221103Z
 UID:2026-05-19_090000-Available_Grants_for_Small_Businesses_Understand_typ
  es_of_grants\,_eligibility\,_and_how_to_prepare@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2698,20 +2708,10 @@ DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
 LOCATION:NJSBDC at Stockton UniversityThe Authority Training Center
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CCSNJ Day of Service
-DTSTART:20260519T090000
-DTEND:20260519T100000
-DTSTAMP:20260326T213926Z
-UID:2026-05-19_090000-CCSNJ_Day_of_Service@meadowlands_tracker
-DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
- ntcalendar/Details/ccsnj-day-of-service-1673465?sourceTypeId=Website
-LOCATION:See Link
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Valor Awards Dinner Honoring our Heroes
 DTSTART:20260519T173000
 DTEND:20260519T183000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-19_173000-Valor_Awards_Dinner_Honoring_our_Heroes@meadowlands_
  tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -2720,22 +2720,11 @@ DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
 LOCATION:The Grand
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Community Leaders of Distinction 2026
-DTSTART:20260519T180000
-DTEND:20260519T190000
-DTSTAMP:20260326T213926Z
-UID:2026-05-19_180000-Community_Leaders_of_Distinction_2026@meadowlands_tr
- acker
-DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/communi
- ty-leaders-of-distinction-2026/
-LOCATION:See Link
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Available Grants for Small Businesses: Understand types of grants\
  , eligibility\, and how to prepare
 DTSTART:20260519T180000
-DTEND:20260519T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260519T200000
+DTSTAMP:20260326T221103Z
 UID:2026-05-19_180000-Available_Grants_for_Small_Businesses_Understand_typ
  es_of_grants\,_eligibility\,_and_how_to_prepare@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2746,7 +2735,7 @@ BEGIN:VEVENT
 SUMMARY:SIM1 Racing Grand Opening Networking Event
 DTSTART:20260519T180000
 DTEND:20260519T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-19_180000-SIM1_Racing_Grand_Opening_Networking_Event@meadowlan
  ds_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -2755,30 +2744,41 @@ DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
 LOCATION:SIM1 Racing
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MCEDC Municipal Roundtable
-DTSTART:20260520T160000
-DTEND:20260520T170000
-DTSTAMP:20260326T213926Z
-UID:2026-05-20_160000-MCEDC_Municipal_Roundtable@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13078
-LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
+SUMMARY:Community Leaders of Distinction 2026
+DTSTART:20260519T180000
+DTEND:20260519T203000
+DTSTAMP:20260326T221103Z
+UID:2026-05-19_180000-Community_Leaders_of_Distinction_2026@meadowlands_tr
+ acker
+DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/communi
+ ty-leaders-of-distinction-2026/
+LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tech Talk
 DTSTART:20260520T160000
-DTEND:20260520T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260520T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-20_160000-Tech_Talk@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13082
 LOCATION:1140 Parsippany Boulevard\, Parsippany\, NJ
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MCEDC Municipal Roundtable
+DTSTART:20260520T160000
+DTEND:20260520T160000
+DTSTAMP:20260326T221103Z
+UID:2026-05-20_160000-MCEDC_Municipal_Roundtable@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13078
+LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Game One: Softball vs. Rutherford Chamber (5/20/26)
 DTSTART:20260520T170000
 DTEND:20260520T180000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-20_170000-Game_One_Softball_vs._Rutherford_Chamber_(5/20/26)@m
  eadowlands_tracker
 DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
@@ -2790,7 +2790,7 @@ BEGIN:VEVENT
 SUMMARY:2026 State of the State of Manufacturing
 DTSTART:20260521T083000
 DTEND:20260521T093000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-21_083000-2026_State_of_the_State_of_Manufacturing@meadowlands
  _tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/2026-state
@@ -2801,7 +2801,7 @@ BEGIN:VEVENT
 SUMMARY:Content Marketing That Converts Customers
 DTSTART:20260521T160000
 DTEND:20260521T170000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-21_160000-Content_Marketing_That_Converts_Customers@meadowland
  s_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2811,8 +2811,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Women in Business Forum
 DTSTART:20260521T160000
-DTEND:20260521T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260521T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-21_160000-Women_in_Business_Forum@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13007
@@ -2821,8 +2821,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Memorial Day CHAMBER CLOSED
 DTSTART:20260525T160000
-DTEND:20260525T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260525T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-25_160000-Memorial_Day_CHAMBER_CLOSED@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12977
@@ -2831,8 +2831,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Future Members Meet Up
 DTSTART:20260526T160000
-DTEND:20260526T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260526T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-26_160000-Future_Members_Meet_Up@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13026
@@ -2841,8 +2841,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nonprofit Round Table (Virtual)
 DTSTART:20260526T160000
-DTEND:20260526T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260526T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-26_160000-Nonprofit_Round_Table_(Virtual)@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13045
@@ -2851,8 +2851,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:In-Person EBC May Roundtable Meeting
 DTSTART:20260527T080000
-DTEND:20260527T090000
-DTSTAMP:20260326T213926Z
+DTEND:20260527T093000
+DTSTAMP:20260326T221103Z
 UID:2026-05-27_080000-In-Person_EBC_May_Roundtable_Meeting@meadowlands_tra
  cker
 DESCRIPTION:Organization: CIANJ\nLink: https://members.cianj.org/calendar/
@@ -2863,8 +2863,8 @@ BEGIN:VEVENT
 SUMMARY:State Affairs Committee featuring Assembly Majority Leader Louis D
  . Greenwald
 DTSTART:20260527T083000
-DTEND:20260527T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260527T103000
+DTSTAMP:20260326T221103Z
 UID:2026-05-27_083000-State_Affairs_Committee_featuring_Assembly_Majority_
  Leader_Louis_D._Greenwald@meadowlands_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
@@ -2875,8 +2875,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NJThrivesVEE Connect& Inspire Breakfast Meetup
 DTSTART:20260527T090000
-DTEND:20260527T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260527T113000
+DTSTAMP:20260326T221103Z
 UID:2026-05-27_090000-NJThrivesVEE_Connect&_Inspire_Breakfast_Meetup@meado
  wlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2887,7 +2887,7 @@ BEGIN:VEVENT
 SUMMARY:AI\, Technology & Innovation Policy Committee Meeting – May 27
 DTSTART:20260527T090000
 DTEND:20260527T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-27_090000-AI\,_Technology_&_Innovation_Policy_Committee_Meetin
  g_–_May_27@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/ai-technol
@@ -2897,8 +2897,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at Morris Museum
 DTSTART:20260527T160000
-DTEND:20260527T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260527T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-27_160000-Network_After_Work_at_Morris_Museum@meadowlands_trac
  ker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -2909,7 +2909,7 @@ BEGIN:VEVENT
 SUMMARY:Game Two: Softball vs. Rutherford Chamber (5/27/26)
 DTSTART:20260527T170000
 DTEND:20260527T180000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-05-27_170000-Game_Two_Softball_vs._Rutherford_Chamber_(5/27/26)@m
  eadowlands_tracker
 DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
@@ -2918,21 +2918,10 @@ DESCRIPTION:Organization: Fort Lee Regional Chamber\nLink: https://www.for
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Washington Update with Rep. Tom Kean
-DTSTART:20260528T160000
-DTEND:20260528T170000
-DTSTAMP:20260326T213926Z
-UID:2026-05-28_160000-Washington_Update_with_Rep._Tom_Kean@meadowlands_tra
- cker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13100
-LOCATION:184 Park Avenue\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Maximize Your Membership
 DTSTART:20260528T160000
-DTEND:20260528T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260528T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-28_160000-Maximize_Your_Membership@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13021
@@ -2941,8 +2930,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Strategy Forum (Virtual)
 DTSTART:20260528T160000
-DTEND:20260528T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260528T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-28_160000-Business_Strategy_Forum_(Virtual)@meadowlands_tracke
  r
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -2950,10 +2939,21 @@ DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Washington Update with Rep. Tom Kean
+DTSTART:20260528T160000
+DTEND:20260528T160000
+DTSTAMP:20260326T221103Z
+UID:2026-05-28_160000-Washington_Update_with_Rep._Tom_Kean@meadowlands_tra
+ cker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13100
+LOCATION:184 Park Avenue\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Hudson Chamber Happy Hour
 DTSTART:20260528T173000
-DTEND:20260528T183000
-DTSTAMP:20260326T213926Z
+DTEND:20260528T193000
+DTSTAMP:20260326T221103Z
 UID:2026-05-28_173000-Hudson_Chamber_Happy_Hour@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-happy-hour-155
@@ -2963,8 +2963,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson County CASA 2026
 DTSTART:20260528T183000
-DTEND:20260528T193000
-DTSTAMP:20260326T213926Z
+DTEND:20260528T223000
+DTSTAMP:20260326T221103Z
 UID:2026-05-28_183000-Hudson_County_CASA_2026@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-county-casa-2026-16511
@@ -2974,8 +2974,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Power Lunch
 DTSTART:20260529T160000
-DTEND:20260529T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260529T160000
+DTSTAMP:20260326T221103Z
 UID:2026-05-29_160000-Power_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13096
@@ -2984,8 +2984,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Marketing Strategies for Small Business
 DTSTART:20260530T090000
-DTEND:20260530T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260530T140000
+DTSTAMP:20260326T221103Z
 UID:2026-05-30_090000-Marketing_Strategies_for_Small_Business@meadowlands_
  tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -2995,8 +2995,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Walk for a Lifetime
 DTSTART:20260531T120000
-DTEND:20260531T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260531T120000
+DTSTAMP:20260326T221103Z
 UID:2026-05-31_120000-A_Walk_for_a_Lifetime@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13116
@@ -3007,7 +3007,7 @@ BEGIN:VEVENT
 SUMMARY:Tech Forward NJ
 DTSTART:20260603T080000
 DTEND:20260603T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-03_080000-Tech_Forward_NJ@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/tech-forwa
  rd-nj/
@@ -3017,7 +3017,7 @@ BEGIN:VEVENT
 SUMMARY:Employment & Labor Policy Committee Meeting – June 3
 DTSTART:20260603T090000
 DTEND:20260603T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-03_090000-Employment_&_Labor_Policy_Committee_Meeting_–_June
  _3@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/employment
@@ -3027,8 +3027,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Foodpreneur: Recipe For Success Webinar
 DTSTART:20260603T123000
-DTEND:20260603T133000
-DTSTAMP:20260326T213926Z
+DTEND:20260603T143000
+DTSTAMP:20260326T221103Z
 UID:2026-06-03_123000-Foodpreneur_Recipe_For_Success_Webinar@meadowlands_t
  racker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3036,20 +3036,10 @@ DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
 LOCATION:OnlineFacilitated by NJSBDC at Rutgers - Newark
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Food Innovation
-DTSTART:20260603T150000
-DTEND:20260603T160000
-DTSTAMP:20260326T213926Z
-UID:2026-06-03_150000-Food_Innovation@meadowlands_tracker
-DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
- p.aspx?ekey=10460032
-LOCATION:OnlineFacilitated by NJSBDC at Rutgers - Newark
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Women of Commerce Tea Party 2026
 DTSTART:20260603T150000
-DTEND:20260603T160000
-DTSTAMP:20260326T213926Z
+DTEND:20260603T180000
+DTSTAMP:20260326T221103Z
 UID:2026-06-03_150000-Women_of_Commerce_Tea_Party_2026@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/women-of-commerce-tea-party-2
@@ -3057,10 +3047,20 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Food Innovation
+DTSTART:20260603T150000
+DTEND:20260603T170000
+DTSTAMP:20260326T221103Z
+UID:2026-06-03_150000-Food_Innovation@meadowlands_tracker
+DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
+ p.aspx?ekey=10460032
+LOCATION:OnlineFacilitated by NJSBDC at Rutgers - Newark
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Networking at Morton’s Steakhouse – June 3rd\, 2026
 DTSTART:20260603T180000
-DTEND:20260603T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260603T200000
+DTSTAMP:20260326T221103Z
 UID:2026-06-03_180000-Networking_at_Morton’s_Steakhouse_–_June_3rd\,_2
  026@meadowlands_tracker
 DESCRIPTION:Organization: Bergen County Chamber\nLink: https://bergencount
@@ -3071,8 +3071,8 @@ BEGIN:VEVENT
 SUMMARY:Save the Date! Women's Conference: Women in Business at America 25
  0
 DTSTART:20260604T080000
-DTEND:20260604T090000
-DTSTAMP:20260326T213926Z
+DTEND:20260604T121500
+DTSTAMP:20260326T221103Z
 UID:2026-06-04_080000-Save_the_Date!_Women's_Conference_Women_in_Business_
  at_America_250@meadowlands_tracker
 DESCRIPTION:Organization: CCSNJ\nLink: https://business.chambersnj.com/eve
@@ -3085,7 +3085,7 @@ SUMMARY:AI for Small Businesses – Streamlining Operations and Boosting R
  evenue
 DTSTART:20260604T090000
 DTEND:20260604T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-04_090000-AI_for_Small_Businesses_–_Streamlining_Operations_
  and_Boosting_Revenue@meadowlands_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/comp
@@ -3095,8 +3095,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Development Forum
 DTSTART:20260604T160000
-DTEND:20260604T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260604T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-04_160000-Business_Development_Forum@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13017
@@ -3106,8 +3106,8 @@ BEGIN:VEVENT
 SUMMARY:AI Masterclass PART 2: The AI CEO Toolkit: Leverage Generative AI 
  to Accelerate Your Business Growth
 DTSTART:20260605T100000
-DTEND:20260605T110000
-DTSTAMP:20260326T213926Z
+DTEND:20260605T130000
+DTSTAMP:20260326T221103Z
 UID:2026-06-05_100000-AI_Masterclass_PART_2_The_AI_CEO_Toolkit_Leverage_Ge
  nerative_AI_to_Accelerate_Your_Business_Growth@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3117,8 +3117,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:First Step to Entrepreneurship Q&A
 DTSTART:20260606T090000
-DTEND:20260606T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260606T110000
+DTSTAMP:20260326T221103Z
 UID:2026-06-06_090000-First_Step_to_Entrepreneurship_Q&A@meadowlands_track
  er
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3128,8 +3128,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Spring Golf Classic
 DTSTART:20260608T160000
-DTEND:20260608T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260608T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-08_160000-Spring_Golf_Classic@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12754
@@ -3138,8 +3138,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Make Mine A Million Dollar Business
 DTSTART:20260609T090000
-DTEND:20260609T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260609T120000
+DTSTAMP:20260326T221103Z
 UID:2026-06-09_090000-Make_Mine_A_Million_Dollar_Business@meadowlands_trac
  ker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3149,8 +3149,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrepreneur Round Table (Virtual)
 DTSTART:20260609T160000
-DTEND:20260609T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260609T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-09_160000-Entrepreneur_Round_Table_(Virtual)@meadowlands_track
  er
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3161,7 +3161,7 @@ BEGIN:VEVENT
 SUMMARY:Juneteenth Business Expo
 DTSTART:20260610T000000
 DTEND:20260610T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-10_000000-Juneteenth_Business_Expo@meadowlands_tracker
 DESCRIPTION:Organization: AACCNJ\nLink: https://www.aaccnj.com/calendar-of
  -events
@@ -3171,7 +3171,7 @@ BEGIN:VEVENT
 SUMMARY:Government Affairs Policy Committee Mtg. – June 10
 DTSTART:20260610T090000
 DTEND:20260610T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-10_090000-Government_Affairs_Policy_Committee_Mtg._–_June_10
  @meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/government
@@ -3182,7 +3182,7 @@ BEGIN:VEVENT
 SUMMARY:Choosing the Right Coverage: What You Need to Know
 DTSTART:20260610T110000
 DTEND:20260610T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-10_110000-Choosing_the_Right_Coverage_What_You_Need_to_Know@me
  adowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/choosing-t
@@ -3192,8 +3192,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Health & Wellness Forum
 DTSTART:20260610T160000
-DTEND:20260610T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260610T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-10_160000-Health_&_Wellness_Forum@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13013
@@ -3202,8 +3202,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20260611T120000
-DTEND:20260611T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260611T131500
+DTSTAMP:20260326T221103Z
 UID:2026-06-11_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -3211,10 +3211,20 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MCEDC Advisory Board
+DTSTART:20260611T160000
+DTEND:20260611T160000
+DTSTAMP:20260326T221103Z
+UID:2026-06-11_160000-MCEDC_Advisory_Board@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13079
+LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:NJ Chamber Open House and Reception
 DTSTART:20260611T160000
-DTEND:20260611T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260611T200000
+DTSTAMP:20260326T221103Z
 UID:2026-06-11_160000-NJ_Chamber_Open_House_and_Reception@meadowlands_trac
  ker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/comp
@@ -3222,20 +3232,10 @@ DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/comp
 LOCATION:New Jersey State Museum\, Trenton
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MCEDC Advisory Board
-DTSTART:20260611T160000
-DTEND:20260611T170000
-DTSTAMP:20260326T213926Z
-UID:2026-06-11_160000-MCEDC_Advisory_Board@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13079
-LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Breakfast Club - Virtual
 DTSTART:20260612T080000
 DTEND:20260612T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-12_080000-The_Breakfast_Club_-_Virtual@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-virtual-12
@@ -3246,7 +3246,7 @@ BEGIN:VEVENT
 SUMMARY:Second Annual Men&#8217\;s Titan Conference
 DTSTART:20260612T110000
 DTEND:20260612T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-12_110000-Second_Annual_Men&#8217\;s_Titan_Conference@meadowla
  nds_tracker
 DESCRIPTION:Organization: North Jersey Chamber\nLink: https://northjerseyc
@@ -3257,8 +3257,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Pride Center: 5th Annual LGBTQ+ Prom Gala
 DTSTART:20260612T190000
-DTEND:20260612T200000
-DTSTAMP:20260326T213926Z
+DTEND:20260612T220000
+DTSTAMP:20260326T221103Z
 UID:2026-06-12_190000-Hudson_Pride_Center_5th_Annual_LGBTQ+_Prom_Gala@mead
  owlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -3269,8 +3269,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:eCommerce Planning Pt1: The Basics
 DTSTART:20260613T090000
-DTEND:20260613T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260613T110000
+DTSTAMP:20260326T221103Z
 UID:2026-06-13_090000-eCommerce_Planning_Pt1_The_Basics@meadowlands_tracke
  r
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3280,8 +3280,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:eCommerce Planning Pt.2: Grow Beyond Startup Webinar
 DTSTART:20260613T110000
-DTEND:20260613T120000
-DTSTAMP:20260326T213926Z
+DTEND:20260613T130000
+DTSTAMP:20260326T221103Z
 UID:2026-06-13_110000-eCommerce_Planning_Pt.2_Grow_Beyond_Startup_Webinar@
  meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3291,8 +3291,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flag Day
 DTSTART:20260614T160000
-DTEND:20260614T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260614T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-14_160000-Flag_Day@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12978
@@ -3303,7 +3303,7 @@ SUMMARY:Mastering Priorities\, Delegation\, and High-Performance Collabora
  tion
 DTSTART:20260616T090000
 DTEND:20260616T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-16_090000-Mastering_Priorities\,_Delegation\,_and_High-Perform
  ance_Collaboration@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/mastering-
@@ -3314,8 +3314,8 @@ BEGIN:VEVENT
 SUMMARY:Government Contracting Opportunities in NJ: Introduction to state 
  and local contracting.
 DTSTART:20260616T090000
-DTEND:20260616T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260616T110000
+DTSTAMP:20260326T221103Z
 UID:2026-06-16_090000-Government_Contracting_Opportunities_in_NJ_Introduct
  ion_to_state_and_local_contracting.@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3325,8 +3325,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Strategic Networking Workshop
 DTSTART:20260616T160000
-DTEND:20260616T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260616T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-16_160000-Strategic_Networking_Workshop@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13058
@@ -3336,8 +3336,8 @@ BEGIN:VEVENT
 SUMMARY:Government Contracting Opportunities in NJ: Introduction to state 
  and local contracting.
 DTSTART:20260616T180000
-DTEND:20260616T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260616T200000
+DTSTAMP:20260326T221103Z
 UID:2026-06-16_180000-Government_Contracting_Opportunities_in_NJ_Introduct
  ion_to_state_and_local_contracting.@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3348,7 +3348,7 @@ BEGIN:VEVENT
 SUMMARY:Taxation & Economic Development Policy Committee Mtg. – June 17
 DTSTART:20260617T090000
 DTEND:20260617T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-17_090000-Taxation_&_Economic_Development_Policy_Committee_Mtg
  ._–_June_17@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/taxation-e
@@ -3356,21 +3356,10 @@ DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/taxation-e
 LOCATION:Policy Committee Meeting
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Creating a Roadmap to Your Family's Financial Future
-DTSTART:20260617T160000
-DTEND:20260617T170000
-DTSTAMP:20260326T213926Z
-UID:2026-06-17_160000-Creating_a_Roadmap_to_Your_Family's_Financial_Future
- @meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13124
-LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Business Finance Performance - Level 2
 DTSTART:20260617T160000
 DTEND:20260617T170000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-17_160000-Business_Finance_Performance_-_Level_2@meadowlands_t
  racker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3378,11 +3367,22 @@ DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
 LOCATION:OnlineFacilitated by NJSBDC at Rutgers - Camden
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Creating a Roadmap to Your Family's Financial Future
+DTSTART:20260617T160000
+DTEND:20260617T160000
+DTSTAMP:20260326T221103Z
+UID:2026-06-17_160000-Creating_a_Roadmap_to_Your_Family's_Financial_Future
+ @meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13124
+LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Business Finance Performance Level 2: Improve Unit Economics\, Pro
  fitability\, and Operational Metrics
 DTSTART:20260617T160000
 DTEND:20260617T170000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-17_160000-Business_Finance_Performance_Level_2_Improve_Unit_Ec
  onomics\,_Profitability\,_and_Operational_Metrics@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3392,8 +3392,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:New Tax Changes for Small Businesses Webinar
 DTSTART:20260618T150000
-DTEND:20260618T160000
-DTSTAMP:20260326T213926Z
+DTEND:20260618T170000
+DTSTAMP:20260326T221103Z
 UID:2026-06-18_150000-New_Tax_Changes_for_Small_Businesses_Webinar@meadowl
  ands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3403,8 +3403,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at the AVE Florham Park
 DTSTART:20260618T160000
-DTEND:20260618T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260618T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-18_160000-Network_After_Work_at_the_AVE_Florham_Park@meadowlan
  ds_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3414,8 +3414,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Women in Business Forum
 DTSTART:20260618T160000
-DTEND:20260618T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260618T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-18_160000-Women_in_Business_Forum@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13008
@@ -3424,8 +3424,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Juneteenth
 DTSTART:20260619T160000
-DTEND:20260619T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260619T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-19_160000-Juneteenth@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12979
@@ -3434,8 +3434,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Connections Presented by Delta Dental
 DTSTART:20260619T160000
-DTEND:20260619T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260619T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-19_160000-Business_Connections_Presented_by_Delta_Dental@meado
  wlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3446,8 +3446,8 @@ BEGIN:VEVENT
 SUMMARY:Soccer Matches & World-Class Connections: CIANJ's International Ne
  tworking Watch Party
 DTSTART:20260623T150000
-DTEND:20260623T160000
-DTSTAMP:20260326T213926Z
+DTEND:20260623T190000
+DTSTAMP:20260326T221103Z
 UID:2026-06-23_150000-Soccer_Matches_&_World-Class_Connections_CIANJ's_Int
  ernational_Networking_Watch_Party@meadowlands_tracker
 DESCRIPTION:Organization: CIANJ\nLink: https://members.cianj.org/calendar/
@@ -3456,10 +3456,32 @@ DESCRIPTION:Organization: CIANJ\nLink: https://members.cianj.org/calendar/
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Nonprofit Round Table (In Person)
+DTSTART:20260623T160000
+DTEND:20260623T160000
+DTSTAMP:20260326T221103Z
+UID:2026-06-23_160000-Nonprofit_Round_Table_(In_Person)@meadowlands_tracke
+ r
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13046
+LOCATION:325 Columbia Turnpike - Suite 101\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NJ Statewide Multicultural Business Expo 2026
+DTSTART:20260623T160000
+DTEND:20260623T193000
+DTSTAMP:20260326T221103Z
+UID:2026-06-23_160000-NJ_Statewide_Multicultural_Business_Expo_2026@meadow
+ lands_tracker
+DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/nj-stat
+ ewide-multicultural-business-expo-2026/
+LOCATION:Pines Manor
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Future Members Meet Up
 DTSTART:20260623T160000
-DTEND:20260623T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260623T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-23_160000-Future_Members_Meet_Up@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13027
@@ -3469,7 +3491,7 @@ BEGIN:VEVENT
 SUMMARY:Current Government Contracting Opportunities in NJ
 DTSTART:20260623T160000
 DTEND:20260623T170000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-23_160000-Current_Government_Contracting_Opportunities_in_NJ@m
  eadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3477,32 +3499,10 @@ DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
 LOCATION:OnlineFacilitated by NJSBDC at Rutgers - Camden
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:NJ Statewide Multicultural Business Expo 2026
-DTSTART:20260623T160000
-DTEND:20260623T170000
-DTSTAMP:20260326T213926Z
-UID:2026-06-23_160000-NJ_Statewide_Multicultural_Business_Expo_2026@meadow
- lands_tracker
-DESCRIPTION:Organization: MCRCC\nLink: https://www.mcrcc.org/event/nj-stat
- ewide-multicultural-business-expo-2026/
-LOCATION:Pines Manor
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Nonprofit Round Table (In Person)
-DTSTART:20260623T160000
-DTEND:20260623T170000
-DTSTAMP:20260326T213926Z
-UID:2026-06-23_160000-Nonprofit_Round_Table_(In_Person)@meadowlands_tracke
- r
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13046
-LOCATION:325 Columbia Turnpike - Suite 101\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:NJThrivesVEE Virtual Business Speed Networking
 DTSTART:20260624T090000
-DTEND:20260624T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260624T110000
+DTSTAMP:20260326T221103Z
 UID:2026-06-24_090000-NJThrivesVEE_Virtual_Business_Speed_Networking@meado
  wlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3515,7 +3515,7 @@ SUMMARY:Strengthening Rural Businesses by Addressing Financial and Operati
  onal Risks Proactively
 DTSTART:20260624T160000
 DTEND:20260624T170000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-06-24_160000-Strengthening_Rural_Businesses_by_Addressing_Financi
  al_and_Operational_Risks_Proactively@meadowlands_tracker
 DESCRIPTION:Organization: NJSBDC\nLink: https://clients.njsbdc.com/worksho
@@ -3525,8 +3525,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Strategy Forum (Virtual)
 DTSTART:20260625T160000
-DTEND:20260625T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260625T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-25_160000-Business_Strategy_Forum_(Virtual)@meadowlands_tracke
  r
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3536,8 +3536,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maximize Your Membership
 DTSTART:20260625T160000
-DTEND:20260625T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260625T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-25_160000-Maximize_Your_Membership@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13022
@@ -3546,8 +3546,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Power Lunch
 DTSTART:20260626T160000
-DTEND:20260626T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260626T160000
+DTSTAMP:20260326T221103Z
 UID:2026-06-26_160000-Power_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13098
@@ -3556,8 +3556,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Independence Day (Observed) CHAMBER CLOSED
 DTSTART:20260703T160000
-DTEND:20260703T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260703T160000
+DTSTAMP:20260326T221103Z
 UID:2026-07-03_160000-Independence_Day_(Observed)_CHAMBER_CLOSED@meadowlan
  ds_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3567,8 +3567,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:250th Independence Day
 DTSTART:20260704T160000
-DTEND:20260704T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260704T160000
+DTSTAMP:20260326T221103Z
 UID:2026-07-04_160000-250th_Independence_Day@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12981
@@ -3577,8 +3577,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20260709T120000
-DTEND:20260709T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260709T131500
+DTSTAMP:20260326T221103Z
 UID:2026-07-09_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -3588,8 +3588,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrepreneur Round Table (Virtual)
 DTSTART:20260714T160000
-DTEND:20260714T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260714T160000
+DTSTAMP:20260326T221103Z
 UID:2026-07-14_160000-Entrepreneur_Round_Table_(Virtual)@meadowlands_track
  er
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3599,8 +3599,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tech Talk
 DTSTART:20260715T160000
-DTEND:20260715T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260715T160000
+DTSTAMP:20260326T221103Z
 UID:2026-07-15_160000-Tech_Talk@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13083
@@ -3609,8 +3609,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Networking Event – Fogo de Chão in Paramus\, NJ – July 15th
 DTSTART:20260715T180000
-DTEND:20260715T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260715T200000
+DTSTAMP:20260326T221103Z
 UID:2026-07-15_180000-Networking_Event_–_Fogo_de_Chão_in_Paramus\,_NJ_
  –_July_15th@meadowlands_tracker
 DESCRIPTION:Organization: Bergen County Chamber\nLink: https://bergencount
@@ -3621,7 +3621,7 @@ BEGIN:VEVENT
 SUMMARY:Let's Do Lunch at Nico Kitchen+Bar
 DTSTART:20260716T120000
 DTEND:20260716T130000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-07-16_120000-Let's_Do_Lunch_at_Nico_Kitchen+Bar@meadowlands_track
  er
 DESCRIPTION:Organization: NRBP\nLink: https://web.newarkrbp.org/events/Let
@@ -3632,8 +3632,8 @@ BEGIN:VEVENT
 SUMMARY:Network After Work at The Shakespeare Theatre (Show Included) - Fr
  ee Limited Tickets
 DTSTART:20260716T160000
-DTEND:20260716T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260716T160000
+DTSTAMP:20260326T221103Z
 UID:2026-07-16_160000-Network_After_Work_at_The_Shakespeare_Theatre_(Show_
  Included)_-_Free_Limited_Tickets@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3643,8 +3643,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Breakfast Club - Live!
 DTSTART:20260717T080000
-DTEND:20260717T090000
-DTSTAMP:20260326T213926Z
+DTEND:20260717T093000
+DTSTAMP:20260326T221103Z
 UID:2026-07-17_080000-The_Breakfast_Club_-_Live!@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-live-12798
@@ -3656,7 +3656,7 @@ SUMMARY:Education & Workforce Development Policy Committee Mtg. – July 1
  7
 DTSTART:20260717T090000
 DTEND:20260717T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-07-17_090000-Education_&_Workforce_Development_Policy_Committee_M
  tg._–_July_17@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/education-
@@ -3666,8 +3666,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Connections Presented by Delta Dental
 DTSTART:20260717T160000
-DTEND:20260717T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260717T160000
+DTSTAMP:20260326T221103Z
 UID:2026-07-17_160000-Business_Connections_Presented_by_Delta_Dental@meado
  wlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3678,7 +3678,7 @@ BEGIN:VEVENT
 SUMMARY:Annuak Golf Classic
 DTSTART:20260720T000000
 DTEND:20260720T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-07-20_000000-Annuak_Golf_Classic@meadowlands_tracker
 DESCRIPTION:Organization: AACCNJ\nLink: https://www.aaccnj.com/calendar-of
  -events
@@ -3687,8 +3687,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Morning Mingle & Mixer: A Summer Networking Event!
 DTSTART:20260722T083000
-DTEND:20260722T093000
-DTSTAMP:20260326T213926Z
+DTEND:20260722T103000
+DTSTAMP:20260326T221103Z
 UID:2026-07-22_083000-Morning_Mingle_&_Mixer_A_Summer_Networking_Event!@me
  adowlands_tracker
 DESCRIPTION:Organization: CIANJ\nLink: https://members.cianj.org/calendar/
@@ -3699,8 +3699,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Life Sciences Luncheon
 DTSTART:20260722T160000
-DTEND:20260722T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260722T160000
+DTSTAMP:20260326T221103Z
 UID:2026-07-22_160000-Life_Sciences_Luncheon@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13109
@@ -3709,8 +3709,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Power Lunch
 DTSTART:20260724T160000
-DTEND:20260724T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260724T160000
+DTSTAMP:20260326T221103Z
 UID:2026-07-24_160000-Power_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13164
@@ -3719,8 +3719,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:So\, You Think You Can Golf? Clinic
 DTSTART:20260727T090000
-DTEND:20260727T100000
-DTSTAMP:20260326T213926Z
+DTEND:20260727T133000
+DTSTAMP:20260326T221103Z
 UID:2026-07-27_090000-So\,_You_Think_You_Can_Golf?_Clinic@meadowlands_trac
  ker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -3731,8 +3731,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at The Olde Mill Inn & Grain House
 DTSTART:20260729T160000
-DTEND:20260729T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260729T160000
+DTSTAMP:20260326T221103Z
 UID:2026-07-29_160000-Network_After_Work_at_The_Olde_Mill_Inn_&_Grain_Hous
  e@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3742,8 +3742,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at Long Valley Pub and Brewery
 DTSTART:20260812T160000
-DTEND:20260812T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260812T160000
+DTSTAMP:20260326T221103Z
 UID:2026-08-12_160000-Network_After_Work_at_Long_Valley_Pub_and_Brewery@me
  adowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3753,8 +3753,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Senior Living Series
 DTSTART:20260812T160000
-DTEND:20260812T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260812T160000
+DTSTAMP:20260326T221103Z
 UID:2026-08-12_160000-Senior_Living_Series@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12958
@@ -3764,8 +3764,8 @@ BEGIN:VEVENT
 SUMMARY:Networking Event – The Roosevelt in East Rutherford\, NJ – Aug
  ust 12th
 DTSTART:20260812T180000
-DTEND:20260812T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260812T200000
+DTSTAMP:20260326T221103Z
 UID:2026-08-12_180000-Networking_Event_–_The_Roosevelt_in_East_Rutherfor
  d\,_NJ_–_August_12th@meadowlands_tracker
 DESCRIPTION:Organization: Bergen County Chamber\nLink: https://bergencount
@@ -3776,8 +3776,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20260813T120000
-DTEND:20260813T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260813T131500
+DTSTAMP:20260326T221103Z
 UID:2026-08-13_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -3788,7 +3788,7 @@ BEGIN:VEVENT
 SUMMARY:The Courage to Lead
 DTSTART:20260818T090000
 DTEND:20260818T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-08-18_090000-The_Courage_to_Lead@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/the-courag
  e-to-lead/
@@ -3797,8 +3797,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Power Lunch
 DTSTART:20260819T160000
-DTEND:20260819T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260819T160000
+DTSTAMP:20260326T221103Z
 UID:2026-08-19_160000-Power_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13165
@@ -3808,7 +3808,7 @@ BEGIN:VEVENT
 SUMMARY:The Breakfast Club - Virtual
 DTSTART:20260821T080000
 DTEND:20260821T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-08-21_080000-The_Breakfast_Club_-_Virtual@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-virtual-12
@@ -3818,8 +3818,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Connections Presented by Delta Dental
 DTSTART:20260821T160000
-DTEND:20260821T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260821T160000
+DTSTAMP:20260326T221103Z
 UID:2026-08-21_160000-Business_Connections_Presented_by_Delta_Dental@meado
  wlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3829,8 +3829,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at Morris Museum
 DTSTART:20260826T160000
-DTEND:20260826T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260826T160000
+DTSTAMP:20260326T221103Z
 UID:2026-08-26_160000-Network_After_Work_at_Morris_Museum@meadowlands_trac
  ker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3840,8 +3840,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Happy Hour
 DTSTART:20260827T173000
-DTEND:20260827T183000
-DTSTAMP:20260326T213926Z
+DTEND:20260827T193000
+DTSTAMP:20260326T221103Z
 UID:2026-08-27_173000-Hudson_Chamber_Happy_Hour@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-happy-hour-155
@@ -3851,8 +3851,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Labor Day CHAMBER CLOSED
 DTSTART:20260907T160000
-DTEND:20260907T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260907T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-07_160000-Labor_Day_CHAMBER_CLOSED@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12982
@@ -3862,7 +3862,7 @@ BEGIN:VEVENT
 SUMMARY:Energy & Environment Policy Committee Meeting – September 8
 DTSTART:20260908T090000
 DTEND:20260908T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-09-08_090000-Energy_&_Environment_Policy_Committee_Meeting_–_Se
  ptember_8@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/energy-env
@@ -3874,7 +3874,7 @@ SUMMARY:Protecting Your Brand – Reputation & Risk Management in a Digita
  l Age
 DTSTART:20260910T090000
 DTEND:20260910T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-09-10_090000-Protecting_Your_Brand_–_Reputation_&_Risk_Manageme
  nt_in_a_Digital_Age@meadowlands_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/comp
@@ -3884,8 +3884,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20260910T120000
-DTEND:20260910T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260910T131500
+DTSTAMP:20260326T221103Z
 UID:2026-09-10_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -3895,8 +3895,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at the AVE Florham Park
 DTSTART:20260910T160000
-DTEND:20260910T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260910T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-10_160000-Network_After_Work_at_the_AVE_Florham_Park@meadowlan
  ds_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3906,8 +3906,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rosh Hashanah Begins at Sunset
 DTSTART:20260911T160000
-DTEND:20260911T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260911T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-11_160000-Rosh_Hashanah_Begins_at_Sunset@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12983
@@ -3916,8 +3916,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mike Conley Memorial "Fore the Kids" Golf Tournament
 DTSTART:20260914T120000
-DTEND:20260914T130000
-DTSTAMP:20260326T213926Z
+DTEND:20260914T120000
+DTSTAMP:20260326T221103Z
 UID:2026-09-14_120000-Mike_Conley_Memorial_"Fore_the_Kids"_Golf_Tournament
  @meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3926,10 +3926,20 @@ LOCATION:Crestmont Country Club: 750 Eagle Rock Ave\, West Orange\, NJ 070
  52\, 750 Eagle Rock Ave\, West Orange
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Strategic Networking Workshop
+DTSTART:20260915T160000
+DTEND:20260915T160000
+DTSTAMP:20260326T221103Z
+UID:2026-09-15_160000-Strategic_Networking_Workshop@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/13059
+LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Entrepreneur Round Table (Virtual)
 DTSTART:20260915T160000
-DTEND:20260915T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260915T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-15_160000-Entrepreneur_Round_Table_(Virtual)@meadowlands_track
  er
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -3937,20 +3947,10 @@ DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
 LOCATION:Florham Park\, ND
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Strategic Networking Workshop
-DTSTART:20260915T160000
-DTEND:20260915T170000
-DTSTAMP:20260326T213926Z
-UID:2026-09-15_160000-Strategic_Networking_Workshop@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/13059
-LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Quarterly Financial Forum
 DTSTART:20260916T160000
-DTEND:20260916T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260916T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-16_160000-Quarterly_Financial_Forum@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13122
@@ -3959,8 +3959,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tech Talk
 DTSTART:20260916T160000
-DTEND:20260916T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260916T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-16_160000-Tech_Talk@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13084
@@ -3970,8 +3970,8 @@ BEGIN:VEVENT
 SUMMARY:Networking Event – Fogo de Chão in Paramus\, NJ – September 1
  6
 DTSTART:20260916T180000
-DTEND:20260916T190000
-DTSTAMP:20260326T213926Z
+DTEND:20260916T200000
+DTSTAMP:20260326T221103Z
 UID:2026-09-16_180000-Networking_Event_–_Fogo_de_Chão_in_Paramus\,_NJ_
  –_September_16@meadowlands_tracker
 DESCRIPTION:Organization: Bergen County Chamber\nLink: https://bergencount
@@ -3984,7 +3984,7 @@ SUMMARY:Leadership Roundtable with the Statewide Hispanic Chamber of Comme
  rce of New Jersey
 DTSTART:20260917T180000
 DTEND:20260917T190000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-09-17_180000-Leadership_Roundtable_with_the_Statewide_Hispanic_Ch
  amber_of_Commerce_of_New_Jersey@meadowlands_tracker
 DESCRIPTION:Organization: NRBP\nLink: https://web.newarkrbp.org/events/Lea
@@ -3995,8 +3995,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Breakfast Club - Live!
 DTSTART:20260918T080000
-DTEND:20260918T090000
-DTSTAMP:20260326T213926Z
+DTEND:20260918T093000
+DTSTAMP:20260326T221103Z
 UID:2026-09-18_080000-The_Breakfast_Club_-_Live!@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-live-12798
@@ -4008,7 +4008,7 @@ SUMMARY:AI\, Technology & Innovation Policy Committee Meeting – Septembe
  r 18
 DTSTART:20260918T090000
 DTEND:20260918T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-09-18_090000-AI\,_Technology_&_Innovation_Policy_Committee_Meetin
  g_–_September_18@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/ai-technol
@@ -4018,8 +4018,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Connections Presented by Delta Dental
 DTSTART:20260918T160000
-DTEND:20260918T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260918T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-18_160000-Business_Connections_Presented_by_Delta_Dental@meado
  wlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4029,8 +4029,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Yom Kippur Begins at Sunset
 DTSTART:20260920T160000
-DTEND:20260920T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260920T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-20_160000-Yom_Kippur_Begins_at_Sunset@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12984
@@ -4040,7 +4040,7 @@ BEGIN:VEVENT
 SUMMARY:BIO International Convention 2026
 DTSTART:20260922T000000
 DTEND:20260922T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-09-22_000000-BIO_International_Convention_2026@meadowlands_tracke
  r
 DESCRIPTION:Organization: Choose New Jersey\nLink: https://choosenj.com/ev
@@ -4050,8 +4050,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Life Sciences & Healthcare Forum at Sanofi
 DTSTART:20260922T160000
-DTEND:20260922T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260922T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-22_160000-Life_Sciences_&_Healthcare_Forum_at_Sanofi@meadowlan
  ds_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4062,7 +4062,7 @@ BEGIN:VEVENT
 SUMMARY:12th Annual Women Business Leaders Forum
 DTSTART:20260923T000000
 DTEND:20260923T010000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-09-23_000000-12th_Annual_Women_Business_Leaders_Forum@meadowlands
  _tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/wblf2026/
@@ -4071,8 +4071,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Higher Education Symposium
 DTSTART:20260925T080000
-DTEND:20260925T090000
-DTSTAMP:20260326T213926Z
+DTEND:20260925T130000
+DTSTAMP:20260326T221103Z
 UID:2026-09-25_080000-Higher_Education_Symposium@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/higher-education-symposium-16
@@ -4082,8 +4082,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Power Lunch
 DTSTART:20260925T160000
-DTEND:20260925T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260925T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-25_160000-Power_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13166
@@ -4092,8 +4092,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fall Golf Classic - 9 or 18 Holes
 DTSTART:20260928T160000
-DTEND:20260928T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260928T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-28_160000-Fall_Golf_Classic_-_9_or_18_Holes@meadowlands_tracke
  r
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4103,8 +4103,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at Delaney at the Green
 DTSTART:20260930T160000
-DTEND:20260930T170000
-DTSTAMP:20260326T213926Z
+DTEND:20260930T160000
+DTSTAMP:20260326T221103Z
 UID:2026-09-30_160000-Network_After_Work_at_Delaney_at_the_Green@meadowlan
  ds_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4115,7 +4115,7 @@ BEGIN:VEVENT
 SUMMARY:Manufacturing Counts Committee Meeting – Oct. 7
 DTSTART:20261007T090000
 DTEND:20261007T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-10-07_090000-Manufacturing_Counts_Committee_Meeting_–_Oct._7@me
  adowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/manufactur
@@ -4126,7 +4126,7 @@ BEGIN:VEVENT
 SUMMARY:Choosing the Right Coverage: What You Need to Know
 DTSTART:20261007T110000
 DTEND:20261007T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-10-07_110000-Choosing_the_Right_Coverage_What_You_Need_to_Know@me
  adowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/choosing-t
@@ -4136,8 +4136,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at Long Valley Pub and Brewery
 DTSTART:20261007T160000
-DTEND:20261007T170000
-DTSTAMP:20260326T213926Z
+DTEND:20261007T160000
+DTSTAMP:20260326T221103Z
 UID:2026-10-07_160000-Network_After_Work_at_Long_Valley_Pub_and_Brewery@me
  adowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4147,8 +4147,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20261008T120000
-DTEND:20261008T130000
-DTSTAMP:20260326T213926Z
+DTEND:20261008T131500
+DTSTAMP:20260326T221103Z
 UID:2026-10-08_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -4158,8 +4158,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HOLA New Jersey Expo & Conference
 DTSTART:20261010T173000
-DTEND:20261010T183000
-DTSTAMP:20260326T213926Z
+DTEND:20261010T200000
+DTSTAMP:20260326T221103Z
 UID:2026-10-10_173000-HOLA_New_Jersey_Expo_&_Conference@meadowlands_tracke
  r
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -4170,8 +4170,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Columbus Day / Indigenous Peoples' Day
 DTSTART:20261012T160000
-DTEND:20261012T170000
-DTSTAMP:20260326T213926Z
+DTEND:20261012T160000
+DTSTAMP:20260326T221103Z
 UID:2026-10-12_160000-Columbus_Day_/_Indigenous_Peoples'_Day@meadowlands_t
  racker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4182,7 +4182,7 @@ BEGIN:VEVENT
 SUMMARY:Nine & Dine – Midday Edition
 DTSTART:20261014T110000
 DTEND:20261014T120000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-10-14_110000-Nine_&_Dine_–_Midday_Edition@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/nine-dine-
  midday-edition/
@@ -4192,7 +4192,7 @@ BEGIN:VEVENT
 SUMMARY:The Breakfast Club - Virtual
 DTSTART:20261016T080000
 DTEND:20261016T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-10-16_080000-The_Breakfast_Club_-_Virtual@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-virtual-12
@@ -4202,8 +4202,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Connections Presented by Delta Dental
 DTSTART:20261016T160000
-DTEND:20261016T170000
-DTSTAMP:20260326T213926Z
+DTEND:20261016T160000
+DTSTAMP:20260326T221103Z
 UID:2026-10-16_160000-Business_Connections_Presented_by_Delta_Dental@meado
  wlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4213,8 +4213,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Liberty Cup Golf Outing
 DTSTART:20261019T103000
-DTEND:20261019T113000
-DTSTAMP:20260326T213926Z
+DTEND:20261019T190000
+DTSTAMP:20260326T221103Z
 UID:2026-10-19_103000-Liberty_Cup_Golf_Outing@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/liberty-cup-golf-outing-15447
@@ -4225,7 +4225,7 @@ BEGIN:VEVENT
 SUMMARY:Leading Organizational Change with Confidence
 DTSTART:20261020T090000
 DTEND:20261020T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-10-20_090000-Leading_Organizational_Change_with_Confidence@meadow
  lands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/leading-or
@@ -4235,8 +4235,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrepreneur Round Table (Virtual)
 DTSTART:20261020T160000
-DTEND:20261020T170000
-DTSTAMP:20260326T213926Z
+DTEND:20261020T160000
+DTSTAMP:20260326T221103Z
 UID:2026-10-20_160000-Entrepreneur_Round_Table_(Virtual)@meadowlands_track
  er
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4247,7 +4247,7 @@ BEGIN:VEVENT
 SUMMARY:Health Affairs Policy Committee Mtg. – Oct. 21
 DTSTART:20261021T090000
 DTEND:20261021T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-10-21_090000-Health_Affairs_Policy_Committee_Mtg._–_Oct._21@mea
  dowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/health-aff
@@ -4257,8 +4257,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Outlook Breakfast
 DTSTART:20261021T160000
-DTEND:20261021T170000
-DTSTAMP:20260326T213926Z
+DTEND:20261021T160000
+DTSTAMP:20260326T221103Z
 UID:2026-10-21_160000-Business_Outlook_Breakfast@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13162
@@ -4267,8 +4267,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Power Lunch
 DTSTART:20261023T160000
-DTEND:20261023T170000
-DTSTAMP:20260326T213926Z
+DTEND:20261023T160000
+DTSTAMP:20260326T221103Z
 UID:2026-10-23_160000-Power_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13167
@@ -4277,8 +4277,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at The Olde Mill Inn & Grain House
 DTSTART:20261028T160000
-DTEND:20261028T170000
-DTSTAMP:20260326T213926Z
+DTEND:20261028T160000
+DTSTAMP:20260326T221103Z
 UID:2026-10-28_160000-Network_After_Work_at_The_Olde_Mill_Inn_&_Grain_Hous
  e@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4290,7 +4290,7 @@ SUMMARY:Joint Education & Workforce Development & Employment & Labor Polic
  y Committee Mtg. – Oct. 30
 DTSTART:20261030T090000
 DTEND:20261030T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-10-30_090000-Joint_Education_&_Workforce_Development_&_Employment
  _&_Labor_Policy_Committee_Mtg._–_Oct._30@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/joint-educ
@@ -4300,8 +4300,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fall Back - DST Ends
 DTSTART:20261101T170000
-DTEND:20261101T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261101T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-01_170000-Fall_Back_-_DST_Ends@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12985
@@ -4310,8 +4310,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Election Day
 DTSTART:20261103T170000
-DTEND:20261103T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261103T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-03_170000-Election_Day@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12986
@@ -4320,8 +4320,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Women of Commerce Conference 2026
 DTSTART:20261104T173000
-DTEND:20261104T183000
-DTSTAMP:20260326T213926Z
+DTEND:20261104T200000
+DTSTAMP:20260326T221103Z
 UID:2026-11-04_173000-Women_of_Commerce_Conference_2026@meadowlands_tracke
  r
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -4333,7 +4333,7 @@ BEGIN:VEVENT
 SUMMARY:Government Affairs Policy Committee Mtg. – Nov. 6
 DTSTART:20261106T090000
 DTEND:20261106T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-11-06_090000-Government_Affairs_Policy_Committee_Mtg._–_Nov._6@
  meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/government
@@ -4343,8 +4343,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Diwali
 DTSTART:20261108T170000
-DTEND:20261108T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261108T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-08_170000-Diwali@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12992
@@ -4353,8 +4353,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hall of Fame Gala
 DTSTART:20261110T120000
-DTEND:20261110T130000
-DTSTAMP:20260326T213926Z
+DTEND:20261110T120000
+DTSTAMP:20260326T221103Z
 UID:2026-11-10_120000-Hall_of_Fame_Gala@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13114
@@ -4364,8 +4364,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Entrepreneur Round Table (Virtual)
 DTSTART:20261110T170000
-DTEND:20261110T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261110T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-10_170000-Entrepreneur_Round_Table_(Virtual)@meadowlands_track
  er
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4375,8 +4375,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Veterans Day
 DTSTART:20261111T170000
-DTEND:20261111T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261111T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-11_170000-Veterans_Day@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12987
@@ -4385,8 +4385,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Senior Living Series
 DTSTART:20261111T170000
-DTEND:20261111T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261111T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-11_170000-Senior_Living_Series@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12959
@@ -4397,7 +4397,7 @@ SUMMARY:Cybersecurity for Employers – Protecting Your Business\, Employe
  es\, and Customer Data
 DTSTART:20261112T090000
 DTEND:20261112T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-11-12_090000-Cybersecurity_for_Employers_–_Protecting_Your_Busi
  ness\,_Employees\,_and_Customer_Data@meadowlands_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/comp
@@ -4407,8 +4407,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20261112T120000
-DTEND:20261112T130000
-DTSTAMP:20260326T213926Z
+DTEND:20261112T131500
+DTSTAMP:20260326T221103Z
 UID:2026-11-12_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -4419,7 +4419,7 @@ BEGIN:VEVENT
 SUMMARY:Taxation & Economic Development Policy Committee Mtg. – Nov. 13
 DTSTART:20261113T090000
 DTEND:20261113T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-11-13_090000-Taxation_&_Economic_Development_Policy_Committee_Mtg
  ._–_Nov._13@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/taxation-e
@@ -4429,8 +4429,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Power Lunch
 DTSTART:20261118T170000
-DTEND:20261118T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261118T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-18_170000-Power_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13168
@@ -4439,8 +4439,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tech Talk
 DTSTART:20261118T170000
-DTEND:20261118T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261118T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-18_170000-Tech_Talk@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13085
@@ -4449,8 +4449,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Breakfast Club - Live!
 DTSTART:20261120T080000
-DTEND:20261120T090000
-DTSTAMP:20260326T213926Z
+DTEND:20261120T093000
+DTSTAMP:20260326T221103Z
 UID:2026-11-20_080000-The_Breakfast_Club_-_Live!@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-live-12798
@@ -4460,8 +4460,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Connections Presented by Delta Dental
 DTSTART:20261120T170000
-DTEND:20261120T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261120T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-20_170000-Business_Connections_Presented_by_Delta_Dental@meado
  wlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4471,8 +4471,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Happy Hour
 DTSTART:20261124T173000
-DTEND:20261124T183000
-DTSTAMP:20260326T213926Z
+DTEND:20261124T193000
+DTSTAMP:20260326T221103Z
 UID:2026-11-24_173000-Hudson_Chamber_Happy_Hour@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-happy-hour-155
@@ -4482,8 +4482,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Thanksgiving Day CHAMBER CLOSED
 DTSTART:20261126T170000
-DTEND:20261126T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261126T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-26_170000-Thanksgiving_Day_CHAMBER_CLOSED@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12988
@@ -4492,8 +4492,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHAMBER CLOSED
 DTSTART:20261127T170000
-DTEND:20261127T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261127T170000
+DTSTAMP:20260326T221103Z
 UID:2026-11-27_170000-CHAMBER_CLOSED@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12989
@@ -4503,7 +4503,7 @@ BEGIN:VEVENT
 SUMMARY:Energy & Environment Policy Committee Meeting – December 2
 DTSTART:20261202T090000
 DTEND:20261202T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-12-02_090000-Energy_&_Environment_Policy_Committee_Meeting_–_De
  cember_2@meadowlands_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/energy-env
@@ -4513,8 +4513,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network After Work at the AVE Florham Park
 DTSTART:20261203T170000
-DTEND:20261203T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261203T170000
+DTSTAMP:20260326T221103Z
 UID:2026-12-03_170000-Network_After_Work_at_the_AVE_Florham_Park@meadowlan
  ds_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4524,8 +4524,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson County Commmunity College Foundation 29th Annual Gala
 DTSTART:20261203T180000
-DTEND:20261203T190000
-DTSTAMP:20260326T213926Z
+DTEND:20261203T220000
+DTSTAMP:20260326T221103Z
 UID:2026-12-03_180000-Hudson_County_Commmunity_College_Foundation_29th_Ann
  ual_Gala@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
@@ -4536,18 +4536,28 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hanukkah Begins at Sunset
 DTSTART:20261204T170000
-DTEND:20261204T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261204T170000
+DTSTAMP:20260326T221103Z
 UID:2026-12-04_170000-Hanukkah_Begins_at_Sunset@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12990
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Strategic Networking Workshop
+DTSTART:20261208T170000
+DTEND:20261208T170000
+DTSTAMP:20260326T221103Z
+UID:2026-12-08_170000-Strategic_Networking_Workshop@meadowlands_tracker
+DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
+ hamber.org/atlas/Events/12996
+LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Entrepreneur Round Table (Virtual)
 DTSTART:20261208T170000
-DTEND:20261208T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261208T170000
+DTSTAMP:20260326T221103Z
 UID:2026-12-08_170000-Entrepreneur_Round_Table_(Virtual)@meadowlands_track
  er
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4555,20 +4565,10 @@ DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
 LOCATION:See Link
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Strategic Networking Workshop
-DTSTART:20261208T170000
-DTEND:20261208T180000
-DTSTAMP:20260326T213926Z
-UID:2026-12-08_170000-Strategic_Networking_Workshop@meadowlands_tracker
-DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
- hamber.org/atlas/Events/12996
-LOCATION:325 Columbia Turnpike\, Florham Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Quarterly Financial Forum
 DTSTART:20261209T170000
-DTEND:20261209T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261209T170000
+DTSTAMP:20260326T221103Z
 UID:2026-12-09_170000-Quarterly_Financial_Forum@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13123
@@ -4577,8 +4577,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20261210T120000
-DTEND:20261210T130000
-DTSTAMP:20260326T213926Z
+DTEND:20261210T131500
+DTSTAMP:20260326T221103Z
 UID:2026-12-10_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -4588,8 +4588,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Annual Member Holiday Party
 DTSTART:20261210T170000
-DTEND:20261210T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261210T200000
+DTSTAMP:20260326T221103Z
 UID:2026-12-10_170000-Annual_Member_Holiday_Party@meadowlands_tracker
 DESCRIPTION:Organization: NJ Chamber\nLink: https://www.njchamber.com/comp
  onent/content/category/34-events
@@ -4598,8 +4598,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Legends Gala 2026
 DTSTART:20261210T180000
-DTEND:20261210T190000
-DTSTAMP:20260326T213926Z
+DTEND:20261210T213000
+DTSTAMP:20260326T221103Z
 UID:2026-12-10_180000-Legends_Gala_2026@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/legends-gala-2026-1530110?sou
@@ -4607,22 +4607,10 @@ DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
 LOCATION:Hudson County Chamber
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI\, Technology & Innovation Policy Committee Meeting – December
-  15
-DTSTART:20261215T090000
-DTEND:20261215T100000
-DTSTAMP:20260326T213926Z
-UID:2026-12-15_090000-AI\,_Technology_&_Innovation_Policy_Committee_Meetin
- g_–_December_15@meadowlands_tracker
-DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/ai-technol
- ogy-innovation-policy-committee-meeting-december-15/
-LOCATION:Policy Committee Meeting
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Performance-Driven & Resilient Leadership
 DTSTART:20261215T090000
 DTEND:20261215T100000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-12-15_090000-Performance-Driven_&_Resilient_Leadership@meadowland
  s_tracker
 DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/performanc
@@ -4630,10 +4618,22 @@ DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/performanc
 LOCATION:Leadership Series
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:AI\, Technology & Innovation Policy Committee Meeting – December
+  15
+DTSTART:20261215T090000
+DTEND:20261215T100000
+DTSTAMP:20260326T221103Z
+UID:2026-12-15_090000-AI\,_Technology_&_Innovation_Policy_Committee_Meetin
+ g_–_December_15@meadowlands_tracker
+DESCRIPTION:Organization: NJBIA\nLink: https://njbia.org/events/ai-technol
+ ogy-innovation-policy-committee-meeting-december-15/
+LOCATION:Policy Committee Meeting
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Power Lunch
 DTSTART:20261216T170000
-DTEND:20261216T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261216T170000
+DTSTAMP:20260326T221103Z
 UID:2026-12-16_170000-Power_Lunch@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/13169
@@ -4643,7 +4643,7 @@ BEGIN:VEVENT
 SUMMARY:The Breakfast Club - Virtual
 DTSTART:20261218T080000
 DTEND:20261218T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2026-12-18_080000-The_Breakfast_Club_-_Virtual@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-virtual-12
@@ -4653,8 +4653,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Business Connections Presented by Delta Dental
 DTSTART:20261218T170000
-DTEND:20261218T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261218T170000
+DTSTAMP:20260326T221103Z
 UID:2026-12-18_170000-Business_Connections_Presented_by_Delta_Dental@meado
  wlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
@@ -4664,8 +4664,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christmas Eve CHAMBER CLOSED
 DTSTART:20261224T170000
-DTEND:20261224T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261224T170000
+DTSTAMP:20260326T221103Z
 UID:2026-12-24_170000-Christmas_Eve_CHAMBER_CLOSED@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12993
@@ -4674,8 +4674,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christmas Day CHAMBER CLOSED
 DTSTART:20261225T170000
-DTEND:20261225T180000
-DTSTAMP:20260326T213926Z
+DTEND:20261225T170000
+DTSTAMP:20260326T221103Z
 UID:2026-12-25_170000-Christmas_Day_CHAMBER_CLOSED@meadowlands_tracker
 DESCRIPTION:Organization: Morris County Chamber\nLink: https://web.morrisc
  hamber.org/atlas/Events/12994
@@ -4684,8 +4684,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20270114T120000
-DTEND:20270114T130000
-DTSTAMP:20260326T213926Z
+DTEND:20270114T131500
+DTSTAMP:20260326T221103Z
 UID:2027-01-14_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -4695,8 +4695,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Breakfast Club
 DTSTART:20270115T080000
-DTEND:20270115T090000
-DTSTAMP:20260326T213926Z
+DTEND:20270115T093000
+DTSTAMP:20260326T221103Z
 UID:2027-01-15_080000-The_Breakfast_Club@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-1279873?so
@@ -4706,8 +4706,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20270211T120000
-DTEND:20270211T130000
-DTSTAMP:20260326T213926Z
+DTEND:20270211T131500
+DTSTAMP:20260326T221103Z
 UID:2027-02-11_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -4718,7 +4718,7 @@ BEGIN:VEVENT
 SUMMARY:The Breakfast Club
 DTSTART:20270219T080000
 DTEND:20270219T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2027-02-19_080000-The_Breakfast_Club@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-1279874?so
@@ -4728,8 +4728,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hudson Chamber Monthly Meeting
 DTSTART:20270311T120000
-DTEND:20270311T130000
-DTSTAMP:20260326T213926Z
+DTEND:20270311T131500
+DTSTAMP:20260326T221103Z
 UID:2027-03-11_120000-Hudson_Chamber_Monthly_Meeting@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/hudson-chamber-monthly-meetin
@@ -4740,7 +4740,7 @@ BEGIN:VEVENT
 SUMMARY:The Breakfast Club
 DTSTART:20270319T080000
 DTEND:20270319T090000
-DTSTAMP:20260326T213926Z
+DTSTAMP:20260326T221103Z
 UID:2027-03-19_080000-The_Breakfast_Club@meadowlands_tracker
 DESCRIPTION:Organization: Hudson County Chamber\nLink: https://business.hu
  dsonchamber.org/chambereventcalendar/Details/the-breakfast-club-1279875?so

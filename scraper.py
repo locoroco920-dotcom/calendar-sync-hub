@@ -144,6 +144,7 @@ def parse_njbia(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": None,
                 "Organization": org,
                 "Location": event_type,
                 "Link": link,
@@ -198,6 +199,7 @@ def parse_nj_chamber(html, org, url):
             
             # Extract Location and Time from detailbox
             location = "See Link"
+            end_date_obj = None
             detail_box = item.find('div', class_='uevents-detailbox')
             if detail_box:
                 for div in detail_box.find_all('div'):
@@ -206,9 +208,25 @@ def parse_nj_chamber(html, org, url):
                         location = text.replace("Where:", "").strip()
                     elif text.startswith("When:"):
                         when_text = text.replace("When:", "").strip()
-                        time_parts = parse_time_string(when_text)
-                        if time_parts:
-                            date_obj = date_obj.replace(hour=time_parts[0], minute=time_parts[1])
+                        # Try range: "5:30 p.m. - 7:30 p.m." or "9 a.m. to noon"
+                        range_match = re.search(r'(.+?)\s*[-–]|to\s+(.+)', when_text, re.IGNORECASE)
+                        if ' - ' in when_text or ' to ' in when_text.lower():
+                            parts = re.split(r'\s*[-–]\s*|\s+to\s+', when_text, maxsplit=1, flags=re.IGNORECASE)
+                            if len(parts) == 2:
+                                start_parts = parse_time_string(parts[0])
+                                end_parts = parse_time_string(parts[1])
+                                if start_parts:
+                                    date_obj = date_obj.replace(hour=start_parts[0], minute=start_parts[1])
+                                if end_parts:
+                                    end_date_obj = date_obj.replace(hour=end_parts[0], minute=end_parts[1])
+                            else:
+                                time_parts = parse_time_string(when_text)
+                                if time_parts:
+                                    date_obj = date_obj.replace(hour=time_parts[0], minute=time_parts[1])
+                        else:
+                            time_parts = parse_time_string(when_text)
+                            if time_parts:
+                                date_obj = date_obj.replace(hour=time_parts[0], minute=time_parts[1])
             
             # Extract Link
             link = url # Default
@@ -225,6 +243,7 @@ def parse_nj_chamber(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -270,12 +289,21 @@ def parse_cianj(html, org, url):
             else:
                 continue
 
+            end_date_obj = None
+            end_date_meta = card.find('meta', itemprop='endDate')
+            if end_date_meta:
+                try:
+                    end_date_obj = datetime.strptime(end_date_meta['content'], "%m/%d/%Y %I:%M:%S %p")
+                except ValueError:
+                    pass
+
             # Extract Location
             location = "See Link"
             
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -319,12 +347,21 @@ def parse_hudson_chamber(html, org, url):
             else:
                 continue
 
+            end_date_obj = None
+            end_date_meta = card.find('meta', itemprop='endDate')
+            if end_date_meta:
+                try:
+                    end_date_obj = datetime.strptime(end_date_meta['content'], "%m/%d/%Y %I:%M:%S %p")
+                except ValueError:
+                    pass
+
             # Extract Location
             location = "Hudson County Chamber" # Default as not found in card
             
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -404,6 +441,7 @@ def parse_nrbp(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": None,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -467,6 +505,7 @@ def parse_north_jersey_chamber(html, org, url):
                         data = {
                             "Event Name": title,
                             "Date": start_date,
+                            "End Date": None,
                             "Organization": org,
                             "Location": location,
                             "Link": link,
@@ -509,19 +548,24 @@ def parse_bergen_county_chamber(html, org, url):
             date_text = time_tag.get_text(strip=True)
 
             # Parse date - datetime attr is like "2026-04-09"
+            end_date_obj = None
             try:
                 date_obj = datetime.strptime(date_attr, "%Y-%m-%d")
                 # Try to extract time from text like "April 9 @ 12:00 pm-2:00 pm"
-                time_match = re.search(r'@\s*(\d{1,2}:\d{2}\s*[ap]m)', date_text, re.IGNORECASE)
-                if time_match:
-                    full_str = f"{date_attr} {time_match.group(1)}"
-                    try:
-                        date_obj = datetime.strptime(full_str, "%Y-%m-%d %I:%M %p")
-                    except ValueError:
-                        try:
-                            date_obj = datetime.strptime(full_str, "%Y-%m-%d %I:%M%p")
-                        except ValueError:
-                            pass
+                time_range = re.search(r'@\s*(\d{1,2}:\d{2}\s*[ap]m)\s*-\s*(\d{1,2}:\d{2}\s*[ap]m)', date_text, re.IGNORECASE)
+                if time_range:
+                    start_parts = parse_time_string(time_range.group(1))
+                    end_parts = parse_time_string(time_range.group(2))
+                    if start_parts:
+                        date_obj = date_obj.replace(hour=start_parts[0], minute=start_parts[1])
+                    if end_parts:
+                        end_date_obj = date_obj.replace(hour=end_parts[0], minute=end_parts[1])
+                else:
+                    time_match = re.search(r'@\s*(\d{1,2}:\d{2}\s*[ap]m)', date_text, re.IGNORECASE)
+                    if time_match:
+                        start_parts = parse_time_string(time_match.group(1))
+                        if start_parts:
+                            date_obj = date_obj.replace(hour=start_parts[0], minute=start_parts[1])
             except ValueError:
                 logging.warning(f"Could not parse date: {date_attr}")
                 continue
@@ -533,6 +577,7 @@ def parse_bergen_county_chamber(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -568,18 +613,23 @@ def parse_mcrcc(html, org, url):
             date_attr = time_tag.get('datetime', '')
             date_text = time_tag.get_text(strip=True)
 
+            end_date_obj = None
             try:
                 date_obj = datetime.strptime(date_attr, "%Y-%m-%d")
-                time_match = re.search(r'@\s*(\d{1,2}:\d{2}\s*[ap]m)', date_text, re.IGNORECASE)
-                if time_match:
-                    full_str = f"{date_attr} {time_match.group(1)}"
-                    try:
-                        date_obj = datetime.strptime(full_str, "%Y-%m-%d %I:%M %p")
-                    except ValueError:
-                        try:
-                            date_obj = datetime.strptime(full_str, "%Y-%m-%d %I:%M%p")
-                        except ValueError:
-                            pass
+                time_range = re.search(r'@\s*(\d{1,2}:\d{2}\s*[ap]m)\s*-\s*(\d{1,2}:\d{2}\s*[ap]m)', date_text, re.IGNORECASE)
+                if time_range:
+                    start_parts = parse_time_string(time_range.group(1))
+                    end_parts = parse_time_string(time_range.group(2))
+                    if start_parts:
+                        date_obj = date_obj.replace(hour=start_parts[0], minute=start_parts[1])
+                    if end_parts:
+                        end_date_obj = date_obj.replace(hour=end_parts[0], minute=end_parts[1])
+                else:
+                    time_match = re.search(r'@\s*(\d{1,2}:\d{2}\s*[ap]m)', date_text, re.IGNORECASE)
+                    if time_match:
+                        start_parts = parse_time_string(time_match.group(1))
+                        if start_parts:
+                            date_obj = date_obj.replace(hour=start_parts[0], minute=start_parts[1])
             except ValueError:
                 logging.warning(f"Could not parse date: {date_attr}")
                 continue
@@ -590,6 +640,7 @@ def parse_mcrcc(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -672,6 +723,14 @@ def parse_bcrcc(html, org, url):
                     logging.warning(f"Could not parse date: {date_str} {time_str}")
                     continue
 
+            # Extract end time from pattern like "11:00 AM - 01:30 PM"
+            end_date_obj = None
+            end_match = re.search(r'\d{1,2}:\d{2}\s*[AP]M\s*-\s*(\d{1,2}:\d{2}\s*[AP]M)', row_text)
+            if end_match:
+                end_parts = parse_time_string(end_match.group(1))
+                if end_parts:
+                    end_date_obj = date_obj.replace(hour=end_parts[0], minute=end_parts[1])
+
             # Extract location from row text (between time range and title)
             loc_match = re.search(r'\d{1,2}:\d{2}\s*[AP]M\s*-\s*\d{1,2}:\d{2}\s*[AP]M\s+(.*?)(?=' + re.escape(title[:20]) + ')', row_text)
             location = loc_match.group(1).strip() if loc_match else "See Link"
@@ -679,6 +738,7 @@ def parse_bcrcc(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": href,
@@ -721,11 +781,20 @@ def parse_ccsnj(html, org, url):
             else:
                 continue
 
+            end_date_obj = None
+            end_date_meta = card.find('meta', itemprop='endDate')
+            if end_date_meta:
+                try:
+                    end_date_obj = datetime.strptime(end_date_meta['content'], "%m/%d/%Y %I:%M:%S %p")
+                except ValueError:
+                    pass
+
             location = "See Link"
 
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -786,6 +855,9 @@ def parse_njsbdc(html, org, url):
                 day = date_match.group(3)
                 time_part = date_match.group(4)
 
+            # Extract end time from "to 2:00 PM"
+            end_time_match = re.search(r'to\s+(\d{1,2}:\d{2}\s*[AP]M)', time_text, re.IGNORECASE)
+
             # Assume current year context (2026)
             year = datetime.now().year
             try:
@@ -796,6 +868,12 @@ def parse_njsbdc(html, org, url):
                 except ValueError:
                     logging.warning(f"Could not parse date: {month} {day} {year} {time_part}")
                     continue
+
+            end_date_obj = None
+            if end_time_match:
+                end_parts = parse_time_string(end_time_match.group(1))
+                if end_parts:
+                    end_date_obj = date_obj.replace(hour=end_parts[0], minute=end_parts[1])
 
             # Location
             loc_div = block.find('div', class_='cdeventlocation')
@@ -808,6 +886,7 @@ def parse_njsbdc(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -853,6 +932,7 @@ def parse_bni(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": None,
                 "Organization": org,
                 "Location": "See Link",
                 "Link": link,
@@ -901,6 +981,7 @@ def parse_aaccnj(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": None,
                 "Organization": org,
                 "Location": "See Link",
                 "Link": link,
@@ -953,6 +1034,7 @@ def parse_growthzone_cards(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": None,
                 "Organization": org,
                 "Location": "See Link",
                 "Link": link,
@@ -1040,6 +1122,7 @@ def parse_greater_paterson(html, org, url):
                 data = {
                     "Event Name": title,
                     "Date": date_obj,
+                    "End Date": None,
                     "Organization": org,
                     "Location": "See Link",
                     "Link": href,
@@ -1075,6 +1158,7 @@ def parse_morris_county(html, org, url):
 
             # Parse date from StartDate like "2026-03-27T12:00:00Z"
             start_date_str = item.get('StartDate', '')
+            end_date_str = item.get('EndDate', '')
             if not start_date_str:
                 continue
 
@@ -1086,6 +1170,13 @@ def parse_morris_county(html, org, url):
                 except ValueError:
                     logging.warning(f"Could not parse Morris County date: {start_date_str}")
                     continue
+
+            end_date_obj = None
+            if end_date_str:
+                try:
+                    end_date_obj = datetime.strptime(end_date_str[:19], "%Y-%m-%dT%H:%M:%S")
+                except ValueError:
+                    pass
 
             # Build location from address fields
             location_parts = []
@@ -1110,6 +1201,7 @@ def parse_morris_county(html, org, url):
             event_data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": location,
                 "Link": link,
@@ -1150,19 +1242,30 @@ def parse_njeda(html, org, url):
                 continue
 
             # Get time from bg-green div
+            end_date_obj = None
             time_div = ev.find('div', class_=lambda c: c and 'bg-green-100' in c if c else False)
             if time_div:
                 time_text = time_div.get_text(strip=True)
-                time_match = re.search(r'(\d{1,2}:\d{2}\s*[ap]m)', time_text, re.IGNORECASE)
-                if time_match:
-                    try:
-                        combined = f"{date_text} {time_match.group(1)}"
-                        date_obj = datetime.strptime(combined, "%B %d, %Y %I:%M %p")
-                    except ValueError:
+                # Try range first: "10:00 am - 11:00 am"
+                time_range = re.search(r'(\d{1,2}:\d{2}\s*[ap]m)\s*[-–]\s*(\d{1,2}:\d{2}\s*[ap]m)', time_text, re.IGNORECASE)
+                if time_range:
+                    start_parts = parse_time_string(time_range.group(1))
+                    end_parts = parse_time_string(time_range.group(2))
+                    if start_parts:
+                        date_obj = date_obj.replace(hour=start_parts[0], minute=start_parts[1])
+                    if end_parts:
+                        end_date_obj = date_obj.replace(hour=end_parts[0], minute=end_parts[1])
+                else:
+                    time_match = re.search(r'(\d{1,2}:\d{2}\s*[ap]m)', time_text, re.IGNORECASE)
+                    if time_match:
                         try:
-                            date_obj = datetime.strptime(combined, "%B %d, %Y %I:%M%p")
+                            combined = f"{date_text} {time_match.group(1)}"
+                            date_obj = datetime.strptime(combined, "%B %d, %Y %I:%M %p")
                         except ValueError:
-                            pass
+                            try:
+                                date_obj = datetime.strptime(combined, "%B %d, %Y %I:%M%p")
+                            except ValueError:
+                                pass
 
             link_tag = ev.find('a', href=True)
             link = link_tag['href'] if link_tag else url
@@ -1170,6 +1273,7 @@ def parse_njeda(html, org, url):
             data = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": end_date_obj,
                 "Organization": org,
                 "Location": "See Link",
                 "Link": link,
@@ -1231,6 +1335,7 @@ def parse_choose_nj(html, org, url):
             data_dict = {
                 "Event Name": title,
                 "Date": date_obj,
+                "End Date": None,
                 "Organization": org,
                 "Location": "See Link",
                 "Link": link,
