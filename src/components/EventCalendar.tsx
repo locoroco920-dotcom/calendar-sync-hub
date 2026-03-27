@@ -115,7 +115,7 @@ export function EventCalendar() {
       {/* Left Column: Calendar + Filter */}
       <div className="space-y-6">
         {/* Calendar Card */}
-        <Card className="w-fit card-shadow animate-fade-up">
+        <Card className="w-full card-shadow animate-fade-up">
           <CardHeader className="pb-3 border-b">
             <CardTitle className="flex items-center gap-2 text-lg font-heading font-semibold">
               <CalendarDays className="h-5 w-5 text-primary" />
