@@ -301,7 +301,7 @@ export function EventCalendar() {
             )}
           </div>
         </CardHeader>
-        <div className="pt-4 px-6 pb-6 overflow-auto" style={{ flex: '1 1 0', minHeight: 0 }}>
+        <div ref={eventsScrollRef} className="pt-4 px-6 pb-6 overflow-auto" style={{ flex: '1 1 0', minHeight: 0 }}>
           {selectedEvents.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-40 text-muted-foreground">
               <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
