@@ -272,8 +272,14 @@ export function EventCalendar() {
       </div>
 
       {/* Events List Card */}
-      <Card className="card-shadow animate-fade-up min-h-0" style={{ animationDelay: '0.1s' }}>
-        <CardHeader className="pb-3 border-b">
+      <Card
+        className="card-shadow animate-fade-up flex flex-col overflow-hidden"
+        style={{
+          animationDelay: '0.1s',
+          ...(leftColHeight ? { height: `${leftColHeight}px` } : {}),
+        }}
+      >
+        <CardHeader className="pb-3 border-b flex-shrink-0">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <CardTitle className="text-lg font-heading font-semibold">
               {selectedDate ? format(selectedDate, 'EEEE, MMMM d, yyyy') : 'Select a date'}
@@ -285,8 +291,8 @@ export function EventCalendar() {
             )}
           </div>
         </CardHeader>
-        <CardContent className="pt-4">
-          <ScrollArea className="h-full max-h-[calc(100vh-300px)] pr-4">
+        <CardContent className="pt-4 flex-1 min-h-0 overflow-hidden">
+          <ScrollArea className="h-full pr-4">
             {selectedEvents.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-40 text-muted-foreground">
                 <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
