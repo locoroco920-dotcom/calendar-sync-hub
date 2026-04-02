@@ -273,13 +273,15 @@ export function EventCalendar() {
 
       {/* Events List Card */}
       <Card
-        className="card-shadow animate-fade-up flex flex-col overflow-hidden"
+        className="card-shadow animate-fade-up overflow-hidden"
         style={{
           animationDelay: '0.1s',
           ...(leftColHeight ? { height: `${leftColHeight}px` } : {}),
+          display: 'flex',
+          flexDirection: 'column',
         }}
       >
-        <CardHeader className="pb-3 border-b flex-shrink-0">
+        <CardHeader className="pb-3 border-b" style={{ flexShrink: 0 }}>
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <CardTitle className="text-lg font-heading font-semibold">
               {selectedDate ? format(selectedDate, 'EEEE, MMMM d, yyyy') : 'Select a date'}
@@ -291,33 +293,31 @@ export function EventCalendar() {
             )}
           </div>
         </CardHeader>
-        <CardContent className="pt-4 flex-1 min-h-0 overflow-hidden">
-          <ScrollArea className="h-full pr-4">
-            {selectedEvents.length === 0 ? (
-              <div className="flex flex-col items-center justify-center h-40 text-muted-foreground">
-                <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
-                  <CalendarDays className="h-8 w-8 opacity-50" />
-                </div>
-                <p className="font-medium">No events scheduled</p>
-                <p className="text-sm mt-1">Select a date with events to view details</p>
+        <div className="pt-4 px-6 pb-6 overflow-auto" style={{ flex: '1 1 0', minHeight: 0 }}>
+          {selectedEvents.length === 0 ? (
+            <div className="flex flex-col items-center justify-center h-40 text-muted-foreground">
+              <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
+                <CalendarDays className="h-8 w-8 opacity-50" />
               </div>
-            ) : (
-              <div className="space-y-4">
-                {selectedEvents
-                  .sort((a, b) => a.start.getTime() - b.start.getTime())
-                  .map((event, index) => (
-                    <div
-                      key={event.id}
-                      className="animate-scale-in"
-                      style={{ animationDelay: `${index * 0.05}s` }}
-                    >
-                      <EventCard event={event} />
-                    </div>
-                  ))}
-              </div>
-            )}
-          </ScrollArea>
-        </CardContent>
+              <p className="font-medium">No events scheduled</p>
+              <p className="text-sm mt-1">Select a date with events to view details</p>
+            </div>
+          ) : (
+            <div className="space-y-4">
+              {selectedEvents
+                .sort((a, b) => a.start.getTime() - b.start.getTime())
+                .map((event, index) => (
+                  <div
+                    key={event.id}
+                    className="animate-scale-in"
+                    style={{ animationDelay: `${index * 0.05}s` }}
+                  >
+                    <EventCard event={event} />
+                  </div>
+                ))}
+            </div>
+          )}
+        </div>
       </Card>
     </div>
   );
