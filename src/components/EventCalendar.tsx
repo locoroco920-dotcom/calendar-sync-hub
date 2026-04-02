@@ -61,7 +61,15 @@ export function EventCalendar() {
   }), []);
 
   const leftColRef = useRef<HTMLDivElement>(null);
+  const eventsScrollRef = useRef<HTMLDivElement>(null);
   const [leftColHeight, setLeftColHeight] = useState<number | null>(null);
+
+  // Scroll events list back to top when date changes
+  useEffect(() => {
+    if (eventsScrollRef.current) {
+      eventsScrollRef.current.scrollTop = 0;
+    }
+  }, [selectedDate]);
 
   // Measure left column height and sync to event card
   useEffect(() => {
