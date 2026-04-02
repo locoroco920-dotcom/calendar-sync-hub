@@ -183,7 +183,7 @@ export function EventCalendar() {
   return (
     <div className="grid gap-6 lg:gap-8 lg:grid-cols-[auto_1fr]">
       {/* Left Column: Calendar + Filter */}
-      <div className="space-y-6">
+      <div ref={leftColRef} className="space-y-6">
         {/* Calendar Card */}
         <Card className="w-full card-shadow animate-fade-up">
           <CardHeader className="pb-3 border-b">
