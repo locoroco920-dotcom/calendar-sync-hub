@@ -60,6 +60,22 @@ export function EventCalendar() {
     'SHCCNJ': 'Statewide Hispanic Chamber of Commerce of NJ',
   }), []);
 
+  const leftColRef = useRef<HTMLDivElement>(null);
+  const [leftColHeight, setLeftColHeight] = useState<number | null>(null);
+
+  // Measure left column height and sync to event card
+  useEffect(() => {
+    const el = leftColRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        setLeftColHeight(entry.contentRect.height);
+      }
+    });
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   const [selectedOrgs, setSelectedOrgs] = useState<Set<string>>(() => new Set([
     'AACCNJ',
     'BCRCC',
